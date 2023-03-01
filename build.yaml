@@ -5,3 +5,20 @@ builders:
    build_extensions: {'.csv': ['.g.dart']}
    auto_apply: root_package
    build_to: source
+  stadiums_builder:
+   import: 'package:cheer_your_hometown_jp/stadiums_builder.dart'
+   builder_factories: ['myStadiumsBuilderFactory']
+   build_extensions: {'.csv': ['.g.dart']}
+   auto_apply: root_package
+   build_to: source
+targets:
+  $default:
+    builders:
+      cheer_your_hometown_jp:matches_builder:
+        generate_for:
+          include:
+            - lib/matches_*.csv
+      cheer_your_hometown_jp:stadiums_builder:
+        generate_for:
+          include:
+            - lib/stadiums.csv
