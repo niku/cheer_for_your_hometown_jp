@@ -1,6 +1,8 @@
+import 'package:cheer_your_hometown_jp/stadiums.g.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_map/flutter_map.dart';
 import 'package:latlong2/latlong.dart';
+import 'package:cheer_your_hometown_jp/stadiums.g.dart';
 
 void main() {
   runApp(const MyApp());
@@ -46,6 +48,15 @@ class MyPage extends StatelessWidget {
             TileLayer(
               urlTemplate: 'https://tile.openstreetmap.org/{z}/{x}/{y}.png',
             ),
+            MarkerLayer(
+                markers: stadiums.values
+                    .map((e) => Marker(
+                        point: e,
+                        builder: (context) => Icon(
+                              Icons.location_pin,
+                              color: Theme.of(context).colorScheme.secondary,
+                            )))
+                    .toList())
           ],
         ),
       ),
