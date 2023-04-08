@@ -30,6 +30,8 @@ class MyPage extends StatelessWidget {
 
   static final defaultCenter = LatLng(35.588, 134.380);
   static const double defaultZoom = 6;
+  static final defaultMaxBounds =
+      LatLngBounds(LatLng(20.0, 122.0), LatLng(46.0, 154.0));
   final String title;
 
   @override
@@ -42,6 +44,7 @@ class MyPage extends StatelessWidget {
           options: MapOptions(
             center: defaultCenter,
             zoom: defaultZoom,
+            maxBounds: defaultMaxBounds,
           ),
           children: [
             TileLayer(
