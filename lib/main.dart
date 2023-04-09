@@ -51,14 +51,19 @@ class MyPage extends StatelessWidget {
               urlTemplate: 'https://tile.openstreetmap.org/{z}/{x}/{y}.png',
             ),
             MarkerLayer(
-                markers: stadiums.values
-                    .map((e) => Marker(
-                        point: e,
-                        builder: (context) => Icon(
-                              Icons.location_pin,
-                              color: Theme.of(context).colorScheme.secondary,
-                            )))
-                    .toList())
+                markers: stadiums.entries.map((e) {
+              final stadiumAbbrevName = e.key;
+              final stadiumLatlng = e.value;
+              return Marker(
+                  point: stadiumLatlng,
+                  builder: (context) => IconButton(
+                      onPressed: () =>
+                          {print('$stadiumAbbrevName clicked')}, // TODO
+                      icon: Icon(
+                        Icons.location_pin,
+                        color: Theme.of(context).colorScheme.secondary,
+                      )));
+            }).toList())
           ],
         ),
       ),
