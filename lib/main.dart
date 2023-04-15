@@ -1,4 +1,5 @@
 import 'package:cheer_your_hometown_jp/stadiums.g.dart';
+import 'package:cheer_your_hometown_jp/matches_2023.g.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_map/flutter_map.dart';
 import 'package:latlong2/latlong.dart';
@@ -57,8 +58,11 @@ class MyPage extends StatelessWidget {
               return Marker(
                   point: stadiumLatlng,
                   builder: (context) => IconButton(
-                      onPressed: () =>
-                          {print('$stadiumAbbrevName clicked')}, // TODO
+                      onPressed: () {
+                        matches
+                            .where((match) => match.venue == stadiumAbbrevName)
+                            .forEach((element) => print(element)); // TODO
+                      },
                       icon: Icon(
                         Icons.location_pin,
                         color: Theme.of(context).colorScheme.secondary,

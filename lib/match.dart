@@ -45,4 +45,21 @@ class Match {
       required this.venue,
       required this.att,
       required this.broadcast});
+
+  @override
+  String toString() {
+    return 'Match('
+        'year: "$year", '
+        'tournaments: "$tournaments", '
+        'sec: "$sec", '
+        'date: "$date", '
+        'kickoff: "$kickoff", '
+        'home: "$home", '
+        'score: "$score", '
+        'away: "$away", '
+        'venue: "$venue", '
+        'att: "$att", '
+        'broadcast: "$broadcast"'
+        ')';
+  }
 }
