@@ -88,7 +88,7 @@ class _MapWithPopupsState extends State<MapWithPopups> {
       ),
       children: [
         TileLayer(
-          urlTemplate: 'https://tile.openstreetmap.org/{z}/{x}/{y}.png',
+          urlTemplate: 'https://tile.openstreetmap.jp/{z}/{x}/{y}.png',
         ),
         PopupMarkerLayerWidget(
           options: PopupMarkerLayerOptions(
