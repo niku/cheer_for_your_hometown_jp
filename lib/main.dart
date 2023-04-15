@@ -97,7 +97,7 @@ class _MapWithPopupsState extends State<MapWithPopups> {
             markerRotateAlignment:
                 PopupMarkerLayerOptions.rotationAlignmentFor(AnchorAlign.top),
             popupBuilder: (BuildContext context, Marker marker) =>
-                ExamplePopup(marker),
+                Popup(marker),
           ),
         ),
       ],
@@ -105,16 +105,16 @@ class _MapWithPopupsState extends State<MapWithPopups> {
   }
 }
 
-class ExamplePopup extends StatefulWidget {
+class Popup extends StatefulWidget {
   final Marker marker;
 
-  const ExamplePopup(this.marker, {Key? key}) : super(key: key);
+  const Popup(this.marker, {Key? key}) : super(key: key);
 
   @override
-  State<StatefulWidget> createState() => _ExamplePopupState();
+  State<StatefulWidget> createState() => _PopupState();
 }
 
-class _ExamplePopupState extends State<ExamplePopup> {
+class _PopupState extends State<Popup> {
   final List<IconData> _icons = [
     Icons.star_border,
     Icons.star_half,
