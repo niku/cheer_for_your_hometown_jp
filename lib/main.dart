@@ -17,8 +17,8 @@ void main() async {
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,
   );
-  // ignore: unused_local_variable
-  FirebaseAnalytics _analytics = FirebaseAnalytics.instance;
+  FirebaseAnalytics analytics = FirebaseAnalytics.instance;
+  await analytics.logAppOpen();
   runApp(const MyApp());
 }
 
