@@ -10,12 +10,15 @@ import 'package:url_launcher/url_launcher.dart';
 import 'package:flutter_web_plugins/url_strategy.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:cheer_for_your_hometown_jp/firebase_options.dart';
+import 'package:firebase_analytics/firebase_analytics.dart';
 
 void main() async {
   usePathUrlStrategy();
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,
   );
+  // ignore: unused_local_variable
+  FirebaseAnalytics _analytics = FirebaseAnalytics.instance;
   runApp(const MyApp());
 }
 
