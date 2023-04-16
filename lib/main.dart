@@ -87,7 +87,8 @@ class _MyMapState extends State<MyMap> {
         builder: (context) => Icon(
               Icons.location_pin,
               color: Theme.of(context).colorScheme.secondary,
-            ));
+            ),
+        anchorPos: AnchorPos.align(AnchorAlign.top));
   }).toList();
 
   final Map<String, List<FootballMatch>> _footballMatchesAtVenue =
