@@ -35,7 +35,7 @@ class FootballMatchesBuilder implements Builder {
         .join(',\n');
 
     return '''// This code is generated from $source. Do not edit.
-import 'package:cheer_your_hometown_jp/football_match.dart';
+import 'package:cheer_for_your_hometown_jp/football_match.dart';
 
 const List<FootballMatch> footballMatches=[$matches];
 ''';

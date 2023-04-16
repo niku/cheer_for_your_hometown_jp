@@ -1,4 +1,4 @@
-# cheer_your_hometown_jp
+# cheer_for_your_hometown_jp
 
 A new Flutter project.
 

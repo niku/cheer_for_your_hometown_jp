@@ -1,6 +1,6 @@
-import 'package:cheer_your_hometown_jp/football_match.dart';
-import 'package:cheer_your_hometown_jp/stadiums.g.dart';
-import 'package:cheer_your_hometown_jp/matches_2023.g.dart';
+import 'package:cheer_for_your_hometown_jp/football_match.dart';
+import 'package:cheer_for_your_hometown_jp/stadiums.g.dart';
+import 'package:cheer_for_your_hometown_jp/matches_2023.g.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_map/flutter_map.dart';
@@ -15,7 +15,7 @@ void main() {
 }
 
 class MyApp extends StatelessWidget {
-  final title = 'Cheer your hometown JP';
+  final title = 'Cheer for your hometown JP';
 
   const MyApp({super.key});
 

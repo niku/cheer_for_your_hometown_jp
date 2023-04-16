@@ -1,4 +1,4 @@
-// This code is generated from cheer_your_hometown_jp|lib/stadiums.csv. Do not edit.
+// This code is generated from cheer_for_your_hometown_jp|lib/stadiums.csv. Do not edit.
 import 'package:latlong2/latlong.dart';
 
 final Map<String, LatLng> stadiums = Map.unmodifiable({

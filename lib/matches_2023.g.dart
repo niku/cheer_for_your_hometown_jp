@@ -1,5 +1,5 @@
-// This code is generated from cheer_your_hometown_jp|lib/matches_2023.csv. Do not edit.
-import 'package:cheer_your_hometown_jp/football_match.dart';
+// This code is generated from cheer_for_your_hometown_jp|lib/matches_2023.csv. Do not edit.
+import 'package:cheer_for_your_hometown_jp/football_match.dart';
 
 const List<FootballMatch> footballMatches = [
   FootballMatch(

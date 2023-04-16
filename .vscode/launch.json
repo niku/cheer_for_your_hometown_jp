@@ -12,18 +12,18 @@
       "args": ["build", "--delete-conflicting-outputs"]
     },
     {
-      "name": "cheer_your_hometown_jp",
+      "name": "cheer_for_your_hometown_jp",
       "request": "launch",
       "type": "dart"
     },
     {
-      "name": "cheer_your_hometown_jp (profile mode)",
+      "name": "cheer_for_your_hometown_jp (profile mode)",
       "request": "launch",
       "type": "dart",
       "flutterMode": "profile"
     },
     {
-      "name": "cheer_your_hometown_jp (release mode)",
+      "name": "cheer_for_your_hometown_jp (release mode)",
       "request": "launch",
       "type": "dart",
       "flutterMode": "release"
