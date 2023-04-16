@@ -1,5 +1,5 @@
 /// 試合
-class Match {
+class FootballMatch {
   /// 年度
   final String year;
 
@@ -33,7 +33,7 @@ class Match {
   /// インターネット中継・TV放送
   final String broadcast;
 
-  const Match(
+  const FootballMatch(
       {required this.year,
       required this.tournaments,
       required this.sec,
@@ -48,7 +48,7 @@ class Match {
 
   @override
   String toString() {
-    return 'Match('
+    return 'FootballMatch('
         'year: "$year", '
         'tournaments: "$tournaments", '
         'sec: "$sec", '

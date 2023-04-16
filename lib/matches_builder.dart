@@ -4,11 +4,11 @@ import 'package:build/build.dart';
 import 'package:csv/csv.dart';
 import 'package:dart_style/dart_style.dart';
 
-Builder myMatchesBuilderFactory(BuilderOptions options) {
-  return MatchesBuilder();
+Builder myFootballMatchesBuilderFactory(BuilderOptions options) {
+  return FootballMatchesBuilder();
 }
 
-class MatchesBuilder implements Builder {
+class FootballMatchesBuilder implements Builder {
   @override
   final buildExtensions = const {
     '.csv': ['.g.dart'],
@@ -31,13 +31,13 @@ class MatchesBuilder implements Builder {
         .sublist(1)
         .map((row) => row.map((column) => column.trim()).toList())
         .map((row) =>
-            'Match(year: "${row[0]}", tournaments: "${row[1]}", sec: "${row[2]}", date: "${row[3]}", kickoff: "${row[4]}", home: "${row[5]}", score: "${row[6]}", away: "${row[7]}", venue: "${row[8]}", att: "${row[9]}", broadcast: "${row[10]}")')
+            'FootballMatch(year: "${row[0]}", tournaments: "${row[1]}", sec: "${row[2]}", date: "${row[3]}", kickoff: "${row[4]}", home: "${row[5]}", score: "${row[6]}", away: "${row[7]}", venue: "${row[8]}", att: "${row[9]}", broadcast: "${row[10]}")')
         .join(',\n');
 
     return '''// This code is generated from $source. Do not edit.
-import 'package:cheer_your_hometown_jp/match.dart';
+import 'package:cheer_your_hometown_jp/football_match.dart';
 
-const List<Match> matches=[$matches];
+const List<FootballMatch> footballMatches=[$matches];
 ''';
   }
 }

@@ -1,8 +1,8 @@
 // This code is generated from cheer_your_hometown_jp|lib/matches_2023.csv. Do not edit.
-import 'package:cheer_your_hometown_jp/match.dart';
+import 'package:cheer_your_hometown_jp/football_match.dart';
 
-const List<Match> matches = [
-  Match(
+const List<FootballMatch> footballMatches = [
+  FootballMatch(
       year: "2023",
       tournaments: "ＦＵＪＩＦＩＬＭ　ＳＵＰＥＲ　ＣＵＰ",
       sec: "",
@@ -14,7 +14,7 @@ const List<Match> matches = [
       venue: "国立",
       att: "50,923",
       broadcast: "日本テレビ系全国ネットにて生中継／ＴＶｅｒ（生配信）"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第１節第１日",
@@ -26,7 +26,7 @@ const List<Match> matches = [
       venue: "等々力",
       att: "22,563",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第１節第２日",
@@ -38,7 +38,7 @@ const List<Match> matches = [
       venue: "ニッパツ",
       att: "11,186",
       broadcast: "ＤＡＺＮ／ＮＨＫ名古屋"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第１節第２日",
@@ -50,7 +50,7 @@ const List<Match> matches = [
       venue: "サンガＳ",
       att: "15,988",
       broadcast: "ＤＡＺＮ／ＮＨＫ京都／ＫＢＳ京都（録）"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第１節第２日",
@@ -62,7 +62,7 @@ const List<Match> matches = [
       venue: "Ｅスタ",
       att: "13,121",
       broadcast: "ＤＡＺＮ／ＮＨＫ広島"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第１節第２日",
@@ -74,7 +74,7 @@ const List<Match> matches = [
       venue: "味スタ",
       att: "38,051",
       broadcast: "ＤＡＺＮ／ＮＨＫ総合"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第１節第２日",
@@ -86,7 +86,7 @@ const List<Match> matches = [
       venue: "ノエスタ",
       att: "18,981",
       broadcast: "ＤＡＺＮ／ＮＨＫ福岡"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第１節第２日",
@@ -98,7 +98,7 @@ const List<Match> matches = [
       venue: "ヨドコウ",
       att: "17,928",
       broadcast: "ＤＡＺＮ／ＮＨＫ新潟"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第１節第２日",
@@ -110,7 +110,7 @@ const List<Match> matches = [
       venue: "三協Ｆ柏",
       att: "12,334",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第１節第２日",
@@ -122,7 +122,7 @@ const List<Match> matches = [
       venue: "駅スタ",
       att: "9,663",
       broadcast: "ＤＡＺＮ／サガテレビ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第１節第１日",
@@ -134,7 +134,7 @@ const List<Match> matches = [
       venue: "ＪＩＴス",
       att: "9,573",
       broadcast: "ＤＡＺＮ／ＮＨＫ甲府／ＮＨＫ山形"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第１節第１日",
@@ -146,7 +146,7 @@ const List<Match> matches = [
       venue: "アイスタ",
       att: "14,324",
       broadcast: "ＤＡＺＮ／テレビ静岡"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第１節第１日",
@@ -158,7 +158,7 @@ const List<Match> matches = [
       venue: "トラスタ",
       att: "11,165",
       broadcast: "ＤＡＺＮ／長崎国際テレビ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第１節第１日",
@@ -170,7 +170,7 @@ const List<Match> matches = [
       venue: "正田スタ",
       att: "3,374",
       broadcast: "ＤＡＺＮ／群馬テレビ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第１節第１日",
@@ -182,7 +182,7 @@ const List<Match> matches = [
       venue: "いわきＧ",
       att: "4,318",
       broadcast: "ＤＡＺＮ／ＮＨＫ福島"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第１節第１日",
@@ -194,7 +194,7 @@ const List<Match> matches = [
       venue: "ヤマハ",
       att: "10,737",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第１節第１日",
@@ -206,7 +206,7 @@ const List<Match> matches = [
       venue: "みらスタ",
       att: "4,596",
       broadcast: "ＤＡＺＮ／ＮＨＫ山口"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第１節第２日",
@@ -218,7 +218,7 @@ const List<Match> matches = [
       venue: "鳴門大塚",
       att: "12,070",
       broadcast: "ＤＡＺＮ／ＮＨＫ徳島／ＮＨＫ大分"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第１節第２日",
@@ -230,7 +230,7 @@ const List<Match> matches = [
       venue: "味スタ",
       att: "6,597",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第１節第２日",
@@ -242,7 +242,7 @@ const List<Match> matches = [
       venue: "Ｇスタ",
       att: "8,055",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第１節第２日",
@@ -254,7 +254,7 @@ const List<Match> matches = [
       venue: "カンセキ",
       att: "6,882",
       broadcast: "ＤＡＺＮ／とちぎテレビ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第２節第１日",
@@ -266,7 +266,7 @@ const List<Match> matches = [
       venue: "レモンＳ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第２節第２日",
@@ -278,7 +278,7 @@ const List<Match> matches = [
       venue: "日産ス",
       att: "",
       broadcast: "ＤＡＺＮ／ＮＨＫ　ＢＳ１"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第２節第２日",
@@ -290,7 +290,7 @@ const List<Match> matches = [
       venue: "札幌ド",
       att: "",
       broadcast: "ＤＡＺＮ／ＮＨＫ札幌"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第２節第２日",
@@ -302,7 +302,7 @@ const List<Match> matches = [
       venue: "パナスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第２節第２日",
@@ -314,7 +314,7 @@ const List<Match> matches = [
       venue: "ベススタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第２節第２日",
@@ -326,7 +326,7 @@ const List<Match> matches = [
       venue: "カシマ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第２節第２日",
@@ -338,7 +338,7 @@ const List<Match> matches = [
       venue: "豊田ス",
       att: "",
       broadcast: "ＤＡＺＮ／中京テレビ（録）"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第２節第１日",
@@ -350,7 +350,7 @@ const List<Match> matches = [
       venue: "ＪＩＴス",
       att: "",
       broadcast: "ＤＡＺＮ／山梨放送"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第２節第１日",
@@ -362,7 +362,7 @@ const List<Match> matches = [
       venue: "ＮＡＣＫ",
       att: "",
       broadcast: "ＤＡＺＮ／テレ玉"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第２節第１日",
@@ -374,7 +374,7 @@ const List<Match> matches = [
       venue: "フクアリ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第２節第１日",
@@ -386,7 +386,7 @@ const List<Match> matches = [
       venue: "藤枝サ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第２節第３日",
@@ -398,7 +398,7 @@ const List<Match> matches = [
       venue: "Ｅスタ",
       att: "",
       broadcast: "ＤＡＺＮ／広島テレビ放送"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第２節第３日",
@@ -410,7 +410,7 @@ const List<Match> matches = [
       venue: "三協Ｆ柏",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第２節第２日",
@@ -422,7 +422,7 @@ const List<Match> matches = [
       venue: "Ｃスタ",
       att: "",
       broadcast: "ＤＡＺＮ／ＮＨＫ岡山"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第２節第２日",
@@ -434,7 +434,7 @@ const List<Match> matches = [
       venue: "えがおＳ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第２節第２日",
@@ -446,7 +446,7 @@ const List<Match> matches = [
       venue: "ユアスタ",
       att: "",
       broadcast: "ＤＡＺＮ／ＮＨＫ仙台"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第２節第２日",
@@ -458,7 +458,7 @@ const List<Match> matches = [
       venue: "レゾド",
       att: "",
       broadcast: "ＤＡＺＮ／ＮＨＫ大分"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第２節第２日",
@@ -470,7 +470,7 @@ const List<Match> matches = [
       venue: "みらスタ",
       att: "",
       broadcast: "ＤＡＺＮ／山口放送"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第２節第２日",
@@ -482,7 +482,7 @@ const List<Match> matches = [
       venue: "Ｇスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第２節第２日",
@@ -494,7 +494,7 @@ const List<Match> matches = [
       venue: "Ｋｓスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第３節第１日",
@@ -506,7 +506,7 @@ const List<Match> matches = [
       venue: "ニッパツ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第３節第２日",
@@ -518,7 +518,7 @@ const List<Match> matches = [
       venue: "等々力",
       att: "",
       broadcast: "ＤＡＺＮ／ＮＨＫ　ＢＳ１"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第３節第２日",
@@ -530,7 +530,7 @@ const List<Match> matches = [
       venue: "ニッパツ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第３節第２日",
@@ -542,7 +542,7 @@ const List<Match> matches = [
       venue: "デンカＳ",
       att: "",
       broadcast: "ＤＡＺＮ／ＮＨＫ新潟"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第３節第２日",
@@ -554,7 +554,7 @@ const List<Match> matches = [
       venue: "サンガＳ",
       att: "",
       broadcast: "ＤＡＺＮ／ＫＢＳ京都（録）"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第３節第２日",
@@ -566,7 +566,7 @@ const List<Match> matches = [
       venue: "ノエスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第３節第２日",
@@ -578,7 +578,7 @@ const List<Match> matches = [
       venue: "浦和駒場",
       att: "",
       broadcast: "ＤＡＺＮ／テレ玉"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第３節第２日",
@@ -590,7 +590,7 @@ const List<Match> matches = [
       venue: "ベススタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第３節第２日",
@@ -602,7 +602,7 @@ const List<Match> matches = [
       venue: "駅スタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第３節第１日",
@@ -614,7 +614,7 @@ const List<Match> matches = [
       venue: "ヤマハ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第３節第１日",
@@ -626,7 +626,7 @@ const List<Match> matches = [
       venue: "藤枝サ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第３節第１日",
@@ -638,7 +638,7 @@ const List<Match> matches = [
       venue: "鳴門大塚",
       att: "",
       broadcast: "ＤＡＺＮ／四国放送"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第３節第１日",
@@ -650,7 +650,7 @@ const List<Match> matches = [
       venue: "トラスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第１節第１日",
@@ -662,7 +662,7 @@ const List<Match> matches = [
       venue: "ギオンス",
       att: "",
       broadcast: "ＤＡＺＮ／ＮＨＫ鳥取"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第１節第１日",
@@ -674,7 +674,7 @@ const List<Match> matches = [
       venue: "白波スタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第１節第１日",
@@ -686,7 +686,7 @@ const List<Match> matches = [
       venue: "タピスタ",
       att: "",
       broadcast: "ＤＡＺＮ／ＮＨＫ沖縄"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第３節第２日",
@@ -698,7 +698,7 @@ const List<Match> matches = [
       venue: "いわきＧ",
       att: "",
       broadcast: "ＤＡＺＮ／福島中央テレビ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第３節第２日",
@@ -710,7 +710,7 @@ const List<Match> matches = [
       venue: "えがおＳ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第３節第２日",
@@ -722,7 +722,7 @@ const List<Match> matches = [
       venue: "フクアリ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第３節第２日",
@@ -734,7 +734,7 @@ const List<Match> matches = [
       venue: "味スタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第３節第２日",
@@ -746,7 +746,7 @@ const List<Match> matches = [
       venue: "石川西部",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第３節第２日",
@@ -758,7 +758,7 @@ const List<Match> matches = [
       venue: "レゾド",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第３節第２日",
@@ -770,7 +770,7 @@ const List<Match> matches = [
       venue: "Ｋｓスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第１節第２日",
@@ -782,7 +782,7 @@ const List<Match> matches = [
       venue: "ニッパツ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第１節第２日",
@@ -794,7 +794,7 @@ const List<Match> matches = [
       venue: "ロートＦ",
       att: "",
       broadcast: "ＤＡＺＮ／奈良テレビ放送"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第１節第２日",
@@ -806,7 +806,7 @@ const List<Match> matches = [
       venue: "里山Ｓ",
       att: "",
       broadcast: "ＤＡＺＮ／ＮＨＫ松山／愛媛朝日テレビ（録）"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第１節第２日",
@@ -818,7 +818,7 @@ const List<Match> matches = [
       venue: "ユニスタ",
       att: "",
       broadcast: "ＤＡＺＮ／テレビ宮崎（録）"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第１節第２日",
@@ -830,7 +830,7 @@ const List<Match> matches = [
       venue: "ピカスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第１節第２日",
@@ -842,7 +842,7 @@ const List<Match> matches = [
       venue: "ミクスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第１節第２日",
@@ -854,7 +854,7 @@ const List<Match> matches = [
       venue: "ニンスタ",
       att: "",
       broadcast: "ＤＡＺＮ／南海放送（録）"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "ＹＬＣ グループステージＡグループ",
       sec: "第１節第１日",
@@ -866,7 +866,7 @@ const List<Match> matches = [
       venue: "ニッパツ",
       att: "",
       broadcast: "ＴＶ放送：スカパー！／インターネット配信：ＳＰＯＯＸ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "ＹＬＣ グループステージＡグループ",
       sec: "第１節第１日",
@@ -878,7 +878,7 @@ const List<Match> matches = [
       venue: "駅スタ",
       att: "",
       broadcast: "ＴＶ放送：スカパー！／インターネット配信：ＳＰＯＯＸ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "ＹＬＣ グループステージＢグループ",
       sec: "第１節第１日",
@@ -890,7 +890,7 @@ const List<Match> matches = [
       venue: "レモンＳ",
       att: "",
       broadcast: "ＴＶ放送：フジテレビＯＮＥ／インターネット配信：ＦＯＤ／ＳＰＯＯＸ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "ＹＬＣ グループステージＢグループ",
       sec: "第１節第１日",
@@ -902,7 +902,7 @@ const List<Match> matches = [
       venue: "アイスタ",
       att: "",
       broadcast: "ＴＶ放送：スカパー！／インターネット配信：ＳＰＯＯＸ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "ＹＬＣ グループステージＣグループ",
       sec: "第１節第１日",
@@ -914,7 +914,7 @@ const List<Match> matches = [
       venue: "ノエスタ",
       att: "",
       broadcast: "ＴＶ放送：スカパー！／インターネット配信：ＳＰＯＯＸ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "ＹＬＣ グループステージＣグループ",
       sec: "第１節第１日",
@@ -926,7 +926,7 @@ const List<Match> matches = [
       venue: "Ｅスタ",
       att: "",
       broadcast: "ＴＶ放送：スカパー！／インターネット配信：ＳＰＯＯＸ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "ＹＬＣ グループステージＤグループ",
       sec: "第１節第１日",
@@ -938,7 +938,7 @@ const List<Match> matches = [
       venue: "三協Ｆ柏",
       att: "",
       broadcast: "ＴＶ放送：スカパー！／インターネット配信：ＳＰＯＯＸ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "ＹＬＣ グループステージＤグループ",
       sec: "第１節第１日",
@@ -950,7 +950,7 @@ const List<Match> matches = [
       venue: "ベススタ",
       att: "",
       broadcast: "ＴＶ放送：スカパー！／インターネット配信：ＳＰＯＯＸ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "ＹＬＣ グループステージＥグループ",
       sec: "第１節第１日",
@@ -962,7 +962,7 @@ const List<Match> matches = [
       venue: "サンガＳ",
       att: "",
       broadcast: "ＴＶ放送：スカパー！／インターネット配信：ＳＰＯＯＸ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "ＹＬＣ グループステージＥグループ",
       sec: "第１節第１日",
@@ -974,7 +974,7 @@ const List<Match> matches = [
       venue: "ヨドコウ",
       att: "",
       broadcast: "ＴＶ放送：フジテレビＮＥＸＴ／インターネット配信：ＦＯＤ／ＳＰＯＯＸ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第４節第１日",
@@ -986,7 +986,7 @@ const List<Match> matches = [
       venue: "デンカＳ",
       att: "",
       broadcast: "ＤＡＺＮ／ＮＨＫ　ＢＳ１／新潟総合テレビ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第４節第１日",
@@ -998,7 +998,7 @@ const List<Match> matches = [
       venue: "ノエスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第４節第１日",
@@ -1010,7 +1010,7 @@ const List<Match> matches = [
       venue: "ＪＩＴス",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第４節第１日",
@@ -1022,7 +1022,7 @@ const List<Match> matches = [
       venue: "ＮＡＣＫ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第４節第１日",
@@ -1034,7 +1034,7 @@ const List<Match> matches = [
       venue: "みらスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第２節第１日",
@@ -1046,7 +1046,7 @@ const List<Match> matches = [
       venue: "ニッパツ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第２節第１日",
@@ -1058,7 +1058,7 @@ const List<Match> matches = [
       venue: "白波スタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第２節第１日",
@@ -1070,7 +1070,7 @@ const List<Match> matches = [
       venue: "タピスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第４節第２日",
@@ -1082,7 +1082,7 @@ const List<Match> matches = [
       venue: "ヨドコウ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第４節第２日",
@@ -1094,7 +1094,7 @@ const List<Match> matches = [
       venue: "札幌ド",
       att: "",
       broadcast: "ＤＡＺＮ／札幌テレビ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第４節第２日",
@@ -1106,7 +1106,7 @@ const List<Match> matches = [
       venue: "カシマ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第４節第２日",
@@ -1118,7 +1118,7 @@ const List<Match> matches = [
       venue: "三協Ｆ柏",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第４節第２日",
@@ -1130,7 +1130,7 @@ const List<Match> matches = [
       venue: "味スタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第４節第２日",
@@ -1142,7 +1142,7 @@ const List<Match> matches = [
       venue: "レモンＳ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第４節第２日",
@@ -1154,7 +1154,7 @@ const List<Match> matches = [
       venue: "パナスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第４節第２日",
@@ -1166,7 +1166,7 @@ const List<Match> matches = [
       venue: "ユアスタ",
       att: "",
       broadcast: "ＤＡＺＮ／ＮＨＫ　ＢＳ１"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第４節第２日",
@@ -1178,7 +1178,7 @@ const List<Match> matches = [
       venue: "ソユスタ",
       att: "",
       broadcast: "ＤＡＺＮ／秋田放送"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第４節第２日",
@@ -1190,7 +1190,7 @@ const List<Match> matches = [
       venue: "カンセキ",
       att: "",
       broadcast: "ＤＡＺＮ／とちぎテレビ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第４節第２日",
@@ -1202,7 +1202,7 @@ const List<Match> matches = [
       venue: "Ｇスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第４節第２日",
@@ -1214,7 +1214,7 @@ const List<Match> matches = [
       venue: "アイスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第４節第２日",
@@ -1226,7 +1226,7 @@ const List<Match> matches = [
       venue: "Ｃスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第４節第２日",
@@ -1238,7 +1238,7 @@ const List<Match> matches = [
       venue: "鳴門大塚",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第４節第２日",
@@ -1250,7 +1250,7 @@ const List<Match> matches = [
       venue: "正田スタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第２節第２日",
@@ -1262,7 +1262,7 @@ const List<Match> matches = [
       venue: "ロートＦ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第２節第２日",
@@ -1274,7 +1274,7 @@ const List<Match> matches = [
       venue: "ユニスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第２節第２日",
@@ -1286,7 +1286,7 @@ const List<Match> matches = [
       venue: "愛鷹",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第２節第２日",
@@ -1298,7 +1298,7 @@ const List<Match> matches = [
       venue: "長良川",
       att: "",
       broadcast: "ＤＡＺＮ／岐阜放送（録）"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第２節第２日",
@@ -1310,7 +1310,7 @@ const List<Match> matches = [
       venue: "ミクスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第２節第２日",
@@ -1322,7 +1322,7 @@ const List<Match> matches = [
       venue: "ニッパツ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第２節第２日",
@@ -1334,7 +1334,7 @@ const List<Match> matches = [
       venue: "ニンスタ",
       att: "",
       broadcast: "ＤＡＺＮ／南海放送（録）"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第５節第１日",
@@ -1346,7 +1346,7 @@ const List<Match> matches = [
       venue: "日産ス",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第５節第１日",
@@ -1358,7 +1358,7 @@ const List<Match> matches = [
       venue: "ニッパツ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第５節第１日",
@@ -1370,7 +1370,7 @@ const List<Match> matches = [
       venue: "豊田ス",
       att: "",
       broadcast: "ＤＡＺＮ／ＮＨＫ　ＢＳ１"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第５節第１日",
@@ -1382,7 +1382,7 @@ const List<Match> matches = [
       venue: "浦和駒場",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第５節第１日",
@@ -1394,7 +1394,7 @@ const List<Match> matches = [
       venue: "パナスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第５節第１日",
@@ -1406,7 +1406,7 @@ const List<Match> matches = [
       venue: "駅スタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第５節第１日",
@@ -1418,7 +1418,7 @@ const List<Match> matches = [
       venue: "等々力",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第５節第１日",
@@ -1430,7 +1430,7 @@ const List<Match> matches = [
       venue: "エコパ",
       att: "",
       broadcast: "ＤＡＺＮ／静岡放送"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第３節第１日",
@@ -1442,7 +1442,7 @@ const List<Match> matches = [
       venue: "愛鷹",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第３節第１日",
@@ -1454,7 +1454,7 @@ const List<Match> matches = [
       venue: "花園",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第３節第１日",
@@ -1466,7 +1466,7 @@ const List<Match> matches = [
       venue: "長良川",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第５節第２日",
@@ -1478,7 +1478,7 @@ const List<Match> matches = [
       venue: "Ｅスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第５節第２日",
@@ -1490,7 +1490,7 @@ const List<Match> matches = [
       venue: "ベススタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第５節第２日",
@@ -1502,7 +1502,7 @@ const List<Match> matches = [
       venue: "ソユスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第５節第２日",
@@ -1514,7 +1514,7 @@ const List<Match> matches = [
       venue: "ＮＤスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第５節第２日",
@@ -1526,7 +1526,7 @@ const List<Match> matches = [
       venue: "いわきＧ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第５節第２日",
@@ -1538,7 +1538,7 @@ const List<Match> matches = [
       venue: "カンセキ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第５節第２日",
@@ -1550,7 +1550,7 @@ const List<Match> matches = [
       venue: "正田スタ",
       att: "",
       broadcast: "ＤＡＺＮ／群馬テレビ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第５節第２日",
@@ -1562,7 +1562,7 @@ const List<Match> matches = [
       venue: "石川西部",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第５節第２日",
@@ -1574,7 +1574,7 @@ const List<Match> matches = [
       venue: "藤枝サ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第５節第２日",
@@ -1586,7 +1586,7 @@ const List<Match> matches = [
       venue: "Ｃスタ",
       att: "",
       broadcast: "ＤＡＺＮ／テレビせとうち"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第５節第２日",
@@ -1598,7 +1598,7 @@ const List<Match> matches = [
       venue: "えがおＳ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第５節第２日",
@@ -1610,7 +1610,7 @@ const List<Match> matches = [
       venue: "レゾド",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第３節第２日",
@@ -1622,7 +1622,7 @@ const List<Match> matches = [
       venue: "とうスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第３節第２日",
@@ -1634,7 +1634,7 @@ const List<Match> matches = [
       venue: "ニッパツ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第３節第２日",
@@ -1646,7 +1646,7 @@ const List<Match> matches = [
       venue: "Ａｘｉｓ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第３節第２日",
@@ -1658,7 +1658,7 @@ const List<Match> matches = [
       venue: "里山Ｓ",
       att: "",
       broadcast: "ＤＡＺＮ／愛媛朝日テレビ（録）"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第３節第２日",
@@ -1670,7 +1670,7 @@ const List<Match> matches = [
       venue: "長野Ｕ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第３節第２日",
@@ -1682,7 +1682,7 @@ const List<Match> matches = [
       venue: "富山",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第３節第２日",
@@ -1694,7 +1694,7 @@ const List<Match> matches = [
       venue: "ピカスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "ＹＬＣ グループステージＡグループ",
       sec: "第２節第１日",
@@ -1706,7 +1706,7 @@ const List<Match> matches = [
       venue: "ヤマハ",
       att: "",
       broadcast: "ＴＶ放送：フジテレビＯＮＥ／インターネット配信：ＦＯＤ／ＳＰＯＯＸ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第６節第１日",
@@ -1718,7 +1718,7 @@ const List<Match> matches = [
       venue: "ユアスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第６節第１日",
@@ -1730,7 +1730,7 @@ const List<Match> matches = [
       venue: "ＮＡＣＫ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第６節第１日",
@@ -1742,7 +1742,7 @@ const List<Match> matches = [
       venue: "フクアリ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第６節第１日",
@@ -1754,7 +1754,7 @@ const List<Match> matches = [
       venue: "鳴門大塚",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第６節第１日",
@@ -1766,7 +1766,7 @@ const List<Match> matches = [
       venue: "トラスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第６節第１日",
@@ -1778,7 +1778,7 @@ const List<Match> matches = [
       venue: "味スタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第４節第１日",
@@ -1790,7 +1790,7 @@ const List<Match> matches = [
       venue: "いわスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "ＹＬＣ グループステージＡグループ",
       sec: "第２節第２日",
@@ -1802,7 +1802,7 @@ const List<Match> matches = [
       venue: "駅スタ",
       att: "",
       broadcast: "ＴＶ放送：スカパー！／インターネット配信：ＳＰＯＯＸ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "ＹＬＣ グループステージＢグループ",
       sec: "第２節第１日",
@@ -1814,7 +1814,7 @@ const List<Match> matches = [
       venue: "浦和駒場",
       att: "",
       broadcast: "ＴＶ放送：スカパー！／インターネット配信：ＳＰＯＯＸ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "ＹＬＣ グループステージＢグループ",
       sec: "第２節第１日",
@@ -1826,7 +1826,7 @@ const List<Match> matches = [
       venue: "等々力",
       att: "",
       broadcast: "ＴＶ放送：スカパー！／インターネット配信：ＳＰＯＯＸ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "ＹＬＣ グループステージＣグループ",
       sec: "第２節第１日",
@@ -1838,7 +1838,7 @@ const List<Match> matches = [
       venue: "ニッパツ",
       att: "",
       broadcast: "ＴＶ放送：スカパー！／インターネット配信：ＳＰＯＯＸ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "ＹＬＣ グループステージＣグループ",
       sec: "第２節第１日",
@@ -1850,7 +1850,7 @@ const List<Match> matches = [
       venue: "Ｅスタ",
       att: "",
       broadcast: "ＴＶ放送：スカパー！／インターネット配信：ＳＰＯＯＸ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "ＹＬＣ グループステージＤグループ",
       sec: "第２節第１日",
@@ -1862,7 +1862,7 @@ const List<Match> matches = [
       venue: "デンカＳ",
       att: "",
       broadcast: "ＴＶ放送：スカパー！／インターネット配信：ＳＰＯＯＸ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "ＹＬＣ グループステージＤグループ",
       sec: "第２節第１日",
@@ -1874,7 +1874,7 @@ const List<Match> matches = [
       venue: "ベススタ",
       att: "",
       broadcast: "ＴＶ放送：スカパー！／インターネット配信：ＳＰＯＯＸ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "ＹＬＣ グループステージＥグループ",
       sec: "第２節第１日",
@@ -1886,7 +1886,7 @@ const List<Match> matches = [
       venue: "味スタ",
       att: "",
       broadcast: "ＴＶ放送：スカパー！／インターネット配信：ＳＰＯＯＸ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "ＹＬＣ グループステージＥグループ",
       sec: "第２節第１日",
@@ -1898,7 +1898,7 @@ const List<Match> matches = [
       venue: "パナスタ",
       att: "",
       broadcast: "ＴＶ放送：フジテレビＯＮＥ／インターネット配信：ＦＯＤ／ＳＰＯＯＸ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第６節第２日",
@@ -1910,7 +1910,7 @@ const List<Match> matches = [
       venue: "いわきＧ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第６節第２日",
@@ -1922,7 +1922,7 @@ const List<Match> matches = [
       venue: "みらスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第６節第２日",
@@ -1934,7 +1934,7 @@ const List<Match> matches = [
       venue: "Ｋｓスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第４節第２日",
@@ -1946,7 +1946,7 @@ const List<Match> matches = [
       venue: "ロートＦ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第４節第２日",
@@ -1958,7 +1958,7 @@ const List<Match> matches = [
       venue: "Ａｘｉｓ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第４節第２日",
@@ -1970,7 +1970,7 @@ const List<Match> matches = [
       venue: "白波スタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第４節第２日",
@@ -1982,7 +1982,7 @@ const List<Match> matches = [
       venue: "プラスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第４節第２日",
@@ -1994,7 +1994,7 @@ const List<Match> matches = [
       venue: "サンアル",
       att: "",
       broadcast: "ＤＡＺＮ／信越放送"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第４節第２日",
@@ -2006,7 +2006,7 @@ const List<Match> matches = [
       venue: "富山",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第４節第２日",
@@ -2018,7 +2018,7 @@ const List<Match> matches = [
       venue: "ミクスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第４節第２日",
@@ -2030,7 +2030,7 @@ const List<Match> matches = [
       venue: "ニンスタ",
       att: "",
       broadcast: "ＤＡＺＮ／南海放送（録）"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第４節第２日",
@@ -2042,7 +2042,7 @@ const List<Match> matches = [
       venue: "タピスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第６節第３日",
@@ -2054,7 +2054,7 @@ const List<Match> matches = [
       venue: "アイスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第６節第３日",
@@ -2066,7 +2066,7 @@ const List<Match> matches = [
       venue: "ヤマハ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第６節第１日",
@@ -2078,7 +2078,7 @@ const List<Match> matches = [
       venue: "三協Ｆ柏",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第６節第２日",
@@ -2090,7 +2090,7 @@ const List<Match> matches = [
       venue: "ニッパツ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第６節第２日",
@@ -2102,7 +2102,7 @@ const List<Match> matches = [
       venue: "デンカＳ",
       att: "",
       broadcast: "ＤＡＺＮ／新潟テレビ２１"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第６節第２日",
@@ -2114,7 +2114,7 @@ const List<Match> matches = [
       venue: "サンガＳ",
       att: "",
       broadcast: "ＤＡＺＮ／ＫＢＳ京都（録）"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第６節第２日",
@@ -2126,7 +2126,7 @@ const List<Match> matches = [
       venue: "カシマ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第６節第２日",
@@ -2138,7 +2138,7 @@ const List<Match> matches = [
       venue: "レモンＳ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第６節第２日",
@@ -2150,7 +2150,7 @@ const List<Match> matches = [
       venue: "駅スタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第６節第２日",
@@ -2162,7 +2162,7 @@ const List<Match> matches = [
       venue: "ヨドコウ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第６節第２日",
@@ -2174,7 +2174,7 @@ const List<Match> matches = [
       venue: "札幌ド",
       att: "",
       broadcast: "ＤＡＺＮ／ＮＨＫ　ＢＳ１"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第７節第１日",
@@ -2186,7 +2186,7 @@ const List<Match> matches = [
       venue: "ＪＩＴス",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第７節第１日",
@@ -2198,7 +2198,7 @@ const List<Match> matches = [
       venue: "ユアスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第７節第１日",
@@ -2210,7 +2210,7 @@ const List<Match> matches = [
       venue: "ソユスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第７節第１日",
@@ -2222,7 +2222,7 @@ const List<Match> matches = [
       venue: "レゾド",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第７節第１日",
@@ -2234,7 +2234,7 @@ const List<Match> matches = [
       venue: "味スタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第５節第１日",
@@ -2246,7 +2246,7 @@ const List<Match> matches = [
       venue: "花園",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第５節第１日",
@@ -2258,7 +2258,7 @@ const List<Match> matches = [
       venue: "長良川",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第７節第２日",
@@ -2270,7 +2270,7 @@ const List<Match> matches = [
       venue: "えがおＳ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第７節第２日",
@@ -2282,7 +2282,7 @@ const List<Match> matches = [
       venue: "ＮＤスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第７節第２日",
@@ -2294,7 +2294,7 @@ const List<Match> matches = [
       venue: "カンセキ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第７節第２日",
@@ -2306,7 +2306,7 @@ const List<Match> matches = [
       venue: "Ｇスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第７節第２日",
@@ -2318,7 +2318,7 @@ const List<Match> matches = [
       venue: "石川西部",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第７節第２日",
@@ -2330,7 +2330,7 @@ const List<Match> matches = [
       venue: "Ｃスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第５節第２日",
@@ -2342,7 +2342,7 @@ const List<Match> matches = [
       venue: "里山Ｓ",
       att: "",
       broadcast: "ＤＡＺＮ／愛媛朝日テレビ（録）"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第５節第２日",
@@ -2354,7 +2354,7 @@ const List<Match> matches = [
       venue: "プラスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第５節第２日",
@@ -2366,7 +2366,7 @@ const List<Match> matches = [
       venue: "とうスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第５節第２日",
@@ -2378,7 +2378,7 @@ const List<Match> matches = [
       venue: "ギオンス",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第５節第２日",
@@ -2390,7 +2390,7 @@ const List<Match> matches = [
       venue: "サンアル",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第５節第２日",
@@ -2402,7 +2402,7 @@ const List<Match> matches = [
       venue: "長野Ｕ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第５節第２日",
@@ -2414,7 +2414,7 @@ const List<Match> matches = [
       venue: "ピカスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第５節第２日",
@@ -2426,7 +2426,7 @@ const List<Match> matches = [
       venue: "ユニスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "ＹＬＣ グループステージＡグループ",
       sec: "第３節第１日",
@@ -2438,7 +2438,7 @@ const List<Match> matches = [
       venue: "ニッパツ",
       att: "",
       broadcast: "ＴＶ放送：フジテレビＴＷＯ／インターネット配信：ＦＯＤ／ＳＰＯＯＸ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "ＹＬＣ グループステージＡグループ",
       sec: "第３節第１日",
@@ -2450,7 +2450,7 @@ const List<Match> matches = [
       venue: "ヤマハ",
       att: "",
       broadcast: "ＴＶ放送：スカパー！／インターネット配信：ＳＰＯＯＸ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "ＹＬＣ グループステージＢグループ",
       sec: "第３節第１日",
@@ -2462,7 +2462,7 @@ const List<Match> matches = [
       venue: "等々力",
       att: "",
       broadcast: "ＴＶ放送：フジテレビＯＮＥ／インターネット配信：ＦＯＤ／ＳＰＯＯＸ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "ＹＬＣ グループステージＢグループ",
       sec: "第３節第１日",
@@ -2474,7 +2474,7 @@ const List<Match> matches = [
       venue: "レモンＳ",
       att: "",
       broadcast: "ＴＶ放送：スカパー！／インターネット配信：ＳＰＯＯＸ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "ＹＬＣ グループステージＣグループ",
       sec: "第３節第１日",
@@ -2486,7 +2486,7 @@ const List<Match> matches = [
       venue: "ノエスタ",
       att: "",
       broadcast: "ＴＶ放送：スカパー！／インターネット配信：ＳＰＯＯＸ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "ＹＬＣ グループステージＣグループ",
       sec: "第３節第１日",
@@ -2498,7 +2498,7 @@ const List<Match> matches = [
       venue: "豊田ス",
       att: "",
       broadcast: "ＴＶ放送：スカパー！／インターネット配信：ＳＰＯＯＸ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "ＹＬＣ グループステージＤグループ",
       sec: "第３節第１日",
@@ -2510,7 +2510,7 @@ const List<Match> matches = [
       venue: "カシマ",
       att: "",
       broadcast: "ＴＶ放送：スカパー！／インターネット配信：ＳＰＯＯＸ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "ＹＬＣ グループステージＤグループ",
       sec: "第３節第１日",
@@ -2522,7 +2522,7 @@ const List<Match> matches = [
       venue: "デンカＳ",
       att: "",
       broadcast: "ＴＶ放送：スカパー！／インターネット配信：ＳＰＯＯＸ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "ＹＬＣ グループステージＥグループ",
       sec: "第３節第１日",
@@ -2534,7 +2534,7 @@ const List<Match> matches = [
       venue: "サンガＳ",
       att: "",
       broadcast: "ＴＶ放送：スカパー！／インターネット配信：ＳＰＯＯＸ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "ＹＬＣ グループステージＥグループ",
       sec: "第３節第１日",
@@ -2546,7 +2546,7 @@ const List<Match> matches = [
       venue: "パナスタ",
       att: "",
       broadcast: "ＴＶ放送：フジテレビＮＥＸＴ／インターネット配信：ＦＯＤ／ＳＰＯＯＸ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第７節第１日",
@@ -2558,7 +2558,7 @@ const List<Match> matches = [
       venue: "日産ス",
       att: "",
       broadcast: "ＤＡＺＮ／ＮＨＫ　ＢＳ１"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第８節第１日",
@@ -2570,7 +2570,7 @@ const List<Match> matches = [
       venue: "ＪＩＴス",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第８節第１日",
@@ -2582,7 +2582,7 @@ const List<Match> matches = [
       venue: "いわきＧ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第８節第１日",
@@ -2594,7 +2594,7 @@ const List<Match> matches = [
       venue: "正田スタ",
       att: "",
       broadcast: "ＤＡＺＮ／群馬テレビ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第８節第１日",
@@ -2606,7 +2606,7 @@ const List<Match> matches = [
       venue: "ＮＡＣＫ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第８節第１日",
@@ -2618,7 +2618,7 @@ const List<Match> matches = [
       venue: "フクアリ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第８節第１日",
@@ -2630,7 +2630,7 @@ const List<Match> matches = [
       venue: "Ｇスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第８節第１日",
@@ -2642,7 +2642,7 @@ const List<Match> matches = [
       venue: "アイスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第８節第１日",
@@ -2654,7 +2654,7 @@ const List<Match> matches = [
       venue: "藤枝サ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第８節第１日",
@@ -2666,7 +2666,7 @@ const List<Match> matches = [
       venue: "みらスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第８節第１日",
@@ -2678,7 +2678,7 @@ const List<Match> matches = [
       venue: "Ｋｓスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第６節第１日",
@@ -2690,7 +2690,7 @@ const List<Match> matches = [
       venue: "ニッパツ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第６節第１日",
@@ -2702,7 +2702,7 @@ const List<Match> matches = [
       venue: "いわスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第６節第１日",
@@ -2714,7 +2714,7 @@ const List<Match> matches = [
       venue: "愛鷹",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第６節第１日",
@@ -2726,7 +2726,7 @@ const List<Match> matches = [
       venue: "ニンスタ",
       att: "",
       broadcast: "ＤＡＺＮ／南海放送（録）"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第６節第１日",
@@ -2738,7 +2738,7 @@ const List<Match> matches = [
       venue: "タピスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第７節第２日",
@@ -2750,7 +2750,7 @@ const List<Match> matches = [
       venue: "ヨドコウ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第７節第２日",
@@ -2762,7 +2762,7 @@ const List<Match> matches = [
       venue: "ノエスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第７節第２日",
@@ -2774,7 +2774,7 @@ const List<Match> matches = [
       venue: "Ｅスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第７節第２日",
@@ -2786,7 +2786,7 @@ const List<Match> matches = [
       venue: "味スタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第７節第２日",
@@ -2798,7 +2798,7 @@ const List<Match> matches = [
       venue: "豊田ス",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第７節第２日",
@@ -2810,7 +2810,7 @@ const List<Match> matches = [
       venue: "パナスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第７節第２日",
@@ -2822,7 +2822,7 @@ const List<Match> matches = [
       venue: "ベススタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第７節第２日",
@@ -2834,7 +2834,7 @@ const List<Match> matches = [
       venue: "三協Ｆ柏",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第８節第２日",
@@ -2846,7 +2846,7 @@ const List<Match> matches = [
       venue: "えがおＳ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第６節第２日",
@@ -2858,7 +2858,7 @@ const List<Match> matches = [
       venue: "花園",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第６節第２日",
@@ -2870,7 +2870,7 @@ const List<Match> matches = [
       venue: "Ａｘｉｓ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第６節第２日",
@@ -2882,7 +2882,7 @@ const List<Match> matches = [
       venue: "長野Ｕ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第６節第２日",
@@ -2894,7 +2894,7 @@ const List<Match> matches = [
       venue: "富山",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第６節第２日",
@@ -2906,7 +2906,7 @@ const List<Match> matches = [
       venue: "ミクスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第９節第１日",
@@ -2918,7 +2918,7 @@ const List<Match> matches = [
       venue: "カンセキ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第９節第１日",
@@ -2930,7 +2930,7 @@ const List<Match> matches = [
       venue: "ＮＡＣＫ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第９節第１日",
@@ -2942,7 +2942,7 @@ const List<Match> matches = [
       venue: "味スタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第９節第１日",
@@ -2954,7 +2954,7 @@ const List<Match> matches = [
       venue: "石川西部",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第９節第１日",
@@ -2966,7 +2966,7 @@ const List<Match> matches = [
       venue: "アイスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第９節第１日",
@@ -2978,7 +2978,7 @@ const List<Match> matches = [
       venue: "ヤマハ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第９節第１日",
@@ -2990,7 +2990,7 @@ const List<Match> matches = [
       venue: "藤枝サ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第９節第１日",
@@ -3002,7 +3002,7 @@ const List<Match> matches = [
       venue: "Ｃスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第９節第１日",
@@ -3014,7 +3014,7 @@ const List<Match> matches = [
       venue: "鳴門大塚",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第９節第１日",
@@ -3026,7 +3026,7 @@ const List<Match> matches = [
       venue: "トラスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第９節第１日",
@@ -3038,7 +3038,7 @@ const List<Match> matches = [
       venue: "レゾド",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第８節第１日",
@@ -3050,7 +3050,7 @@ const List<Match> matches = [
       venue: "ニッパツ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第８節第１日",
@@ -3062,7 +3062,7 @@ const List<Match> matches = [
       venue: "デンカＳ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第８節第１日",
@@ -3074,7 +3074,7 @@ const List<Match> matches = [
       venue: "埼玉",
       att: "",
       broadcast: "ＤＡＺＮ／ＮＨＫ総合"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第８節第１日",
@@ -3086,7 +3086,7 @@ const List<Match> matches = [
       venue: "等々力",
       att: "",
       broadcast: "ＤＡＺＮ／ＮＨＫ名古屋"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第８節第１日",
@@ -3098,7 +3098,7 @@ const List<Match> matches = [
       venue: "レモンＳ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第８節第１日",
@@ -3110,7 +3110,7 @@ const List<Match> matches = [
       venue: "駅スタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第８節第１日",
@@ -3122,7 +3122,7 @@ const List<Match> matches = [
       venue: "カシマ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第８節第１日",
@@ -3134,7 +3134,7 @@ const List<Match> matches = [
       venue: "味スタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第８節第１日",
@@ -3146,7 +3146,7 @@ const List<Match> matches = [
       venue: "サンガＳ",
       att: "",
       broadcast: "ＤＡＺＮ／ＫＢＳ京都（録）"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第７節第１日",
@@ -3158,7 +3158,7 @@ const List<Match> matches = [
       venue: "とうスタ",
       att: "",
       broadcast: "ＤＡＺＮ／福島中央テレビ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第７節第１日",
@@ -3170,7 +3170,7 @@ const List<Match> matches = [
       venue: "ギオンス",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第７節第１日",
@@ -3182,7 +3182,7 @@ const List<Match> matches = [
       venue: "タピスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第１０節第１日",
@@ -3194,7 +3194,7 @@ const List<Match> matches = [
       venue: "ＪＩＴス",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第１０節第１日",
@@ -3206,7 +3206,7 @@ const List<Match> matches = [
       venue: "ユアスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第１０節第１日",
@@ -3218,7 +3218,7 @@ const List<Match> matches = [
       venue: "ソユスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第１０節第１日",
@@ -3230,7 +3230,7 @@ const List<Match> matches = [
       venue: "ＮＤスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第１０節第１日",
@@ -3242,7 +3242,7 @@ const List<Match> matches = [
       venue: "いわきＧ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第１０節第１日",
@@ -3254,7 +3254,7 @@ const List<Match> matches = [
       venue: "フクアリ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第１０節第１日",
@@ -3266,7 +3266,7 @@ const List<Match> matches = [
       venue: "Ｇスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第１０節第１日",
@@ -3278,7 +3278,7 @@ const List<Match> matches = [
       venue: "みらスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第１０節第１日",
@@ -3290,7 +3290,7 @@ const List<Match> matches = [
       venue: "鳴門大塚",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第１０節第１日",
@@ -3302,7 +3302,7 @@ const List<Match> matches = [
       venue: "Ｋｓスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第１０節第１日",
@@ -3314,7 +3314,7 @@ const List<Match> matches = [
       venue: "ヤマハ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第７節第２日",
@@ -3326,7 +3326,7 @@ const List<Match> matches = [
       venue: "ロートＦ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第７節第２日",
@@ -3338,7 +3338,7 @@ const List<Match> matches = [
       venue: "里山Ｓ",
       att: "",
       broadcast: "ＤＡＺＮ／愛媛朝日テレビ（録）"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第７節第２日",
@@ -3350,7 +3350,7 @@ const List<Match> matches = [
       venue: "白波スタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第７節第２日",
@@ -3362,7 +3362,7 @@ const List<Match> matches = [
       venue: "プラスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第７節第２日",
@@ -3374,7 +3374,7 @@ const List<Match> matches = [
       venue: "サンアル",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第７節第２日",
@@ -3386,7 +3386,7 @@ const List<Match> matches = [
       venue: "長良川",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第７節第２日",
@@ -3398,7 +3398,7 @@ const List<Match> matches = [
       venue: "ピカスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "ＹＬＣ グループステージＡグループ",
       sec: "第４節第１日",
@@ -3410,7 +3410,7 @@ const List<Match> matches = [
       venue: "札幌ド",
       att: "",
       broadcast: "ＴＶ放送：スカパー！／インターネット配信：ＳＰＯＯＸ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "ＹＬＣ グループステージＡグループ",
       sec: "第４節第１日",
@@ -3422,7 +3422,7 @@ const List<Match> matches = [
       venue: "ヤマハ",
       att: "",
       broadcast: "ＴＶ放送：スカパー！／インターネット配信：ＳＰＯＯＸ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "ＹＬＣ グループステージＢグループ",
       sec: "第４節第１日",
@@ -3434,7 +3434,7 @@ const List<Match> matches = [
       venue: "等々力",
       att: "",
       broadcast: "ＴＶ放送：スカパー！／インターネット配信：ＳＰＯＯＸ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "ＹＬＣ グループステージＢグループ",
       sec: "第４節第１日",
@@ -3446,7 +3446,7 @@ const List<Match> matches = [
       venue: "埼玉",
       att: "",
       broadcast: "ＴＶ放送：フジテレビＯＮＥ／インターネット配信：ＦＯＤ／ＳＰＯＯＸ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "ＹＬＣ グループステージＣグループ",
       sec: "第４節第１日",
@@ -3458,7 +3458,7 @@ const List<Match> matches = [
       venue: "ニッパツ",
       att: "",
       broadcast: "ＴＶ放送：スカパー！／インターネット配信：ＳＰＯＯＸ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "ＹＬＣ グループステージＣグループ",
       sec: "第４節第１日",
@@ -3470,7 +3470,7 @@ const List<Match> matches = [
       venue: "Ｅスタ",
       att: "",
       broadcast: "ＴＶ放送：スカパー！／インターネット配信：ＳＰＯＯＸ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "ＹＬＣ グループステージＤグループ",
       sec: "第４節第１日",
@@ -3482,7 +3482,7 @@ const List<Match> matches = [
       venue: "三協Ｆ柏",
       att: "",
       broadcast: "ＴＶ放送：スカパー！／インターネット配信：ＳＰＯＯＸ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "ＹＬＣ グループステージＤグループ",
       sec: "第４節第１日",
@@ -3494,7 +3494,7 @@ const List<Match> matches = [
       venue: "ベススタ",
       att: "",
       broadcast: "ＴＶ放送：スカパー！／インターネット配信：ＳＰＯＯＸ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "ＹＬＣ グループステージＥグループ",
       sec: "第４節第１日",
@@ -3506,7 +3506,7 @@ const List<Match> matches = [
       venue: "味スタ",
       att: "",
       broadcast: "ＴＶ放送：フジテレビＮＥＸＴ／インターネット配信：ＦＯＤ／ＳＰＯＯＸ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "ＹＬＣ グループステージＥグループ",
       sec: "第４節第１日",
@@ -3518,7 +3518,7 @@ const List<Match> matches = [
       venue: "ヨドコウ",
       att: "",
       broadcast: "ＴＶ放送：スカパー！／インターネット配信：ＳＰＯＯＸ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第１１節第１日",
@@ -3530,7 +3530,7 @@ const List<Match> matches = [
       venue: "えがおＳ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第９節第１日",
@@ -3542,7 +3542,7 @@ const List<Match> matches = [
       venue: "Ｅスタ",
       att: "",
       broadcast: "ＤＡＺＮ／ＮＨＫ広島"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第９節第１日",
@@ -3554,7 +3554,7 @@ const List<Match> matches = [
       venue: "ノエスタ",
       att: "",
       broadcast: "ＤＡＺＮ／ＮＨＫ　ＢＳ１"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第１１節第２日",
@@ -3566,7 +3566,7 @@ const List<Match> matches = [
       venue: "ＮＡＣＫ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第１１節第２日",
@@ -3578,7 +3578,7 @@ const List<Match> matches = [
       venue: "ＪＩＴス",
       att: "",
       broadcast: "ＤＡＺＮ／テレビ山梨"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第１１節第２日",
@@ -3590,7 +3590,7 @@ const List<Match> matches = [
       venue: "Ｃスタ",
       att: "",
       broadcast: "ＤＡＺＮ／ＲＳＫ山陽放送"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第１１節第２日",
@@ -3602,7 +3602,7 @@ const List<Match> matches = [
       venue: "トラスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第１１節第２日",
@@ -3614,7 +3614,7 @@ const List<Match> matches = [
       venue: "味スタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第９節第２日",
@@ -3626,7 +3626,7 @@ const List<Match> matches = [
       venue: "札幌ド",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第９節第２日",
@@ -3638,7 +3638,7 @@ const List<Match> matches = [
       venue: "デンカＳ",
       att: "",
       broadcast: "ＤＡＺＮ／テレビ新潟"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第９節第２日",
@@ -3650,7 +3650,7 @@ const List<Match> matches = [
       venue: "サンガＳ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第９節第２日",
@@ -3662,7 +3662,7 @@ const List<Match> matches = [
       venue: "ヨドコウ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第９節第２日",
@@ -3674,7 +3674,7 @@ const List<Match> matches = [
       venue: "豊田ス",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第９節第２日",
@@ -3686,7 +3686,7 @@ const List<Match> matches = [
       venue: "等々力",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第９節第２日",
@@ -3698,7 +3698,7 @@ const List<Match> matches = [
       venue: "パナスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第１１節第３日",
@@ -3710,7 +3710,7 @@ const List<Match> matches = [
       venue: "カンセキ",
       att: "",
       broadcast: "ＤＡＺＮ／とちぎテレビ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第１１節第３日",
@@ -3722,7 +3722,7 @@ const List<Match> matches = [
       venue: "正田スタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第１１節第３日",
@@ -3734,7 +3734,7 @@ const List<Match> matches = [
       venue: "石川西部",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第１１節第３日",
@@ -3746,7 +3746,7 @@ const List<Match> matches = [
       venue: "藤枝サ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第１１節第３日",
@@ -3758,7 +3758,7 @@ const List<Match> matches = [
       venue: "レゾド",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第１０節第１日",
@@ -3770,7 +3770,7 @@ const List<Match> matches = [
       venue: "ニッパツ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第１０節第１日",
@@ -3782,7 +3782,7 @@ const List<Match> matches = [
       venue: "ヨドコウ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第１０節第１日",
@@ -3794,7 +3794,7 @@ const List<Match> matches = [
       venue: "ノエスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第１０節第１日",
@@ -3806,7 +3806,7 @@ const List<Match> matches = [
       venue: "三協Ｆ柏",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第１０節第１日",
@@ -3818,7 +3818,7 @@ const List<Match> matches = [
       venue: "味スタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第１０節第１日",
@@ -3830,7 +3830,7 @@ const List<Match> matches = [
       venue: "日産ス",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第１０節第１日",
@@ -3842,7 +3842,7 @@ const List<Match> matches = [
       venue: "ベススタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第１０節第１日",
@@ -3854,7 +3854,7 @@ const List<Match> matches = [
       venue: "カシマ",
       att: "",
       broadcast: "ＤＡＺＮ／ＮＨＫ　ＢＳ１"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第１２節第１日",
@@ -3866,7 +3866,7 @@ const List<Match> matches = [
       venue: "ユアスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第１２節第１日",
@@ -3878,7 +3878,7 @@ const List<Match> matches = [
       venue: "ソユスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第１２節第１日",
@@ -3890,7 +3890,7 @@ const List<Match> matches = [
       venue: "ＮＤスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第１２節第１日",
@@ -3902,7 +3902,7 @@ const List<Match> matches = [
       venue: "いわきＧ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第１２節第１日",
@@ -3914,7 +3914,7 @@ const List<Match> matches = [
       venue: "正田スタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第１２節第１日",
@@ -3926,7 +3926,7 @@ const List<Match> matches = [
       venue: "Ｇスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第１２節第１日",
@@ -3938,7 +3938,7 @@ const List<Match> matches = [
       venue: "アイスタ",
       att: "",
       broadcast: "ＤＡＺＮ／静岡第一テレビ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第１２節第１日",
@@ -3950,7 +3950,7 @@ const List<Match> matches = [
       venue: "ヤマハ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第１２節第１日",
@@ -3962,7 +3962,7 @@ const List<Match> matches = [
       venue: "フクアリ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第１２節第１日",
@@ -3974,7 +3974,7 @@ const List<Match> matches = [
       venue: "Ｋｓスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第８節第１日",
@@ -3986,7 +3986,7 @@ const List<Match> matches = [
       venue: "花園",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第８節第１日",
@@ -3998,7 +3998,7 @@ const List<Match> matches = [
       venue: "Ａｘｉｓ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第８節第１日",
@@ -4010,7 +4010,7 @@ const List<Match> matches = [
       venue: "いわスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第８節第１日",
@@ -4022,7 +4022,7 @@ const List<Match> matches = [
       venue: "富山",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第８節第１日",
@@ -4034,7 +4034,7 @@ const List<Match> matches = [
       venue: "ピカスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第８節第１日",
@@ -4046,7 +4046,7 @@ const List<Match> matches = [
       venue: "ミクスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第８節第１日",
@@ -4058,7 +4058,7 @@ const List<Match> matches = [
       venue: "ニンスタ",
       att: "",
       broadcast: "ＤＡＺＮ／南海放送（録）"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第１２節第２日",
@@ -4070,7 +4070,7 @@ const List<Match> matches = [
       venue: "石川西部",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第８節第２日",
@@ -4082,7 +4082,7 @@ const List<Match> matches = [
       venue: "ニッパツ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第８節第２日",
@@ -4094,7 +4094,7 @@ const List<Match> matches = [
       venue: "ユニスタ",
       att: "",
       broadcast: "ＤＡＺＮ／ＮＨＫ宮崎"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第８節第２日",
@@ -4106,7 +4106,7 @@ const List<Match> matches = [
       venue: "長野Ｕ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第１１節第１日",
@@ -4118,7 +4118,7 @@ const List<Match> matches = [
       venue: "札幌ド",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第１１節第１日",
@@ -4130,7 +4130,7 @@ const List<Match> matches = [
       venue: "サンガＳ",
       att: "",
       broadcast: "ＤＡＺＮ／ＫＢＳ京都（録）"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第１１節第１日",
@@ -4142,7 +4142,7 @@ const List<Match> matches = [
       venue: "パナスタ",
       att: "",
       broadcast: "ＤＡＺＮ／ＮＨＫ大阪"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第１１節第１日",
@@ -4154,7 +4154,7 @@ const List<Match> matches = [
       venue: "レモンＳ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第１１節第１日",
@@ -4166,7 +4166,7 @@ const List<Match> matches = [
       venue: "豊田ス",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第１１節第１日",
@@ -4178,7 +4178,7 @@ const List<Match> matches = [
       venue: "ベススタ",
       att: "",
       broadcast: "ＤＡＺＮ／福岡放送"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第１１節第１日",
@@ -4190,7 +4190,7 @@ const List<Match> matches = [
       venue: "駅スタ",
       att: "",
       broadcast: "ＤＡＺＮ／ＮＨＫ佐賀"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第１１節第１日",
@@ -4202,7 +4202,7 @@ const List<Match> matches = [
       venue: "ニッパツ",
       att: "",
       broadcast: "ＤＡＺＮ／ＮＨＫ　ＢＳ１"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第１３節第１日",
@@ -4214,7 +4214,7 @@ const List<Match> matches = [
       venue: "えがおＳ",
       att: "",
       broadcast: "ＤＡＺＮ／テレビ熊本"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第１３節第１日",
@@ -4226,7 +4226,7 @@ const List<Match> matches = [
       venue: "ユアスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第１３節第１日",
@@ -4238,7 +4238,7 @@ const List<Match> matches = [
       venue: "ＮＡＣＫ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第１３節第１日",
@@ -4250,7 +4250,7 @@ const List<Match> matches = [
       venue: "ＪＩＴス",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第１３節第１日",
@@ -4262,7 +4262,7 @@ const List<Match> matches = [
       venue: "藤枝サ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第１３節第１日",
@@ -4274,7 +4274,7 @@ const List<Match> matches = [
       venue: "Ｃスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第１３節第１日",
@@ -4286,7 +4286,7 @@ const List<Match> matches = [
       venue: "みらスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第１３節第１日",
@@ -4298,7 +4298,7 @@ const List<Match> matches = [
       venue: "鳴門大塚",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第１３節第１日",
@@ -4310,7 +4310,7 @@ const List<Match> matches = [
       venue: "トラスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第１３節第１日",
@@ -4322,7 +4322,7 @@ const List<Match> matches = [
       venue: "カンセキ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第１３節第１日",
@@ -4334,7 +4334,7 @@ const List<Match> matches = [
       venue: "味スタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第９節第１日",
@@ -4346,7 +4346,7 @@ const List<Match> matches = [
       venue: "ロートＦ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第９節第１日",
@@ -4358,7 +4358,7 @@ const List<Match> matches = [
       venue: "とうスタ",
       att: "",
       broadcast: "ＤＡＺＮ／テレビユー福島"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第９節第１日",
@@ -4370,7 +4370,7 @@ const List<Match> matches = [
       venue: "いわスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第９節第１日",
@@ -4382,7 +4382,7 @@ const List<Match> matches = [
       venue: "愛鷹",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第９節第１日",
@@ -4394,7 +4394,7 @@ const List<Match> matches = [
       venue: "長良川",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第９節第１日",
@@ -4406,7 +4406,7 @@ const List<Match> matches = [
       venue: "サンアル",
       att: "",
       broadcast: "ＤＡＺＮ／テレビ信州"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第９節第１日",
@@ -4418,7 +4418,7 @@ const List<Match> matches = [
       venue: "タピスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第９節第２日",
@@ -4430,7 +4430,7 @@ const List<Match> matches = [
       venue: "プラスタ",
       att: "",
       broadcast: "ＤＡＺＮ／青森朝日放送"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第９節第２日",
@@ -4442,7 +4442,7 @@ const List<Match> matches = [
       venue: "ギオンス",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第９節第２日",
@@ -4454,7 +4454,7 @@ const List<Match> matches = [
       venue: "白波スタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第１２節第１日",
@@ -4466,7 +4466,7 @@ const List<Match> matches = [
       venue: "札幌ド",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第１２節第１日",
@@ -4478,7 +4478,7 @@ const List<Match> matches = [
       venue: "豊田ス",
       att: "",
       broadcast: "ＤＡＺＮ／ＮＨＫ　ＢＳ１"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第１２節第２日",
@@ -4490,7 +4490,7 @@ const List<Match> matches = [
       venue: "Ｅスタ",
       att: "",
       broadcast: "ＤＡＺＮ／テレビ新広島"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第１２節第２日",
@@ -4502,7 +4502,7 @@ const List<Match> matches = [
       venue: "日産ス",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第１２節第２日",
@@ -4514,7 +4514,7 @@ const List<Match> matches = [
       venue: "デンカＳ",
       att: "",
       broadcast: "ＤＡＺＮ／新潟放送"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第１２節第２日",
@@ -4526,7 +4526,7 @@ const List<Match> matches = [
       venue: "ヨドコウ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第１２節第２日",
@@ -4538,7 +4538,7 @@ const List<Match> matches = [
       venue: "ノエスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第１２節第２日",
@@ -4550,7 +4550,7 @@ const List<Match> matches = [
       venue: "等々力",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第１４節第１日",
@@ -4562,7 +4562,7 @@ const List<Match> matches = [
       venue: "えがおＳ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第１４節第１日",
@@ -4574,7 +4574,7 @@ const List<Match> matches = [
       venue: "ソユスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第１４節第１日",
@@ -4586,7 +4586,7 @@ const List<Match> matches = [
       venue: "ＮＤスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第１４節第１日",
@@ -4598,7 +4598,7 @@ const List<Match> matches = [
       venue: "正田スタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第１４節第１日",
@@ -4610,7 +4610,7 @@ const List<Match> matches = [
       venue: "ＮＡＣＫ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第１４節第１日",
@@ -4622,7 +4622,7 @@ const List<Match> matches = [
       venue: "Ｇスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第１４節第１日",
@@ -4634,7 +4634,7 @@ const List<Match> matches = [
       venue: "アイスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第１４節第１日",
@@ -4646,7 +4646,7 @@ const List<Match> matches = [
       venue: "トラスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第１４節第１日",
@@ -4658,7 +4658,7 @@ const List<Match> matches = [
       venue: "レゾド",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第１４節第１日",
@@ -4670,7 +4670,7 @@ const List<Match> matches = [
       venue: "Ｋｓスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第１４節第１日",
@@ -4682,7 +4682,7 @@ const List<Match> matches = [
       venue: "フクアリ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第１０節第２日",
@@ -4694,7 +4694,7 @@ const List<Match> matches = [
       venue: "埼玉",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第１３節第１日",
@@ -4706,7 +4706,7 @@ const List<Match> matches = [
       venue: "国立",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第１３節第２日",
@@ -4718,7 +4718,7 @@ const List<Match> matches = [
       venue: "ノエスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第１３節第２日",
@@ -4730,7 +4730,7 @@ const List<Match> matches = [
       venue: "レモンＳ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第１３節第２日",
@@ -4742,7 +4742,7 @@ const List<Match> matches = [
       venue: "三協Ｆ柏",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第１５節第１日",
@@ -4754,7 +4754,7 @@ const List<Match> matches = [
       venue: "Ｃスタ",
       att: "",
       broadcast: "ＤＡＺＮ／岡山放送"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第１５節第１日",
@@ -4766,7 +4766,7 @@ const List<Match> matches = [
       venue: "みらスタ",
       att: "",
       broadcast: "ＤＡＺＮ／山口放送"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第１５節第１日",
@@ -4778,7 +4778,7 @@ const List<Match> matches = [
       venue: "ユアスタ",
       att: "",
       broadcast: "ＤＡＺＮ／ＮＨＫ仙台／ＮＨＫ山形"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第１５節第１日",
@@ -4790,7 +4790,7 @@ const List<Match> matches = [
       venue: "ＪＩＴス",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第１５節第１日",
@@ -4802,7 +4802,7 @@ const List<Match> matches = [
       venue: "石川西部",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第１５節第１日",
@@ -4814,7 +4814,7 @@ const List<Match> matches = [
       venue: "アイスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第１５節第１日",
@@ -4826,7 +4826,7 @@ const List<Match> matches = [
       venue: "ヤマハ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第１５節第１日",
@@ -4838,7 +4838,7 @@ const List<Match> matches = [
       venue: "味スタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第１５節第１日",
@@ -4850,7 +4850,7 @@ const List<Match> matches = [
       venue: "レゾド",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第１５節第１日",
@@ -4862,7 +4862,7 @@ const List<Match> matches = [
       venue: "Ｋｓスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第１０節第１日",
@@ -4874,7 +4874,7 @@ const List<Match> matches = [
       venue: "ニッパツ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第１０節第１日",
@@ -4886,7 +4886,7 @@ const List<Match> matches = [
       venue: "ロートＦ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第１０節第１日",
@@ -4898,7 +4898,7 @@ const List<Match> matches = [
       venue: "長野Ｕ",
       att: "",
       broadcast: "ＤＡＺＮ／ＮＨＫ長野"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第１３節第３日",
@@ -4910,7 +4910,7 @@ const List<Match> matches = [
       venue: "国立",
       att: "",
       broadcast: "ＤＡＺＮ／ＮＨＫ総合"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第１３節第３日",
@@ -4922,7 +4922,7 @@ const List<Match> matches = [
       venue: "デンカＳ",
       att: "",
       broadcast: "ＤＡＺＮ／ＮＨＫ新潟"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第１３節第３日",
@@ -4934,7 +4934,7 @@ const List<Match> matches = [
       venue: "サンガＳ",
       att: "",
       broadcast: "ＤＡＺＮ／ＮＨＫ京都／ＫＢＳ京都（録）"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第１３節第３日",
@@ -4946,7 +4946,7 @@ const List<Match> matches = [
       venue: "ベススタ",
       att: "",
       broadcast: "ＤＡＺＮ／ＮＨＫ福岡／ＮＨＫ佐賀"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第１３節第３日",
@@ -4958,7 +4958,7 @@ const List<Match> matches = [
       venue: "埼玉",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第１５節第２日",
@@ -4970,7 +4970,7 @@ const List<Match> matches = [
       venue: "いわきＧ",
       att: "",
       broadcast: "ＤＡＺＮ／ＮＨＫ福島／ＮＨＫ秋田"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第１０節第２日",
@@ -4982,7 +4982,7 @@ const List<Match> matches = [
       venue: "ヤジン",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第１０節第２日",
@@ -4994,7 +4994,7 @@ const List<Match> matches = [
       venue: "プラスタ",
       att: "",
       broadcast: "ＤＡＺＮ／ＮＨＫ青森／ＮＨＫ盛岡"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第１０節第２日",
@@ -5006,7 +5006,7 @@ const List<Match> matches = [
       venue: "里山Ｓ",
       att: "",
       broadcast: "ＤＡＺＮ／ＮＨＫ松山／愛媛朝日テレビ（録）"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第１０節第２日",
@@ -5018,7 +5018,7 @@ const List<Match> matches = [
       venue: "白波スタ",
       att: "",
       broadcast: "ＤＡＺＮ／ＮＨＫ鹿児島"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第１０節第２日",
@@ -5030,7 +5030,7 @@ const List<Match> matches = [
       venue: "富山",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第１０節第２日",
@@ -5042,7 +5042,7 @@ const List<Match> matches = [
       venue: "ピカスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第１０節第２日",
@@ -5054,7 +5054,7 @@ const List<Match> matches = [
       venue: "ミクスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第１６節第１日",
@@ -5066,7 +5066,7 @@ const List<Match> matches = [
       venue: "ＮＤスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第１６節第１日",
@@ -5078,7 +5078,7 @@ const List<Match> matches = [
       venue: "ソユスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第１６節第１日",
@@ -5090,7 +5090,7 @@ const List<Match> matches = [
       venue: "いわきＧ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第１６節第１日",
@@ -5102,7 +5102,7 @@ const List<Match> matches = [
       venue: "カンセキ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第１６節第１日",
@@ -5114,7 +5114,7 @@ const List<Match> matches = [
       venue: "正田スタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第１６節第１日",
@@ -5126,7 +5126,7 @@ const List<Match> matches = [
       venue: "フクアリ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第１６節第１日",
@@ -5138,7 +5138,7 @@ const List<Match> matches = [
       venue: "Ｇスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第１６節第１日",
@@ -5150,7 +5150,7 @@ const List<Match> matches = [
       venue: "藤枝サ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第１６節第１日",
@@ -5162,7 +5162,7 @@ const List<Match> matches = [
       venue: "鳴門大塚",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第１６節第１日",
@@ -5174,7 +5174,7 @@ const List<Match> matches = [
       venue: "トラスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第１６節第１日",
@@ -5186,7 +5186,7 @@ const List<Match> matches = [
       venue: "えがおＳ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第１４節第１日",
@@ -5198,7 +5198,7 @@ const List<Match> matches = [
       venue: "札幌ド",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第１４節第２日",
@@ -5210,7 +5210,7 @@ const List<Match> matches = [
       venue: "ベススタ",
       att: "",
       broadcast: "ＤＡＺＮ／九州朝日放送"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第１４節第２日",
@@ -5222,7 +5222,7 @@ const List<Match> matches = [
       venue: "カシマ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第１４節第２日",
@@ -5234,7 +5234,7 @@ const List<Match> matches = [
       venue: "レモンＳ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第１４節第２日",
@@ -5246,7 +5246,7 @@ const List<Match> matches = [
       venue: "豊田ス",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第１４節第２日",
@@ -5258,7 +5258,7 @@ const List<Match> matches = [
       venue: "三協Ｆ柏",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第１４節第２日",
@@ -5270,7 +5270,7 @@ const List<Match> matches = [
       venue: "ニッパツ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第１４節第２日",
@@ -5282,7 +5282,7 @@ const List<Match> matches = [
       venue: "駅スタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第１４節第２日",
@@ -5294,7 +5294,7 @@ const List<Match> matches = [
       venue: "パナスタ",
       att: "",
       broadcast: "ＤＡＺＮ／ＮＨＫ　ＢＳ１"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第１７節第１日",
@@ -5306,7 +5306,7 @@ const List<Match> matches = [
       venue: "ＮＤスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第１７節第１日",
@@ -5318,7 +5318,7 @@ const List<Match> matches = [
       venue: "ＮＡＣＫ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第１７節第１日",
@@ -5330,7 +5330,7 @@ const List<Match> matches = [
       venue: "フクアリ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第１７節第１日",
@@ -5342,7 +5342,7 @@ const List<Match> matches = [
       venue: "Ｇスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第１７節第１日",
@@ -5354,7 +5354,7 @@ const List<Match> matches = [
       venue: "石川西部",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第１７節第１日",
@@ -5366,7 +5366,7 @@ const List<Match> matches = [
       venue: "藤枝サ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第１７節第１日",
@@ -5378,7 +5378,7 @@ const List<Match> matches = [
       venue: "みらスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第１７節第１日",
@@ -5390,7 +5390,7 @@ const List<Match> matches = [
       venue: "レゾド",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第１７節第１日",
@@ -5402,7 +5402,7 @@ const List<Match> matches = [
       venue: "Ｋｓスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第１７節第１日",
@@ -5414,7 +5414,7 @@ const List<Match> matches = [
       venue: "ヤマハ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第１７節第１日",
@@ -5426,7 +5426,7 @@ const List<Match> matches = [
       venue: "Ｃスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "ＹＬＣ グループステージＡグループ",
       sec: "第５節第１日",
@@ -5438,7 +5438,7 @@ const List<Match> matches = [
       venue: "札幌ド",
       att: "",
       broadcast: "ＴＶ放送：フジテレビＮＥＸＴ／インターネット配信：ＦＯＤ／ＳＰＯＯＸ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "ＹＬＣ グループステージＡグループ",
       sec: "第５節第１日",
@@ -5450,7 +5450,7 @@ const List<Match> matches = [
       venue: "駅スタ",
       att: "",
       broadcast: "ＴＶ放送：スカパー！／インターネット配信：ＳＰＯＯＸ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "ＹＬＣ グループステージＢグループ",
       sec: "第５節第１日",
@@ -5462,7 +5462,7 @@ const List<Match> matches = [
       venue: "アイスタ",
       att: "",
       broadcast: "ＴＶ放送：スカパー！／インターネット配信：ＳＰＯＯＸ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "ＹＬＣ グループステージＢグループ",
       sec: "第５節第１日",
@@ -5474,7 +5474,7 @@ const List<Match> matches = [
       venue: "埼玉",
       att: "",
       broadcast: "ＴＶ放送：フジテレビＴＷＯ／インターネット配信：ＦＯＤ／ＳＰＯＯＸ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "ＹＬＣ グループステージＣグループ",
       sec: "第５節第１日",
@@ -5486,7 +5486,7 @@ const List<Match> matches = [
       venue: "ニッパツ",
       att: "",
       broadcast: "ＴＶ放送：スカパー！／インターネット配信：ＳＰＯＯＸ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "ＹＬＣ グループステージＣグループ",
       sec: "第５節第１日",
@@ -5498,7 +5498,7 @@ const List<Match> matches = [
       venue: "豊田ス",
       att: "",
       broadcast: "ＴＶ放送：スカパー！／インターネット配信：ＳＰＯＯＸ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "ＹＬＣ グループステージＤグループ",
       sec: "第５節第１日",
@@ -5510,7 +5510,7 @@ const List<Match> matches = [
       venue: "カシマ",
       att: "",
       broadcast: "ＴＶ放送：スカパー！／インターネット配信：ＳＰＯＯＸ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "ＹＬＣ グループステージＤグループ",
       sec: "第５節第１日",
@@ -5522,7 +5522,7 @@ const List<Match> matches = [
       venue: "デンカＳ",
       att: "",
       broadcast: "ＴＶ放送：スカパー！／インターネット配信：ＳＰＯＯＸ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "ＹＬＣ グループステージＥグループ",
       sec: "第５節第１日",
@@ -5534,7 +5534,7 @@ const List<Match> matches = [
       venue: "味スタ",
       att: "",
       broadcast: "ＴＶ放送：スカパー！／インターネット配信：ＳＰＯＯＸ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "ＹＬＣ グループステージＥグループ",
       sec: "第５節第１日",
@@ -5546,7 +5546,7 @@ const List<Match> matches = [
       venue: "パナスタ",
       att: "",
       broadcast: "ＴＶ放送：スカパー！／インターネット配信：ＳＰＯＯＸ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第１５節第１日",
@@ -5558,7 +5558,7 @@ const List<Match> matches = [
       venue: "札幌ド",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第１５節第１日",
@@ -5570,7 +5570,7 @@ const List<Match> matches = [
       venue: "ノエスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第１５節第１日",
@@ -5582,7 +5582,7 @@ const List<Match> matches = [
       venue: "Ｅスタ",
       att: "",
       broadcast: "ＤＡＺＮ／広島ホームテレビ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第１５節第１日",
@@ -5594,7 +5594,7 @@ const List<Match> matches = [
       venue: "駅スタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第１５節第１日",
@@ -5606,7 +5606,7 @@ const List<Match> matches = [
       venue: "サンガＳ",
       att: "",
       broadcast: "ＤＡＺＮ／ＮＨＫ　ＢＳ１"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第１８節第１日",
@@ -5618,7 +5618,7 @@ const List<Match> matches = [
       venue: "ＪＩＴス",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第１８節第１日",
@@ -5630,7 +5630,7 @@ const List<Match> matches = [
       venue: "トラスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第１１節第１日",
@@ -5642,7 +5642,7 @@ const List<Match> matches = [
       venue: "ニッパツ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第１１節第１日",
@@ -5654,7 +5654,7 @@ const List<Match> matches = [
       venue: "花園",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第１１節第１日",
@@ -5666,7 +5666,7 @@ const List<Match> matches = [
       venue: "ピカスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第１１節第１日",
@@ -5678,7 +5678,7 @@ const List<Match> matches = [
       venue: "ニンスタ",
       att: "",
       broadcast: "ＤＡＺＮ／南海放送（録）"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第１５節第２日",
@@ -5690,7 +5690,7 @@ const List<Match> matches = [
       venue: "日産ス",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第１５節第２日",
@@ -5702,7 +5702,7 @@ const List<Match> matches = [
       venue: "デンカＳ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第１５節第２日",
@@ -5714,7 +5714,7 @@ const List<Match> matches = [
       venue: "ヨドコウ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第１５節第２日",
@@ -5726,7 +5726,7 @@ const List<Match> matches = [
       venue: "等々力",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第１８節第２日",
@@ -5738,7 +5738,7 @@ const List<Match> matches = [
       venue: "ユアスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第１８節第２日",
@@ -5750,7 +5750,7 @@ const List<Match> matches = [
       venue: "ソユスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第１８節第２日",
@@ -5762,7 +5762,7 @@ const List<Match> matches = [
       venue: "カンセキ",
       att: "",
       broadcast: "ＤＡＺＮ／とちぎテレビ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第１８節第２日",
@@ -5774,7 +5774,7 @@ const List<Match> matches = [
       venue: "正田スタ",
       att: "",
       broadcast: "ＤＡＺＮ／群馬テレビ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第１８節第２日",
@@ -5786,7 +5786,7 @@ const List<Match> matches = [
       venue: "味スタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第１８節第２日",
@@ -5798,7 +5798,7 @@ const List<Match> matches = [
       venue: "アイスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第１８節第２日",
@@ -5810,7 +5810,7 @@ const List<Match> matches = [
       venue: "鳴門大塚",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第１８節第２日",
@@ -5822,7 +5822,7 @@ const List<Match> matches = [
       venue: "えがおＳ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第１８節第２日",
@@ -5834,7 +5834,7 @@ const List<Match> matches = [
       venue: "Ｋｓスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第１１節第２日",
@@ -5846,7 +5846,7 @@ const List<Match> matches = [
       venue: "サンアル",
       att: "",
       broadcast: "ＤＡＺＮ／長野放送"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第１１節第２日",
@@ -5858,7 +5858,7 @@ const List<Match> matches = [
       venue: "里山Ｓ",
       att: "",
       broadcast: "ＤＡＺＮ／愛媛朝日テレビ（録）"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第１１節第２日",
@@ -5870,7 +5870,7 @@ const List<Match> matches = [
       venue: "ユニスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第１１節第２日",
@@ -5882,7 +5882,7 @@ const List<Match> matches = [
       venue: "ギオンス",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第１１節第２日",
@@ -5894,7 +5894,7 @@ const List<Match> matches = [
       venue: "愛鷹",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第１１節第２日",
@@ -5906,7 +5906,7 @@ const List<Match> matches = [
       venue: "長良川",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第１１節第２日",
@@ -5918,7 +5918,7 @@ const List<Match> matches = [
       venue: "埼玉",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第１６節第１日",
@@ -5930,7 +5930,7 @@ const List<Match> matches = [
       venue: "ノエスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第１６節第１日",
@@ -5942,7 +5942,7 @@ const List<Match> matches = [
       venue: "味スタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第１６節第１日",
@@ -5954,7 +5954,7 @@ const List<Match> matches = [
       venue: "レモンＳ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第１６節第１日",
@@ -5966,7 +5966,7 @@ const List<Match> matches = [
       venue: "豊田ス",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第１６節第１日",
@@ -5978,7 +5978,7 @@ const List<Match> matches = [
       venue: "ベススタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第１６節第１日",
@@ -5990,7 +5990,7 @@ const List<Match> matches = [
       venue: "ニッパツ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第１６節第１日",
@@ -6002,7 +6002,7 @@ const List<Match> matches = [
       venue: "三協Ｆ柏",
       att: "",
       broadcast: "ＤＡＺＮ／ＮＨＫ　ＢＳ１"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第１９節第１日",
@@ -6014,7 +6014,7 @@ const List<Match> matches = [
       venue: "いわきＧ",
       att: "",
       broadcast: "ＤＡＺＮ／福島中央テレビ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第１９節第１日",
@@ -6026,7 +6026,7 @@ const List<Match> matches = [
       venue: "ＮＤスタ",
       att: "",
       broadcast: "ＤＡＺＮ／さくらんぼテレビ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第１９節第１日",
@@ -6038,7 +6038,7 @@ const List<Match> matches = [
       venue: "ＮＡＣＫ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第１９節第１日",
@@ -6050,7 +6050,7 @@ const List<Match> matches = [
       venue: "石川西部",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第１９節第１日",
@@ -6062,7 +6062,7 @@ const List<Match> matches = [
       venue: "藤枝サ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第１９節第１日",
@@ -6074,7 +6074,7 @@ const List<Match> matches = [
       venue: "みらスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第１９節第１日",
@@ -6086,7 +6086,7 @@ const List<Match> matches = [
       venue: "ヤマハ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第１９節第１日",
@@ -6098,7 +6098,7 @@ const List<Match> matches = [
       venue: "フクアリ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第１９節第１日",
@@ -6110,7 +6110,7 @@ const List<Match> matches = [
       venue: "Ｃスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第１２節第１日",
@@ -6122,7 +6122,7 @@ const List<Match> matches = [
       venue: "あいづ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第１２節第１日",
@@ -6134,7 +6134,7 @@ const List<Match> matches = [
       venue: "サンアル",
       att: "",
       broadcast: "ＤＡＺＮ／長野朝日放送"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第１２節第１日",
@@ -6146,7 +6146,7 @@ const List<Match> matches = [
       venue: "ミクスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第１２節第１日",
@@ -6158,7 +6158,7 @@ const List<Match> matches = [
       venue: "ロートＦ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第１２節第１日",
@@ -6170,7 +6170,7 @@ const List<Match> matches = [
       venue: "いわスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第１２節第１日",
@@ -6182,7 +6182,7 @@ const List<Match> matches = [
       venue: "タピスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第１６節第２日",
@@ -6194,7 +6194,7 @@ const List<Match> matches = [
       venue: "Ｅスタ",
       att: "",
       broadcast: "ＤＡＺＮ／広島ホームテレビ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第１６節第２日",
@@ -6206,7 +6206,7 @@ const List<Match> matches = [
       venue: "埼玉",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第１９節第２日",
@@ -6218,7 +6218,7 @@ const List<Match> matches = [
       venue: "味スタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第１９節第２日",
@@ -6230,7 +6230,7 @@ const List<Match> matches = [
       venue: "レゾド",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第１２節第２日",
@@ -6242,7 +6242,7 @@ const List<Match> matches = [
       venue: "花園",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第１２節第２日",
@@ -6254,7 +6254,7 @@ const List<Match> matches = [
       venue: "Ａｘｉｓ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第１２節第２日",
@@ -6266,7 +6266,7 @@ const List<Match> matches = [
       venue: "プラスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第１２節第２日",
@@ -6278,7 +6278,7 @@ const List<Match> matches = [
       venue: "富山",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第１７節第１日",
@@ -6290,7 +6290,7 @@ const List<Match> matches = [
       venue: "日産ス",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第１７節第１日",
@@ -6302,7 +6302,7 @@ const List<Match> matches = [
       venue: "ヨドコウ",
       att: "",
       broadcast: "ＤＡＺＮ／ＮＨＫ　ＢＳ１"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第１７節第１日",
@@ -6314,7 +6314,7 @@ const List<Match> matches = [
       venue: "駅スタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第１３節第１日",
@@ -6326,7 +6326,7 @@ const List<Match> matches = [
       venue: "ニッパツ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第１３節第１日",
@@ -6338,7 +6338,7 @@ const List<Match> matches = [
       venue: "白波スタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第１７節第２日",
@@ -6350,7 +6350,7 @@ const List<Match> matches = [
       venue: "デンカＳ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第１７節第２日",
@@ -6362,7 +6362,7 @@ const List<Match> matches = [
       venue: "豊田ス",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第１７節第２日",
@@ -6374,7 +6374,7 @@ const List<Match> matches = [
       venue: "カシマ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第１７節第２日",
@@ -6386,7 +6386,7 @@ const List<Match> matches = [
       venue: "パナスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第１７節第２日",
@@ -6398,7 +6398,7 @@ const List<Match> matches = [
       venue: "ニッパツ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第１７節第２日",
@@ -6410,7 +6410,7 @@ const List<Match> matches = [
       venue: "等々力",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第２０節第１日",
@@ -6422,7 +6422,7 @@ const List<Match> matches = [
       venue: "ユアスタ",
       att: "",
       broadcast: "ＤＡＺＮ／ＮＨＫ仙台"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第２０節第１日",
@@ -6434,7 +6434,7 @@ const List<Match> matches = [
       venue: "ソユスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第２０節第１日",
@@ -6446,7 +6446,7 @@ const List<Match> matches = [
       venue: "ＮＤスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第２０節第１日",
@@ -6458,7 +6458,7 @@ const List<Match> matches = [
       venue: "Ｇスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第２０節第１日",
@@ -6470,7 +6470,7 @@ const List<Match> matches = [
       venue: "Ｋｓスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第２０節第１日",
@@ -6482,7 +6482,7 @@ const List<Match> matches = [
       venue: "ＪＩＴス",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第２０節第１日",
@@ -6494,7 +6494,7 @@ const List<Match> matches = [
       venue: "鳴門大塚",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第２０節第１日",
@@ -6506,7 +6506,7 @@ const List<Match> matches = [
       venue: "正田スタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第２０節第１日",
@@ -6518,7 +6518,7 @@ const List<Match> matches = [
       venue: "ＮＡＣＫ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第２０節第１日",
@@ -6530,7 +6530,7 @@ const List<Match> matches = [
       venue: "Ｃスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第２０節第１日",
@@ -6542,7 +6542,7 @@ const List<Match> matches = [
       venue: "えがおＳ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第１３節第２日",
@@ -6554,7 +6554,7 @@ const List<Match> matches = [
       venue: "富山",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第１３節第２日",
@@ -6566,7 +6566,7 @@ const List<Match> matches = [
       venue: "愛鷹",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第１３節第２日",
@@ -6578,7 +6578,7 @@ const List<Match> matches = [
       venue: "とうスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第１３節第２日",
@@ -6590,7 +6590,7 @@ const List<Match> matches = [
       venue: "ピカスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第１３節第２日",
@@ -6602,7 +6602,7 @@ const List<Match> matches = [
       venue: "ミクスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第１３節第２日",
@@ -6614,7 +6614,7 @@ const List<Match> matches = [
       venue: "ギオンス",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第１３節第２日",
@@ -6626,7 +6626,7 @@ const List<Match> matches = [
       venue: "長野Ｕ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第１３節第２日",
@@ -6638,7 +6638,7 @@ const List<Match> matches = [
       venue: "里山Ｓ",
       att: "",
       broadcast: "ＤＡＺＮ／愛媛朝日テレビ（録）"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第２１節第１日",
@@ -6650,7 +6650,7 @@ const List<Match> matches = [
       venue: "藤枝サ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第２１節第１日",
@@ -6662,7 +6662,7 @@ const List<Match> matches = [
       venue: "石川西部",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第２１節第１日",
@@ -6674,7 +6674,7 @@ const List<Match> matches = [
       venue: "鳴門大塚",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第２１節第１日",
@@ -6686,7 +6686,7 @@ const List<Match> matches = [
       venue: "トラスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第２１節第１日",
@@ -6698,7 +6698,7 @@ const List<Match> matches = [
       venue: "レゾド",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第１４節第１日",
@@ -6710,7 +6710,7 @@ const List<Match> matches = [
       venue: "ユニスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第１４節第１日",
@@ -6722,7 +6722,7 @@ const List<Match> matches = [
       venue: "いわスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第１４節第１日",
@@ -6734,7 +6734,7 @@ const List<Match> matches = [
       venue: "サンアル",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第１４節第１日",
@@ -6746,7 +6746,7 @@ const List<Match> matches = [
       venue: "ニンスタ",
       att: "",
       broadcast: "ＤＡＺＮ／南海放送（録）"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第１４節第１日",
@@ -6758,7 +6758,7 @@ const List<Match> matches = [
       venue: "Ａｘｉｓ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "ＹＬＣ グループステージＡグループ",
       sec: "第６節第１日",
@@ -6770,7 +6770,7 @@ const List<Match> matches = [
       venue: "札幌ド",
       att: "",
       broadcast: "ＴＶ放送：スカパー！／インターネット配信：ＳＰＯＯＸ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "ＹＬＣ グループステージＡグループ",
       sec: "第６節第１日",
@@ -6782,7 +6782,7 @@ const List<Match> matches = [
       venue: "ニッパツ",
       att: "",
       broadcast: "ＴＶ放送：スカパー！／インターネット配信：ＳＰＯＯＸ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "ＹＬＣ グループステージＢグループ",
       sec: "第６節第１日",
@@ -6794,7 +6794,7 @@ const List<Match> matches = [
       venue: "レモンＳ",
       att: "",
       broadcast: "ＴＶ放送：スカパー！／インターネット配信：ＳＰＯＯＸ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "ＹＬＣ グループステージＢグループ",
       sec: "第６節第１日",
@@ -6806,7 +6806,7 @@ const List<Match> matches = [
       venue: "アイスタ",
       att: "",
       broadcast: "ＴＶ放送：フジテレビＴＷＯ／インターネット配信：ＦＯＤ／ＳＰＯＯＸ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "ＹＬＣ グループステージＣグループ",
       sec: "第６節第１日",
@@ -6818,7 +6818,7 @@ const List<Match> matches = [
       venue: "豊田ス",
       att: "",
       broadcast: "ＴＶ放送：スカパー！／インターネット配信：ＳＰＯＯＸ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "ＹＬＣ グループステージＣグループ",
       sec: "第６節第１日",
@@ -6830,7 +6830,7 @@ const List<Match> matches = [
       venue: "ノエスタ",
       att: "",
       broadcast: "ＴＶ放送：スカパー！／インターネット配信：ＳＰＯＯＸ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "ＹＬＣ グループステージＤグループ",
       sec: "第６節第１日",
@@ -6842,7 +6842,7 @@ const List<Match> matches = [
       venue: "カシマ",
       att: "",
       broadcast: "ＴＶ放送：スカパー！／インターネット配信：ＳＰＯＯＸ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "ＹＬＣ グループステージＤグループ",
       sec: "第６節第１日",
@@ -6854,7 +6854,7 @@ const List<Match> matches = [
       venue: "三協Ｆ柏",
       att: "",
       broadcast: "ＴＶ放送：スカパー！／インターネット配信：ＳＰＯＯＸ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "ＹＬＣ グループステージＥグループ",
       sec: "第６節第１日",
@@ -6866,7 +6866,7 @@ const List<Match> matches = [
       venue: "サンガＳ",
       att: "",
       broadcast: "ＴＶ放送：フジテレビＮＥＸＴ／インターネット配信：ＦＯＤ／ＳＰＯＯＸ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "ＹＬＣ グループステージＥグループ",
       sec: "第６節第１日",
@@ -6878,7 +6878,7 @@ const List<Match> matches = [
       venue: "ヨドコウ",
       att: "",
       broadcast: "ＴＶ放送：スカパー！／インターネット配信：ＳＰＯＯＸ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第２１節第２日",
@@ -6890,7 +6890,7 @@ const List<Match> matches = [
       venue: "みらスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第２１節第２日",
@@ -6902,7 +6902,7 @@ const List<Match> matches = [
       venue: "いわきＧ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第２１節第２日",
@@ -6914,7 +6914,7 @@ const List<Match> matches = [
       venue: "カンセキ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第２１節第２日",
@@ -6926,7 +6926,7 @@ const List<Match> matches = [
       venue: "味スタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第１４節第２日",
@@ -6938,7 +6938,7 @@ const List<Match> matches = [
       venue: "プラスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第１４節第２日",
@@ -6950,7 +6950,7 @@ const List<Match> matches = [
       venue: "長野Ｕ",
       att: "",
       broadcast: "ＤＡＺＮ／信越放送"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第１４節第２日",
@@ -6962,7 +6962,7 @@ const List<Match> matches = [
       venue: "愛鷹",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第１４節第２日",
@@ -6974,7 +6974,7 @@ const List<Match> matches = [
       venue: "花園",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第１４節第２日",
@@ -6986,7 +6986,7 @@ const List<Match> matches = [
       venue: "長良川",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第１８節第１日",
@@ -6998,7 +6998,7 @@ const List<Match> matches = [
       venue: "札幌ド",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第１８節第１日",
@@ -7010,7 +7010,7 @@ const List<Match> matches = [
       venue: "三協Ｆ柏",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第１８節第１日",
@@ -7022,7 +7022,7 @@ const List<Match> matches = [
       venue: "味スタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第１８節第１日",
@@ -7034,7 +7034,7 @@ const List<Match> matches = [
       venue: "レモンＳ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第１８節第１日",
@@ -7046,7 +7046,7 @@ const List<Match> matches = [
       venue: "サンガＳ",
       att: "",
       broadcast: "ＤＡＺＮ／ＫＢＳ京都"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第１８節第１日",
@@ -7058,7 +7058,7 @@ const List<Match> matches = [
       venue: "パナスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第１８節第１日",
@@ -7070,7 +7070,7 @@ const List<Match> matches = [
       venue: "Ｅスタ",
       att: "",
       broadcast: "ＤＡＺＮ／ＮＨＫ　ＢＳ１"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第１８節第１日",
@@ -7082,7 +7082,7 @@ const List<Match> matches = [
       venue: "埼玉",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第２２節第１日",
@@ -7094,7 +7094,7 @@ const List<Match> matches = [
       venue: "ソユスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第２２節第１日",
@@ -7106,7 +7106,7 @@ const List<Match> matches = [
       venue: "Ｋｓスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第２２節第１日",
@@ -7118,7 +7118,7 @@ const List<Match> matches = [
       venue: "カンセキ",
       att: "",
       broadcast: "ＤＡＺＮ／とちぎテレビ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第２２節第１日",
@@ -7130,7 +7130,7 @@ const List<Match> matches = [
       venue: "ＮＡＣＫ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第２２節第１日",
@@ -7142,7 +7142,7 @@ const List<Match> matches = [
       venue: "ＪＩＴス",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第２２節第１日",
@@ -7154,7 +7154,7 @@ const List<Match> matches = [
       venue: "ＮＤスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第２２節第１日",
@@ -7166,7 +7166,7 @@ const List<Match> matches = [
       venue: "フクアリ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第２２節第１日",
@@ -7178,7 +7178,7 @@ const List<Match> matches = [
       venue: "トラスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第１５節第１日",
@@ -7190,7 +7190,7 @@ const List<Match> matches = [
       venue: "ロートＦ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第１５節第１日",
@@ -7202,7 +7202,7 @@ const List<Match> matches = [
       venue: "ニッパツ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第１５節第１日",
@@ -7214,7 +7214,7 @@ const List<Match> matches = [
       venue: "いわスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第１５節第１日",
@@ -7226,7 +7226,7 @@ const List<Match> matches = [
       venue: "富山",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第１５節第１日",
@@ -7238,7 +7238,7 @@ const List<Match> matches = [
       venue: "ニンスタ",
       att: "",
       broadcast: "ＤＡＺＮ／南海放送（録）"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第１５節第１日",
@@ -7250,7 +7250,7 @@ const List<Match> matches = [
       venue: "里山Ｓ",
       att: "",
       broadcast: "ＤＡＺＮ／愛媛朝日テレビ（録）"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第１５節第１日",
@@ -7262,7 +7262,7 @@ const List<Match> matches = [
       venue: "ミクスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第１５節第１日",
@@ -7274,7 +7274,7 @@ const List<Match> matches = [
       venue: "タピスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第１５節第１日",
@@ -7286,7 +7286,7 @@ const List<Match> matches = [
       venue: "とうスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第１５節第１日",
@@ -7298,7 +7298,7 @@ const List<Match> matches = [
       venue: "白波スタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第１８節第２日",
@@ -7310,7 +7310,7 @@ const List<Match> matches = [
       venue: "ベススタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第２２節第２日",
@@ -7322,7 +7322,7 @@ const List<Match> matches = [
       venue: "ユアスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第２２節第２日",
@@ -7334,7 +7334,7 @@ const List<Match> matches = [
       venue: "えがおＳ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第２２節第２日",
@@ -7346,7 +7346,7 @@ const List<Match> matches = [
       venue: "正田スタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第１２節第３日",
@@ -7358,7 +7358,7 @@ const List<Match> matches = [
       venue: "埼玉",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第２１節第３日",
@@ -7370,7 +7370,7 @@ const List<Match> matches = [
       venue: "アイスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第２１節第３日",
@@ -7382,7 +7382,7 @@ const List<Match> matches = [
       venue: "ヤマハ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第１９節第１日",
@@ -7394,7 +7394,7 @@ const List<Match> matches = [
       venue: "ヨドコウ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第１９節第２日",
@@ -7406,7 +7406,7 @@ const List<Match> matches = [
       venue: "カシマ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第１９節第２日",
@@ -7418,7 +7418,7 @@ const List<Match> matches = [
       venue: "デンカＳ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第１９節第２日",
@@ -7430,7 +7430,7 @@ const List<Match> matches = [
       venue: "豊田ス",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第１９節第２日",
@@ -7442,7 +7442,7 @@ const List<Match> matches = [
       venue: "ニッパツ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第１９節第２日",
@@ -7454,7 +7454,7 @@ const List<Match> matches = [
       venue: "味スタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第１９節第２日",
@@ -7466,7 +7466,7 @@ const List<Match> matches = [
       venue: "ノエスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第１９節第２日",
@@ -7478,7 +7478,7 @@ const List<Match> matches = [
       venue: "駅スタ",
       att: "",
       broadcast: "ＤＡＺＮ／ＮＨＫ　ＢＳ１"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第２３節第１日",
@@ -7490,7 +7490,7 @@ const List<Match> matches = [
       venue: "Ｇスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第２３節第１日",
@@ -7502,7 +7502,7 @@ const List<Match> matches = [
       venue: "アイスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第２３節第１日",
@@ -7514,7 +7514,7 @@ const List<Match> matches = [
       venue: "フクアリ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第２３節第１日",
@@ -7526,7 +7526,7 @@ const List<Match> matches = [
       venue: "石川西部",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第２３節第１日",
@@ -7538,7 +7538,7 @@ const List<Match> matches = [
       venue: "ヤマハ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第２３節第１日",
@@ -7550,7 +7550,7 @@ const List<Match> matches = [
       venue: "藤枝サ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第２３節第１日",
@@ -7562,7 +7562,7 @@ const List<Match> matches = [
       venue: "Ｃスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第２３節第１日",
@@ -7574,7 +7574,7 @@ const List<Match> matches = [
       venue: "鳴門大塚",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第２３節第１日",
@@ -7586,7 +7586,7 @@ const List<Match> matches = [
       venue: "ＮＤスタ",
       att: "",
       broadcast: "ＤＡＺＮ／ＮＨＫ山形"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第１６節第１日",
@@ -7598,7 +7598,7 @@ const List<Match> matches = [
       venue: "ユニスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第１６節第１日",
@@ -7610,7 +7610,7 @@ const List<Match> matches = [
       venue: "ギオンス",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第１６節第１日",
@@ -7622,7 +7622,7 @@ const List<Match> matches = [
       venue: "サンアル",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第１６節第１日",
@@ -7634,7 +7634,7 @@ const List<Match> matches = [
       venue: "長野Ｕ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第１６節第１日",
@@ -7646,7 +7646,7 @@ const List<Match> matches = [
       venue: "富山",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第１６節第１日",
@@ -7658,7 +7658,7 @@ const List<Match> matches = [
       venue: "とうスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第１６節第１日",
@@ -7670,7 +7670,7 @@ const List<Match> matches = [
       venue: "Ａｘｉｓ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第１６節第１日",
@@ -7682,7 +7682,7 @@ const List<Match> matches = [
       venue: "愛鷹",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第１９節第３日",
@@ -7694,7 +7694,7 @@ const List<Match> matches = [
       venue: "日産ス",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第２３節第２日",
@@ -7706,7 +7706,7 @@ const List<Match> matches = [
       venue: "ソユスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第２３節第２日",
@@ -7718,7 +7718,7 @@ const List<Match> matches = [
       venue: "えがおＳ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第１６節第２日",
@@ -7730,7 +7730,7 @@ const List<Match> matches = [
       venue: "ピカスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第１６節第２日",
@@ -7742,7 +7742,7 @@ const List<Match> matches = [
       venue: "長良川",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第２４節第１日",
@@ -7754,7 +7754,7 @@ const List<Match> matches = [
       venue: "ユアスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第２４節第１日",
@@ -7766,7 +7766,7 @@ const List<Match> matches = [
       venue: "いわきＧ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第２４節第１日",
@@ -7778,7 +7778,7 @@ const List<Match> matches = [
       venue: "Ｋｓスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第２４節第１日",
@@ -7790,7 +7790,7 @@ const List<Match> matches = [
       venue: "正田スタ",
       att: "",
       broadcast: "ＤＡＺＮ／群馬テレビ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第２４節第１日",
@@ -7802,7 +7802,7 @@ const List<Match> matches = [
       venue: "ＮＡＣＫ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第２４節第１日",
@@ -7814,7 +7814,7 @@ const List<Match> matches = [
       venue: "味スタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第２４節第１日",
@@ -7826,7 +7826,7 @@ const List<Match> matches = [
       venue: "ＪＩＴス",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第２４節第１日",
@@ -7838,7 +7838,7 @@ const List<Match> matches = [
       venue: "ヤマハ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第２４節第１日",
@@ -7850,7 +7850,7 @@ const List<Match> matches = [
       venue: "Ｃスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第２４節第１日",
@@ -7862,7 +7862,7 @@ const List<Match> matches = [
       venue: "みらスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第２４節第１日",
@@ -7874,7 +7874,7 @@ const List<Match> matches = [
       venue: "レゾド",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第２０節第１日",
@@ -7886,7 +7886,7 @@ const List<Match> matches = [
       venue: "デンカＳ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第２０節第２日",
@@ -7898,7 +7898,7 @@ const List<Match> matches = [
       venue: "豊田ス",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第２０節第２日",
@@ -7910,7 +7910,7 @@ const List<Match> matches = [
       venue: "Ｅスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第２０節第２日",
@@ -7922,7 +7922,7 @@ const List<Match> matches = [
       venue: "埼玉",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第２０節第２日",
@@ -7934,7 +7934,7 @@ const List<Match> matches = [
       venue: "三協Ｆ柏",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第２０節第２日",
@@ -7946,7 +7946,7 @@ const List<Match> matches = [
       venue: "等々力",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第２０節第２日",
@@ -7958,7 +7958,7 @@ const List<Match> matches = [
       venue: "パナスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第２０節第２日",
@@ -7970,7 +7970,7 @@ const List<Match> matches = [
       venue: "ベススタ",
       att: "",
       broadcast: "ＤＡＺＮ／ＮＨＫ　ＢＳ１"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第２０節第２日",
@@ -7982,7 +7982,7 @@ const List<Match> matches = [
       venue: "駅スタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第１７節第１日",
@@ -7994,7 +7994,7 @@ const List<Match> matches = [
       venue: "ニッパツ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第１７節第１日",
@@ -8006,7 +8006,7 @@ const List<Match> matches = [
       venue: "ユニスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第１７節第１日",
@@ -8018,7 +8018,7 @@ const List<Match> matches = [
       venue: "いわスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第１７節第１日",
@@ -8030,7 +8030,7 @@ const List<Match> matches = [
       venue: "タピスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第１７節第１日",
@@ -8042,7 +8042,7 @@ const List<Match> matches = [
       venue: "プラスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第１７節第１日",
@@ -8054,7 +8054,7 @@ const List<Match> matches = [
       venue: "里山Ｓ",
       att: "",
       broadcast: "ＤＡＺＮ／愛媛朝日テレビ（録）"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第２５節第１日",
@@ -8066,7 +8066,7 @@ const List<Match> matches = [
       venue: "ソユスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第２５節第１日",
@@ -8078,7 +8078,7 @@ const List<Match> matches = [
       venue: "いわきＧ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第２５節第１日",
@@ -8090,7 +8090,7 @@ const List<Match> matches = [
       venue: "カンセキ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第２５節第１日",
@@ -8102,7 +8102,7 @@ const List<Match> matches = [
       venue: "Ｇスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第２５節第１日",
@@ -8114,7 +8114,7 @@ const List<Match> matches = [
       venue: "藤枝サ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第２５節第１日",
@@ -8126,7 +8126,7 @@ const List<Match> matches = [
       venue: "トラスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第２５節第１日",
@@ -8138,7 +8138,7 @@ const List<Match> matches = [
       venue: "ＮＤスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第２５節第１日",
@@ -8150,7 +8150,7 @@ const List<Match> matches = [
       venue: "正田スタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第２５節第１日",
@@ -8162,7 +8162,7 @@ const List<Match> matches = [
       venue: "フクアリ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第２５節第１日",
@@ -8174,7 +8174,7 @@ const List<Match> matches = [
       venue: "鳴門大塚",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第２５節第１日",
@@ -8186,7 +8186,7 @@ const List<Match> matches = [
       venue: "レゾド",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第１７節第２日",
@@ -8198,7 +8198,7 @@ const List<Match> matches = [
       venue: "ロートＦ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第１７節第２日",
@@ -8210,7 +8210,7 @@ const List<Match> matches = [
       venue: "花園",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第１７節第２日",
@@ -8222,7 +8222,7 @@ const List<Match> matches = [
       venue: "白波スタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第１７節第２日",
@@ -8234,7 +8234,7 @@ const List<Match> matches = [
       venue: "ニンスタ",
       att: "",
       broadcast: "ＤＡＺＮ／南海放送（録）"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第２１節第１日",
@@ -8246,7 +8246,7 @@ const List<Match> matches = [
       venue: "札幌厚別",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第２１節第１日",
@@ -8258,7 +8258,7 @@ const List<Match> matches = [
       venue: "日産ス",
       att: "",
       broadcast: "ＤＡＺＮ／ＮＨＫ　ＢＳ１"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第２６節第１日",
@@ -8270,7 +8270,7 @@ const List<Match> matches = [
       venue: "味スタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第２６節第１日",
@@ -8282,7 +8282,7 @@ const List<Match> matches = [
       venue: "みらスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第１８節第１日",
@@ -8294,7 +8294,7 @@ const List<Match> matches = [
       venue: "ギオンス",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第１８節第１日",
@@ -8306,7 +8306,7 @@ const List<Match> matches = [
       venue: "富山",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第１８節第１日",
@@ -8318,7 +8318,7 @@ const List<Match> matches = [
       venue: "長良川",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第１８節第１日",
@@ -8330,7 +8330,7 @@ const List<Match> matches = [
       venue: "ピカスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第１８節第１日",
@@ -8342,7 +8342,7 @@ const List<Match> matches = [
       venue: "プラスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第２１節第２日",
@@ -8354,7 +8354,7 @@ const List<Match> matches = [
       venue: "Ｅスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第２１節第２日",
@@ -8366,7 +8366,7 @@ const List<Match> matches = [
       venue: "味スタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第２１節第２日",
@@ -8378,7 +8378,7 @@ const List<Match> matches = [
       venue: "レモンＳ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第２１節第２日",
@@ -8390,7 +8390,7 @@ const List<Match> matches = [
       venue: "サンガＳ",
       att: "",
       broadcast: "ＤＡＺＮ／ＫＢＳ京都"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第２１節第２日",
@@ -8402,7 +8402,7 @@ const List<Match> matches = [
       venue: "パナスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第２１節第２日",
@@ -8414,7 +8414,7 @@ const List<Match> matches = [
       venue: "ヨドコウ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第２１節第２日",
@@ -8426,7 +8426,7 @@ const List<Match> matches = [
       venue: "ノエスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第２６節第２日",
@@ -8438,7 +8438,7 @@ const List<Match> matches = [
       venue: "ソユスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第２６節第２日",
@@ -8450,7 +8450,7 @@ const List<Match> matches = [
       venue: "Ｋｓスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第２６節第２日",
@@ -8462,7 +8462,7 @@ const List<Match> matches = [
       venue: "ＪＩＴス",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第２６節第２日",
@@ -8474,7 +8474,7 @@ const List<Match> matches = [
       venue: "国立",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第２６節第２日",
@@ -8486,7 +8486,7 @@ const List<Match> matches = [
       venue: "Ｃスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第２６節第２日",
@@ -8498,7 +8498,7 @@ const List<Match> matches = [
       venue: "ＮＡＣＫ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第２６節第２日",
@@ -8510,7 +8510,7 @@ const List<Match> matches = [
       venue: "石川西部",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第２６節第２日",
@@ -8522,7 +8522,7 @@ const List<Match> matches = [
       venue: "ヤマハ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第１８節第２日",
@@ -8534,7 +8534,7 @@ const List<Match> matches = [
       venue: "いわスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第１８節第２日",
@@ -8546,7 +8546,7 @@ const List<Match> matches = [
       venue: "サンアル",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第１８節第２日",
@@ -8558,7 +8558,7 @@ const List<Match> matches = [
       venue: "長野Ｕ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第１８節第２日",
@@ -8570,7 +8570,7 @@ const List<Match> matches = [
       venue: "ミクスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第１８節第２日",
@@ -8582,7 +8582,7 @@ const List<Match> matches = [
       venue: "愛鷹",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第２７節第１日",
@@ -8594,7 +8594,7 @@ const List<Match> matches = [
       venue: "カンセキ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第２７節第１日",
@@ -8606,7 +8606,7 @@ const List<Match> matches = [
       venue: "Ｇスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第２７節第１日",
@@ -8618,7 +8618,7 @@ const List<Match> matches = [
       venue: "ＮＤスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第２７節第１日",
@@ -8630,7 +8630,7 @@ const List<Match> matches = [
       venue: "藤枝サ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第２７節第１日",
@@ -8642,7 +8642,7 @@ const List<Match> matches = [
       venue: "みらスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第２７節第１日",
@@ -8654,7 +8654,7 @@ const List<Match> matches = [
       venue: "鳴門大塚",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第２７節第１日",
@@ -8666,7 +8666,7 @@ const List<Match> matches = [
       venue: "レゾド",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第１９節第１日",
@@ -8678,7 +8678,7 @@ const List<Match> matches = [
       venue: "ロートＦ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第１９節第１日",
@@ -8690,7 +8690,7 @@ const List<Match> matches = [
       venue: "ギオンス",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第１９節第１日",
@@ -8702,7 +8702,7 @@ const List<Match> matches = [
       venue: "サンアル",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第１９節第１日",
@@ -8714,7 +8714,7 @@ const List<Match> matches = [
       venue: "長良川",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第１９節第１日",
@@ -8726,7 +8726,7 @@ const List<Match> matches = [
       venue: "ユニスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第１９節第１日",
@@ -8738,7 +8738,7 @@ const List<Match> matches = [
       venue: "タピスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第１９節第１日",
@@ -8750,7 +8750,7 @@ const List<Match> matches = [
       venue: "とうスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第１９節第１日",
@@ -8762,7 +8762,7 @@ const List<Match> matches = [
       venue: "Ａｘｉｓ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第２７節第２日",
@@ -8774,7 +8774,7 @@ const List<Match> matches = [
       venue: "Ｋｓスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第２７節第２日",
@@ -8786,7 +8786,7 @@ const List<Match> matches = [
       venue: "ユアスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第２７節第２日",
@@ -8798,7 +8798,7 @@ const List<Match> matches = [
       venue: "正田スタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第１９節第２日",
@@ -8810,7 +8810,7 @@ const List<Match> matches = [
       venue: "花園",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第１９節第２日",
@@ -8822,7 +8822,7 @@ const List<Match> matches = [
       venue: "白波スタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第２７節第３日",
@@ -8834,7 +8834,7 @@ const List<Match> matches = [
       venue: "えがおＳ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第２８節第１日",
@@ -8846,7 +8846,7 @@ const List<Match> matches = [
       venue: "ソユスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第２８節第１日",
@@ -8858,7 +8858,7 @@ const List<Match> matches = [
       venue: "いわきＧ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第２８節第１日",
@@ -8870,7 +8870,7 @@ const List<Match> matches = [
       venue: "カンセキ",
       att: "",
       broadcast: "ＤＡＺＮ／とちぎテレビ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第２８節第１日",
@@ -8882,7 +8882,7 @@ const List<Match> matches = [
       venue: "味スタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第２８節第１日",
@@ -8894,7 +8894,7 @@ const List<Match> matches = [
       venue: "Ｇスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第２８節第１日",
@@ -8906,7 +8906,7 @@ const List<Match> matches = [
       venue: "アイスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第２８節第１日",
@@ -8918,7 +8918,7 @@ const List<Match> matches = [
       venue: "ユアスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第２８節第１日",
@@ -8930,7 +8930,7 @@ const List<Match> matches = [
       venue: "フクアリ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第２８節第１日",
@@ -8942,7 +8942,7 @@ const List<Match> matches = [
       venue: "トラスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第２８節第１日",
@@ -8954,7 +8954,7 @@ const List<Match> matches = [
       venue: "レゾド",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第２０節第１日",
@@ -8966,7 +8966,7 @@ const List<Match> matches = [
       venue: "いわスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第２０節第１日",
@@ -8978,7 +8978,7 @@ const List<Match> matches = [
       venue: "長野Ｕ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第２０節第１日",
@@ -8990,7 +8990,7 @@ const List<Match> matches = [
       venue: "ピカスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第２０節第１日",
@@ -9002,7 +9002,7 @@ const List<Match> matches = [
       venue: "ニンスタ",
       att: "",
       broadcast: "ＤＡＺＮ／南海放送（録）"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第２０節第１日",
@@ -9014,7 +9014,7 @@ const List<Match> matches = [
       venue: "ミクスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第２０節第１日",
@@ -9026,7 +9026,7 @@ const List<Match> matches = [
       venue: "プラスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第２０節第１日",
@@ -9038,7 +9038,7 @@ const List<Match> matches = [
       venue: "里山Ｓ",
       att: "",
       broadcast: "ＤＡＺＮ／愛媛朝日テレビ（録）"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第２０節第１日",
@@ -9050,7 +9050,7 @@ const List<Match> matches = [
       venue: "白波スタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第２８節第２日",
@@ -9062,7 +9062,7 @@ const List<Match> matches = [
       venue: "石川西部",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第２０節第２日",
@@ -9074,7 +9074,7 @@ const List<Match> matches = [
       venue: "ニッパツ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第２０節第２日",
@@ -9086,7 +9086,7 @@ const List<Match> matches = [
       venue: "愛鷹",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第２２節第１日",
@@ -9098,7 +9098,7 @@ const List<Match> matches = [
       venue: "レモンＳ",
       att: "",
       broadcast: "ＤＡＺＮ／ＮＨＫ　ＢＳ１"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第２２節第１日",
@@ -9110,7 +9110,7 @@ const List<Match> matches = [
       venue: "●未定●",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第２９節第１日",
@@ -9122,7 +9122,7 @@ const List<Match> matches = [
       venue: "藤枝サ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第２９節第１日",
@@ -9134,7 +9134,7 @@ const List<Match> matches = [
       venue: "Ｃスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第２１節第１日",
@@ -9146,7 +9146,7 @@ const List<Match> matches = [
       venue: "ユニスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第２１節第１日",
@@ -9158,7 +9158,7 @@ const List<Match> matches = [
       venue: "ギオンス",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第２１節第１日",
@@ -9170,7 +9170,7 @@ const List<Match> matches = [
       venue: "富山",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第２１節第１日",
@@ -9182,7 +9182,7 @@ const List<Match> matches = [
       venue: "長良川",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第２１節第１日",
@@ -9194,7 +9194,7 @@ const List<Match> matches = [
       venue: "プラスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第２１節第１日",
@@ -9206,7 +9206,7 @@ const List<Match> matches = [
       venue: "Ａｘｉｓ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第２２節第２日",
@@ -9218,7 +9218,7 @@ const List<Match> matches = [
       venue: "カシマ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第２２節第２日",
@@ -9230,7 +9230,7 @@ const List<Match> matches = [
       venue: "ニッパツ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第２２節第２日",
@@ -9242,7 +9242,7 @@ const List<Match> matches = [
       venue: "埼玉",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第２２節第２日",
@@ -9254,7 +9254,7 @@ const List<Match> matches = [
       venue: "等々力",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第２２節第２日",
@@ -9266,7 +9266,7 @@ const List<Match> matches = [
       venue: "サンガＳ",
       att: "",
       broadcast: "ＤＡＺＮ／ＫＢＳ京都"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第２２節第２日",
@@ -9278,7 +9278,7 @@ const List<Match> matches = [
       venue: "ヨドコウ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第２２節第２日",
@@ -9290,7 +9290,7 @@ const List<Match> matches = [
       venue: "駅スタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第２９節第２日",
@@ -9302,7 +9302,7 @@ const List<Match> matches = [
       venue: "味スタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第２９節第２日",
@@ -9314,7 +9314,7 @@ const List<Match> matches = [
       venue: "ＪＩＴス",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第２９節第２日",
@@ -9326,7 +9326,7 @@ const List<Match> matches = [
       venue: "トラスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第２９節第２日",
@@ -9338,7 +9338,7 @@ const List<Match> matches = [
       venue: "正田スタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第２９節第２日",
@@ -9350,7 +9350,7 @@ const List<Match> matches = [
       venue: "ＮＡＣＫ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第２９節第２日",
@@ -9362,7 +9362,7 @@ const List<Match> matches = [
       venue: "エコパ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第２９節第２日",
@@ -9374,7 +9374,7 @@ const List<Match> matches = [
       venue: "みらスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第２９節第２日",
@@ -9386,7 +9386,7 @@ const List<Match> matches = [
       venue: "鳴門大塚",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第２９節第２日",
@@ -9398,7 +9398,7 @@ const List<Match> matches = [
       venue: "えがおＳ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第２１節第２日",
@@ -9410,7 +9410,7 @@ const List<Match> matches = [
       venue: "ロートＦ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第２１節第２日",
@@ -9422,7 +9422,7 @@ const List<Match> matches = [
       venue: "とうスタ",
       att: "",
       broadcast: "ＤＡＺＮ／福島中央テレビ（録）"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第２１節第２日",
@@ -9434,7 +9434,7 @@ const List<Match> matches = [
       venue: "長野Ｕ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第２１節第２日",
@@ -9446,7 +9446,7 @@ const List<Match> matches = [
       venue: "花園",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第２３節第１日",
@@ -9458,7 +9458,7 @@ const List<Match> matches = [
       venue: "札幌ド",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第２３節第１日",
@@ -9470,7 +9470,7 @@ const List<Match> matches = [
       venue: "デンカＳ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第２３節第１日",
@@ -9482,7 +9482,7 @@ const List<Match> matches = [
       venue: "三協Ｆ柏",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第２３節第１日",
@@ -9494,7 +9494,7 @@ const List<Match> matches = [
       venue: "味スタ",
       att: "",
       broadcast: "ＤＡＺＮ／ＮＨＫ　ＢＳ１"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第２３節第１日",
@@ -9506,7 +9506,7 @@ const List<Match> matches = [
       venue: "等々力",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第２３節第１日",
@@ -9518,7 +9518,7 @@ const List<Match> matches = [
       venue: "ベススタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第２３節第１日",
@@ -9530,7 +9530,7 @@ const List<Match> matches = [
       venue: "日産ス",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第３０節第１日",
@@ -9542,7 +9542,7 @@ const List<Match> matches = [
       venue: "Ｋｓスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第３０節第１日",
@@ -9554,7 +9554,7 @@ const List<Match> matches = [
       venue: "Ｇスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第３０節第１日",
@@ -9566,7 +9566,7 @@ const List<Match> matches = [
       venue: "アイスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第３０節第１日",
@@ -9578,7 +9578,7 @@ const List<Match> matches = [
       venue: "ＮＤスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第３０節第１日",
@@ -9590,7 +9590,7 @@ const List<Match> matches = [
       venue: "石川西部",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第３０節第１日",
@@ -9602,7 +9602,7 @@ const List<Match> matches = [
       venue: "レゾド",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第２２節第１日",
@@ -9614,7 +9614,7 @@ const List<Match> matches = [
       venue: "ニッパツ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第２２節第１日",
@@ -9626,7 +9626,7 @@ const List<Match> matches = [
       venue: "ユニスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第２２節第１日",
@@ -9638,7 +9638,7 @@ const List<Match> matches = [
       venue: "いわスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第２２節第１日",
@@ -9650,7 +9650,7 @@ const List<Match> matches = [
       venue: "タピスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第２２節第１日",
@@ -9662,7 +9662,7 @@ const List<Match> matches = [
       venue: "サンアル",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第２２節第１日",
@@ -9674,7 +9674,7 @@ const List<Match> matches = [
       venue: "里山Ｓ",
       att: "",
       broadcast: "ＤＡＺＮ／愛媛朝日テレビ（録）"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第２３節第２日",
@@ -9686,7 +9686,7 @@ const List<Match> matches = [
       venue: "豊田ス",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第２３節第２日",
@@ -9698,7 +9698,7 @@ const List<Match> matches = [
       venue: "Ｅスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第３０節第２日",
@@ -9710,7 +9710,7 @@ const List<Match> matches = [
       venue: "ソユスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第３０節第２日",
@@ -9722,7 +9722,7 @@ const List<Match> matches = [
       venue: "いわきＧ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第３０節第２日",
@@ -9734,7 +9734,7 @@ const List<Match> matches = [
       venue: "カンセキ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第３０節第２日",
@@ -9746,7 +9746,7 @@ const List<Match> matches = [
       venue: "ユアスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第３０節第２日",
@@ -9758,7 +9758,7 @@ const List<Match> matches = [
       venue: "ＮＡＣＫ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第２２節第２日",
@@ -9770,7 +9770,7 @@ const List<Match> matches = [
       venue: "ロートＦ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第２２節第２日",
@@ -9782,7 +9782,7 @@ const List<Match> matches = [
       venue: "ニンスタ",
       att: "",
       broadcast: "ＤＡＺＮ／南海放送（録）"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第２２節第２日",
@@ -9794,7 +9794,7 @@ const List<Match> matches = [
       venue: "白波スタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第２２節第２日",
@@ -9806,7 +9806,7 @@ const List<Match> matches = [
       venue: "愛鷹",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第２４節第１日",
@@ -9818,7 +9818,7 @@ const List<Match> matches = [
       venue: "ベススタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第２４節第２日",
@@ -9830,7 +9830,7 @@ const List<Match> matches = [
       venue: "カシマ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第２４節第２日",
@@ -9843,7 +9843,7 @@ const List<Match> matches = [
       att: "",
       broadcast:
           "ＤＡＺＮ　※１　浦和がＡＦＣチャンピオンズリーグ２０２３／２０２４プレーオフに出場した場合、８／１８（金）に開催する可能性があります"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第２４節第２日",
@@ -9855,7 +9855,7 @@ const List<Match> matches = [
       venue: "サンガＳ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第２４節第２日",
@@ -9867,7 +9867,7 @@ const List<Match> matches = [
       venue: "パナスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第２４節第２日",
@@ -9879,7 +9879,7 @@ const List<Match> matches = [
       venue: "ノエスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第２４節第２日",
@@ -9892,7 +9892,7 @@ const List<Match> matches = [
       att: "",
       broadcast:
           "ＤＡＺＮ　※２　広島がＡＦＣチャンピオンズリーグ２０２３／２０２４プレーオフに出場した場合、８／１８（金）に開催する可能性があります"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第２４節第２日",
@@ -9904,7 +9904,7 @@ const List<Match> matches = [
       venue: "日産ス",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第３１節第１日",
@@ -9916,7 +9916,7 @@ const List<Match> matches = [
       venue: "いわきＧ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第３１節第１日",
@@ -9928,7 +9928,7 @@ const List<Match> matches = [
       venue: "Ｋｓスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第３１節第１日",
@@ -9940,7 +9940,7 @@ const List<Match> matches = [
       venue: "ＪＩＴス",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第３１節第１日",
@@ -9952,7 +9952,7 @@ const List<Match> matches = [
       venue: "アイスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第３１節第１日",
@@ -9964,7 +9964,7 @@ const List<Match> matches = [
       venue: "ユアスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第３１節第１日",
@@ -9976,7 +9976,7 @@ const List<Match> matches = [
       venue: "ＮＤスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第３１節第１日",
@@ -9988,7 +9988,7 @@ const List<Match> matches = [
       venue: "フクアリ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第３１節第１日",
@@ -10000,7 +10000,7 @@ const List<Match> matches = [
       venue: "Ｃスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第３１節第１日",
@@ -10012,7 +10012,7 @@ const List<Match> matches = [
       venue: "トラスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第２３節第１日",
@@ -10024,7 +10024,7 @@ const List<Match> matches = [
       venue: "いわスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第２３節第１日",
@@ -10036,7 +10036,7 @@ const List<Match> matches = [
       venue: "ギオンス",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第２３節第１日",
@@ -10048,7 +10048,7 @@ const List<Match> matches = [
       venue: "長野Ｕ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第２３節第１日",
@@ -10060,7 +10060,7 @@ const List<Match> matches = [
       venue: "ミクスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第２３節第１日",
@@ -10072,7 +10072,7 @@ const List<Match> matches = [
       venue: "プラスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第２３節第１日",
@@ -10084,7 +10084,7 @@ const List<Match> matches = [
       venue: "とうスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第２３節第１日",
@@ -10096,7 +10096,7 @@ const List<Match> matches = [
       venue: "Ａｘｉｓ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第２３節第１日",
@@ -10108,7 +10108,7 @@ const List<Match> matches = [
       venue: "ピカスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第２３節第１日",
@@ -10120,7 +10120,7 @@ const List<Match> matches = [
       venue: "白波スタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第２４節第３日",
@@ -10132,7 +10132,7 @@ const List<Match> matches = [
       venue: "ニッパツ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第３１節第２日",
@@ -10144,7 +10144,7 @@ const List<Match> matches = [
       venue: "正田スタ",
       att: "",
       broadcast: "ＤＡＺＮ／群馬テレビ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第３１節第２日",
@@ -10156,7 +10156,7 @@ const List<Match> matches = [
       venue: "鳴門大塚",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第２３節第２日",
@@ -10168,7 +10168,7 @@ const List<Match> matches = [
       venue: "花園",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第２５節第１日",
@@ -10180,7 +10180,7 @@ const List<Match> matches = [
       venue: "レモンＳ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第２５節第２日",
@@ -10192,7 +10192,7 @@ const List<Match> matches = [
       venue: "カシマ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第２５節第２日",
@@ -10204,7 +10204,7 @@ const List<Match> matches = [
       venue: "ニッパツ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第２５節第２日",
@@ -10216,7 +10216,7 @@ const List<Match> matches = [
       venue: "三協Ｆ柏",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第２５節第２日",
@@ -10228,7 +10228,7 @@ const List<Match> matches = [
       venue: "国立",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第２５節第２日",
@@ -10240,7 +10240,7 @@ const List<Match> matches = [
       venue: "等々力",
       att: "",
       broadcast: "ＤＡＺＮ／ＮＨＫ　ＢＳ１"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第２５節第２日",
@@ -10252,7 +10252,7 @@ const List<Match> matches = [
       venue: "サンガＳ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第２５節第２日",
@@ -10264,7 +10264,7 @@ const List<Match> matches = [
       venue: "ヨドコウ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第２５節第２日",
@@ -10276,7 +10276,7 @@ const List<Match> matches = [
       venue: "駅スタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第３２節第１日",
@@ -10288,7 +10288,7 @@ const List<Match> matches = [
       venue: "カンセキ",
       att: "",
       broadcast: "ＤＡＺＮ／とちぎテレビ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第３２節第１日",
@@ -10300,7 +10300,7 @@ const List<Match> matches = [
       venue: "味スタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第３２節第１日",
@@ -10312,7 +10312,7 @@ const List<Match> matches = [
       venue: "Ｇスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第３２節第１日",
@@ -10324,7 +10324,7 @@ const List<Match> matches = [
       venue: "ＮＡＣＫ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第３２節第１日",
@@ -10336,7 +10336,7 @@ const List<Match> matches = [
       venue: "石川西部",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第３２節第１日",
@@ -10348,7 +10348,7 @@ const List<Match> matches = [
       venue: "ヤマハ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第３２節第１日",
@@ -10360,7 +10360,7 @@ const List<Match> matches = [
       venue: "藤枝サ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第３２節第１日",
@@ -10372,7 +10372,7 @@ const List<Match> matches = [
       venue: "みらスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第３２節第１日",
@@ -10384,7 +10384,7 @@ const List<Match> matches = [
       venue: "レゾド",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第２４節第１日",
@@ -10396,7 +10396,7 @@ const List<Match> matches = [
       venue: "ロートＦ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第２４節第１日",
@@ -10408,7 +10408,7 @@ const List<Match> matches = [
       venue: "ミクスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第２４節第１日",
@@ -10420,7 +10420,7 @@ const List<Match> matches = [
       venue: "ユニスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第２４節第１日",
@@ -10432,7 +10432,7 @@ const List<Match> matches = [
       venue: "富山",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第２４節第１日",
@@ -10444,7 +10444,7 @@ const List<Match> matches = [
       venue: "サンアル",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第２４節第１日",
@@ -10456,7 +10456,7 @@ const List<Match> matches = [
       venue: "長良川",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第２４節第１日",
@@ -10468,7 +10468,7 @@ const List<Match> matches = [
       venue: "ニンスタ",
       att: "",
       broadcast: "ＤＡＺＮ／南海放送（録）"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第２４節第１日",
@@ -10480,7 +10480,7 @@ const List<Match> matches = [
       venue: "タピスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第３２節第２日",
@@ -10492,7 +10492,7 @@ const List<Match> matches = [
       venue: "ソユスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第３２節第２日",
@@ -10504,7 +10504,7 @@ const List<Match> matches = [
       venue: "えがおＳ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第２４節第２日",
@@ -10516,7 +10516,7 @@ const List<Match> matches = [
       venue: "ニッパツ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第２４節第２日",
@@ -10528,7 +10528,7 @@ const List<Match> matches = [
       venue: "愛鷹",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第２６節第１日",
@@ -10540,7 +10540,7 @@ const List<Match> matches = [
       venue: "札幌ド",
       att: "",
       broadcast: "ＤＡＺＮ　９／２（土）　ｏｒ　９／３（日）"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第２６節第１日",
@@ -10552,7 +10552,7 @@ const List<Match> matches = [
       venue: "三協Ｆ柏",
       att: "",
       broadcast: "ＤＡＺＮ　９／２（土）　ｏｒ　９／３（日）"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第２６節第１日",
@@ -10564,7 +10564,7 @@ const List<Match> matches = [
       venue: "味スタ",
       att: "",
       broadcast: "ＤＡＺＮ　９／２（土）　ｏｒ　９／３（日）"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第２６節第１日",
@@ -10576,7 +10576,7 @@ const List<Match> matches = [
       venue: "レモンＳ",
       att: "",
       broadcast: "ＤＡＺＮ　９／２（土）　ｏｒ　９／３（日）"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第２６節第１日",
@@ -10588,7 +10588,7 @@ const List<Match> matches = [
       venue: "デンカＳ",
       att: "",
       broadcast: "ＤＡＺＮ　９／２（土）　ｏｒ　９／３（日）"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第２６節第１日",
@@ -10600,7 +10600,7 @@ const List<Match> matches = [
       venue: "豊田ス",
       att: "",
       broadcast: "ＤＡＺＮ　９／２（土）　ｏｒ　９／３（日）"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第２６節第１日",
@@ -10612,7 +10612,7 @@ const List<Match> matches = [
       venue: "ヨドコウ",
       att: "",
       broadcast: "ＤＡＺＮ　９／２（土）　ｏｒ　９／３（日）"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第２６節第１日",
@@ -10624,7 +10624,7 @@ const List<Match> matches = [
       venue: "ノエスタ",
       att: "",
       broadcast: "ＤＡＺＮ　９／２（土）　ｏｒ　９／３（日）"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第２６節第１日",
@@ -10636,7 +10636,7 @@ const List<Match> matches = [
       venue: "駅スタ",
       att: "",
       broadcast: "ＤＡＺＮ　９／２（土）　ｏｒ　９／３（日）"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第３３節第１日",
@@ -10648,7 +10648,7 @@ const List<Match> matches = [
       venue: "ソユスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第３３節第１日",
@@ -10660,7 +10660,7 @@ const List<Match> matches = [
       venue: "石川西部",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第２５節第１日",
@@ -10672,7 +10672,7 @@ const List<Match> matches = [
       venue: "プラスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第２５節第１日",
@@ -10684,7 +10684,7 @@ const List<Match> matches = [
       venue: "いわスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第２５節第１日",
@@ -10696,7 +10696,7 @@ const List<Match> matches = [
       venue: "ニッパツ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第２５節第１日",
@@ -10708,7 +10708,7 @@ const List<Match> matches = [
       venue: "長野Ｕ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第２５節第１日",
@@ -10720,7 +10720,7 @@ const List<Match> matches = [
       venue: "富山",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第２５節第１日",
@@ -10732,7 +10732,7 @@ const List<Match> matches = [
       venue: "里山Ｓ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第２５節第１日",
@@ -10744,7 +10744,7 @@ const List<Match> matches = [
       venue: "ユニスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第２５節第１日",
@@ -10756,7 +10756,7 @@ const List<Match> matches = [
       venue: "白波スタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第３３節第２日",
@@ -10768,7 +10768,7 @@ const List<Match> matches = [
       venue: "ユアスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第３３節第２日",
@@ -10780,7 +10780,7 @@ const List<Match> matches = [
       venue: "ＮＤスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第３３節第２日",
@@ -10792,7 +10792,7 @@ const List<Match> matches = [
       venue: "いわきＧ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第３３節第２日",
@@ -10804,7 +10804,7 @@ const List<Match> matches = [
       venue: "栃木グ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第３３節第２日",
@@ -10816,7 +10816,7 @@ const List<Match> matches = [
       venue: "正田スタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第３３節第２日",
@@ -10828,7 +10828,7 @@ const List<Match> matches = [
       venue: "フクアリ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第３３節第２日",
@@ -10840,7 +10840,7 @@ const List<Match> matches = [
       venue: "アイスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第３３節第２日",
@@ -10852,7 +10852,7 @@ const List<Match> matches = [
       venue: "みらスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第３３節第２日",
@@ -10864,7 +10864,7 @@ const List<Match> matches = [
       venue: "トラスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第２５節第２日",
@@ -10876,7 +10876,7 @@ const List<Match> matches = [
       venue: "愛鷹",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第２５節第２日",
@@ -10888,7 +10888,7 @@ const List<Match> matches = [
       venue: "花園",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第３４節第１日",
@@ -10900,7 +10900,7 @@ const List<Match> matches = [
       venue: "Ｋｓスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第３４節第１日",
@@ -10912,7 +10912,7 @@ const List<Match> matches = [
       venue: "フクアリ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第３４節第１日",
@@ -10924,7 +10924,7 @@ const List<Match> matches = [
       venue: "味スタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第３４節第１日",
@@ -10936,7 +10936,7 @@ const List<Match> matches = [
       venue: "Ｇスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第３４節第１日",
@@ -10948,7 +10948,7 @@ const List<Match> matches = [
       venue: "ＪＩＴス",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第３４節第１日",
@@ -10960,7 +10960,7 @@ const List<Match> matches = [
       venue: "Ｃスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第３４節第１日",
@@ -10972,7 +10972,7 @@ const List<Match> matches = [
       venue: "トラスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第２６節第１日",
@@ -10984,7 +10984,7 @@ const List<Match> matches = [
       venue: "いわスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第２６節第１日",
@@ -10996,7 +10996,7 @@ const List<Match> matches = [
       venue: "とうスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第２６節第１日",
@@ -11008,7 +11008,7 @@ const List<Match> matches = [
       venue: "ギオンス",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第２６節第１日",
@@ -11020,7 +11020,7 @@ const List<Match> matches = [
       venue: "サンアル",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第２６節第１日",
@@ -11032,7 +11032,7 @@ const List<Match> matches = [
       venue: "長良川",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第２６節第１日",
@@ -11044,7 +11044,7 @@ const List<Match> matches = [
       venue: "ロートＦ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第２６節第１日",
@@ -11056,7 +11056,7 @@ const List<Match> matches = [
       venue: "Ａｘｉｓ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第２６節第１日",
@@ -11068,7 +11068,7 @@ const List<Match> matches = [
       venue: "ニンスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第２６節第１日",
@@ -11080,7 +11080,7 @@ const List<Match> matches = [
       venue: "ミクスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第３４節第２日",
@@ -11092,7 +11092,7 @@ const List<Match> matches = [
       venue: "鳴門大塚",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第３４節第２日",
@@ -11104,7 +11104,7 @@ const List<Match> matches = [
       venue: "えがおＳ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第２６節第２日",
@@ -11116,7 +11116,7 @@ const List<Match> matches = [
       venue: "ピカスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第２７節第１日",
@@ -11128,7 +11128,7 @@ const List<Match> matches = [
       venue: "札幌ド",
       att: "",
       broadcast: "ＤＡＺＮ　９／１６（土）　ｏｒ　９／１７（日）"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第２７節第１日",
@@ -11140,7 +11140,7 @@ const List<Match> matches = [
       venue: "カシマ",
       att: "",
       broadcast: "ＤＡＺＮ　９／１６（土）　ｏｒ　９／１７（日）"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第２７節第１日",
@@ -11153,7 +11153,7 @@ const List<Match> matches = [
       att: "",
       broadcast:
           "ＤＡＺＮ　９／１５（金）　ｏｒ　９／１６（土）　※３　ＡＦＣチャンピオンズリーグ２０２３／２０２４に出場しなかったチームの試合は、９／１７（日）に開催する可能性があります"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第２７節第１日",
@@ -11165,7 +11165,7 @@ const List<Match> matches = [
       venue: "等々力",
       att: "",
       broadcast: "ＤＡＺＮ　９／１５（金）　ｏｒ　９／１６（土）"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第２７節第１日",
@@ -11177,7 +11177,7 @@ const List<Match> matches = [
       venue: "ニッパツ",
       att: "",
       broadcast: "ＤＡＺＮ　９／１５（金）　ｏｒ　９／１６（土）"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第２７節第１日",
@@ -11189,7 +11189,7 @@ const List<Match> matches = [
       venue: "ニッパツ",
       att: "",
       broadcast: "ＤＡＺＮ　９／１６（土）　ｏｒ　９／１７（日）"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第２７節第１日",
@@ -11201,7 +11201,7 @@ const List<Match> matches = [
       venue: "パナスタ",
       att: "",
       broadcast: "ＤＡＺＮ　９／１６（土）　ｏｒ　９／１７（日）"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第２７節第１日",
@@ -11214,7 +11214,7 @@ const List<Match> matches = [
       att: "",
       broadcast:
           "ＤＡＺＮ　９／１５（金）　ｏｒ　９／１６（土）　※３　ＡＦＣチャンピオンズリーグ２０２３／２０２４に出場しなかったチームの試合は、９／１７（日）に開催する可能性があります"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第２７節第１日",
@@ -11226,7 +11226,7 @@ const List<Match> matches = [
       venue: "ベススタ",
       att: "",
       broadcast: "ＤＡＺＮ　９／１６（土）　ｏｒ　９／１７（日）"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第３５節第１日",
@@ -11238,7 +11238,7 @@ const List<Match> matches = [
       venue: "ユアスタ",
       att: "",
       broadcast: "ＤＡＺＮ　９／１６（土）　ｏｒ　９／１７（日）"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第３５節第１日",
@@ -11250,7 +11250,7 @@ const List<Match> matches = [
       venue: "ソユスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第３５節第１日",
@@ -11262,7 +11262,7 @@ const List<Match> matches = [
       venue: "ＮＤスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第３５節第１日",
@@ -11274,7 +11274,7 @@ const List<Match> matches = [
       venue: "栃木グ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第３５節第１日",
@@ -11286,7 +11286,7 @@ const List<Match> matches = [
       venue: "ＮＡＣＫ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第３５節第１日",
@@ -11298,7 +11298,7 @@ const List<Match> matches = [
       venue: "ＪＩＴス",
       att: "",
       broadcast: "ＤＡＺＮ　９／１５（金）　ｏｒ　９／１６（土）"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第３５節第１日",
@@ -11310,7 +11310,7 @@ const List<Match> matches = [
       venue: "ヤマハ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第３５節第１日",
@@ -11322,7 +11322,7 @@ const List<Match> matches = [
       venue: "レゾド",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第２７節第１日",
@@ -11334,7 +11334,7 @@ const List<Match> matches = [
       venue: "プラスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第２７節第１日",
@@ -11346,7 +11346,7 @@ const List<Match> matches = [
       venue: "ギオンス",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第２７節第１日",
@@ -11358,7 +11358,7 @@ const List<Match> matches = [
       venue: "Ａｘｉｓ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第２７節第１日",
@@ -11370,7 +11370,7 @@ const List<Match> matches = [
       venue: "里山Ｓ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第２７節第１日",
@@ -11382,7 +11382,7 @@ const List<Match> matches = [
       venue: "ミクスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第２７節第１日",
@@ -11394,7 +11394,7 @@ const List<Match> matches = [
       venue: "白波スタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第３５節第２日",
@@ -11406,7 +11406,7 @@ const List<Match> matches = [
       venue: "正田スタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第３５節第２日",
@@ -11418,7 +11418,7 @@ const List<Match> matches = [
       venue: "石川西部",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第３５節第２日",
@@ -11430,7 +11430,7 @@ const List<Match> matches = [
       venue: "藤枝サ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第２７節第２日",
@@ -11442,7 +11442,7 @@ const List<Match> matches = [
       venue: "富山",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第２７節第２日",
@@ -11454,7 +11454,7 @@ const List<Match> matches = [
       venue: "ユニスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第２７節第２日",
@@ -11466,7 +11466,7 @@ const List<Match> matches = [
       venue: "タピスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第２７節第３日",
@@ -11478,7 +11478,7 @@ const List<Match> matches = [
       venue: "ニッパツ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第３４節第３日",
@@ -11491,7 +11491,7 @@ const List<Match> matches = [
       att: "",
       broadcast:
           "ＤＡＺＮ　※１　２０２３ＪリーグＹＢＣルヴァンカップにおいて清水がグループステージで敗退した場合、開催日が９月９日（土）に変更となる可能性があります"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第３４節第３日",
@@ -11504,7 +11504,7 @@ const List<Match> matches = [
       att: "",
       broadcast:
           "ＤＡＺＮ　※２　２０２３ＪリーグＹＢＣルヴァンカップにおいて磐田がグループステージで敗退した場合、開催日が９月９日（土）に変更となる可能性があります"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第２８節第１日",
@@ -11516,7 +11516,7 @@ const List<Match> matches = [
       venue: "カシマ",
       att: "",
       broadcast: "ＤＡＺＮ　９／２３（土・祝）　ｏｒ　９／２４（日）"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第２８節第１日",
@@ -11528,7 +11528,7 @@ const List<Match> matches = [
       venue: "三協Ｆ柏",
       att: "",
       broadcast: "ＤＡＺＮ　９／２３（土・祝）　ｏｒ　９／２４（日）"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第２８節第１日",
@@ -11540,7 +11540,7 @@ const List<Match> matches = [
       venue: "味スタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第２８節第１日",
@@ -11552,7 +11552,7 @@ const List<Match> matches = [
       venue: "国立",
       att: "",
       broadcast: "ＤＡＺＮ　９／２３（土・祝）　ｏｒ　９／２４（日）"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第２８節第１日",
@@ -11564,7 +11564,7 @@ const List<Match> matches = [
       venue: "デンカＳ",
       att: "",
       broadcast: "ＤＡＺＮ　９／２３（土・祝）　ｏｒ　９／２４（日）"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第２８節第１日",
@@ -11576,7 +11576,7 @@ const List<Match> matches = [
       venue: "豊田ス",
       att: "",
       broadcast: "ＤＡＺＮ　９／２３（土・祝）　ｏｒ　９／２４（日）"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第２８節第１日",
@@ -11588,7 +11588,7 @@ const List<Match> matches = [
       venue: "サンガＳ",
       att: "",
       broadcast: "ＤＡＺＮ　９／２３（土・祝）　ｏｒ　９／２４（日）"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第２８節第１日",
@@ -11600,7 +11600,7 @@ const List<Match> matches = [
       venue: "パナスタ",
       att: "",
       broadcast: "ＤＡＺＮ　９／２３（土・祝）　ｏｒ　９／２４（日）"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第２８節第１日",
@@ -11612,7 +11612,7 @@ const List<Match> matches = [
       venue: "ノエスタ",
       att: "",
       broadcast: "ＤＡＺＮ　９／２３（土・祝）　ｏｒ　９／２４（日）"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第３６節第１日",
@@ -11624,7 +11624,7 @@ const List<Match> matches = [
       venue: "ソユスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第３６節第１日",
@@ -11636,7 +11636,7 @@ const List<Match> matches = [
       venue: "いわきＧ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第３６節第１日",
@@ -11648,7 +11648,7 @@ const List<Match> matches = [
       venue: "Ｋｓスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第３６節第１日",
@@ -11660,7 +11660,7 @@ const List<Match> matches = [
       venue: "フクアリ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第３６節第１日",
@@ -11672,7 +11672,7 @@ const List<Match> matches = [
       venue: "アイスタ",
       att: "",
       broadcast: "ＤＡＺＮ　９／２３（土・祝）　ｏｒ　９／２４（日）"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第３６節第１日",
@@ -11684,7 +11684,7 @@ const List<Match> matches = [
       venue: "みらスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第３６節第１日",
@@ -11696,7 +11696,7 @@ const List<Match> matches = [
       venue: "トラスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第２８節第１日",
@@ -11708,7 +11708,7 @@ const List<Match> matches = [
       venue: "いわスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第２８節第１日",
@@ -11720,7 +11720,7 @@ const List<Match> matches = [
       venue: "長野Ｕ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第２８節第１日",
@@ -11732,7 +11732,7 @@ const List<Match> matches = [
       venue: "ロートＦ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第２８節第１日",
@@ -11744,7 +11744,7 @@ const List<Match> matches = [
       venue: "ニンスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第２８節第１日",
@@ -11756,7 +11756,7 @@ const List<Match> matches = [
       venue: "里山Ｓ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第３６節第２日",
@@ -11768,7 +11768,7 @@ const List<Match> matches = [
       venue: "味スタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第３６節第２日",
@@ -11780,7 +11780,7 @@ const List<Match> matches = [
       venue: "Ｃスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第３６節第２日",
@@ -11792,7 +11792,7 @@ const List<Match> matches = [
       venue: "鳴門大塚",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第３６節第２日",
@@ -11804,7 +11804,7 @@ const List<Match> matches = [
       venue: "えがおＳ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第２８節第２日",
@@ -11816,7 +11816,7 @@ const List<Match> matches = [
       venue: "とうスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第２８節第２日",
@@ -11828,7 +11828,7 @@ const List<Match> matches = [
       venue: "サンアル",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第２８節第２日",
@@ -11840,7 +11840,7 @@ const List<Match> matches = [
       venue: "愛鷹",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第２８節第２日",
@@ -11852,7 +11852,7 @@ const List<Match> matches = [
       venue: "花園",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第２８節第２日",
@@ -11864,7 +11864,7 @@ const List<Match> matches = [
       venue: "ピカスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第２９節第１日",
@@ -11876,7 +11876,7 @@ const List<Match> matches = [
       venue: "札幌ド",
       att: "",
       broadcast: "ＤＡＺＮ　９／３０（土）　ｏｒ　１０／１（日）"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第２９節第１日",
@@ -11889,7 +11889,7 @@ const List<Match> matches = [
       att: "",
       broadcast:
           "ＤＡＺＮ　９／２９（金）　ｏｒ　９／３０（土）　※４　ＡＦＣチャンピオンズリーグ２０２３／２０２４に出場しなかったチームの試合は、１０／１（日）に開催する可能性があります"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第２９節第１日",
@@ -11901,7 +11901,7 @@ const List<Match> matches = [
       venue: "味スタ",
       att: "",
       broadcast: "ＤＡＺＮ　９／３０（土）　ｏｒ　１０／１（日）"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第２９節第１日",
@@ -11913,7 +11913,7 @@ const List<Match> matches = [
       venue: "等々力",
       att: "",
       broadcast: "ＤＡＺＮ　９／２９（金）　ｏｒ　９／３０（土）"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第２９節第１日",
@@ -11925,7 +11925,7 @@ const List<Match> matches = [
       venue: "日産ス",
       att: "",
       broadcast: "ＤＡＺＮ　９／２９（金）　ｏｒ　９／３０（土）"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第２９節第１日",
@@ -11937,7 +11937,7 @@ const List<Match> matches = [
       venue: "ヨドコウ",
       att: "",
       broadcast: "ＤＡＺＮ　９／３０（土）　ｏｒ　１０／１（日）"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第２９節第１日",
@@ -11950,7 +11950,7 @@ const List<Match> matches = [
       att: "",
       broadcast:
           "ＤＡＺＮ　９／２９（金）　ｏｒ　９／３０（土）　※４　ＡＦＣチャンピオンズリーグ２０２３／２０２４に出場しなかったチームの試合は、１０／１（日）に開催する可能性があります"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第２９節第１日",
@@ -11962,7 +11962,7 @@ const List<Match> matches = [
       venue: "ベススタ",
       att: "",
       broadcast: "ＤＡＺＮ　９／３０（土）　ｏｒ　１０／１（日）"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第２９節第１日",
@@ -11974,7 +11974,7 @@ const List<Match> matches = [
       venue: "駅スタ",
       att: "",
       broadcast: "ＤＡＺＮ　９／３０（土）　ｏｒ　１０／１（日）"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第３７節第１日",
@@ -11986,7 +11986,7 @@ const List<Match> matches = [
       venue: "ユアスタ",
       att: "",
       broadcast: "ＤＡＺＮ　９／３０（土）　ｏｒ　１０／１（日）"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第３７節第１日",
@@ -11998,7 +11998,7 @@ const List<Match> matches = [
       venue: "ＪＩＴス",
       att: "",
       broadcast: "ＤＡＺＮ　９／２９（金）　ｏｒ　９／３０（土）"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第３７節第１日",
@@ -12010,7 +12010,7 @@ const List<Match> matches = [
       venue: "藤枝サ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第３７節第１日",
@@ -12022,7 +12022,7 @@ const List<Match> matches = [
       venue: "レゾド",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第２９節第１日",
@@ -12034,7 +12034,7 @@ const List<Match> matches = [
       venue: "プラスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第２９節第１日",
@@ -12046,7 +12046,7 @@ const List<Match> matches = [
       venue: "ギオンス",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第２９節第１日",
@@ -12058,7 +12058,7 @@ const List<Match> matches = [
       venue: "タピスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第３７節第２日",
@@ -12070,7 +12070,7 @@ const List<Match> matches = [
       venue: "ＮＤスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第３７節第２日",
@@ -12082,7 +12082,7 @@ const List<Match> matches = [
       venue: "栃木グ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第３７節第２日",
@@ -12094,7 +12094,7 @@ const List<Match> matches = [
       venue: "正田スタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第３７節第２日",
@@ -12106,7 +12106,7 @@ const List<Match> matches = [
       venue: "Ｇスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第３７節第２日",
@@ -12118,7 +12118,7 @@ const List<Match> matches = [
       venue: "ヤマハ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第３７節第２日",
@@ -12130,7 +12130,7 @@ const List<Match> matches = [
       venue: "Ｃスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第３７節第２日",
@@ -12142,7 +12142,7 @@ const List<Match> matches = [
       venue: "●未定●",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第２９節第２日",
@@ -12154,7 +12154,7 @@ const List<Match> matches = [
       venue: "富山",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第２９節第２日",
@@ -12166,7 +12166,7 @@ const List<Match> matches = [
       venue: "愛鷹",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第２９節第２日",
@@ -12178,7 +12178,7 @@ const List<Match> matches = [
       venue: "長良川",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第２９節第２日",
@@ -12190,7 +12190,7 @@ const List<Match> matches = [
       venue: "ヤジン",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第２９節第２日",
@@ -12202,7 +12202,7 @@ const List<Match> matches = [
       venue: "ピカスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第２９節第２日",
@@ -12214,7 +12214,7 @@ const List<Match> matches = [
       venue: "ユニスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第２９節第２日",
@@ -12226,7 +12226,7 @@ const List<Match> matches = [
       venue: "白波スタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第３８節第１日",
@@ -12238,7 +12238,7 @@ const List<Match> matches = [
       venue: "ＮＡＣＫ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第３８節第１日",
@@ -12250,7 +12250,7 @@ const List<Match> matches = [
       venue: "味スタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第３８節第１日",
@@ -12262,7 +12262,7 @@ const List<Match> matches = [
       venue: "アイスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第３８節第１日",
@@ -12274,7 +12274,7 @@ const List<Match> matches = [
       venue: "トラスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第３０節第１日",
@@ -12286,7 +12286,7 @@ const List<Match> matches = [
       venue: "タピスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第３８節第２日",
@@ -12298,7 +12298,7 @@ const List<Match> matches = [
       venue: "ＮＤスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第３８節第２日",
@@ -12310,7 +12310,7 @@ const List<Match> matches = [
       venue: "いわきＧ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第３８節第２日",
@@ -12322,7 +12322,7 @@ const List<Match> matches = [
       venue: "正田スタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第３８節第２日",
@@ -12334,7 +12334,7 @@ const List<Match> matches = [
       venue: "フクアリ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第３８節第２日",
@@ -12346,7 +12346,7 @@ const List<Match> matches = [
       venue: "Ｇスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第３８節第２日",
@@ -12358,7 +12358,7 @@ const List<Match> matches = [
       venue: "石川西部",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第３８節第２日",
@@ -12370,7 +12370,7 @@ const List<Match> matches = [
       venue: "鳴門大塚",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第３０節第２日",
@@ -12382,7 +12382,7 @@ const List<Match> matches = [
       venue: "とうスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第３０節第２日",
@@ -12394,7 +12394,7 @@ const List<Match> matches = [
       venue: "ニッパツ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第３０節第２日",
@@ -12406,7 +12406,7 @@ const List<Match> matches = [
       venue: "サンアル",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第３０節第２日",
@@ -12418,7 +12418,7 @@ const List<Match> matches = [
       venue: "長野Ｕ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第３０節第２日",
@@ -12430,7 +12430,7 @@ const List<Match> matches = [
       venue: "長良川",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第３０節第２日",
@@ -12442,7 +12442,7 @@ const List<Match> matches = [
       venue: "ヤジン",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第３０節第２日",
@@ -12454,7 +12454,7 @@ const List<Match> matches = [
       venue: "ニンスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第３０節第２日",
@@ -12466,7 +12466,7 @@ const List<Match> matches = [
       venue: "ミクスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第３１節第１日",
@@ -12478,7 +12478,7 @@ const List<Match> matches = [
       venue: "北上",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第３１節第１日",
@@ -12490,7 +12490,7 @@ const List<Match> matches = [
       venue: "ロートＦ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第３１節第２日",
@@ -12502,7 +12502,7 @@ const List<Match> matches = [
       venue: "プラスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第３１節第２日",
@@ -12514,7 +12514,7 @@ const List<Match> matches = [
       venue: "サンアル",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第３１節第２日",
@@ -12526,7 +12526,7 @@ const List<Match> matches = [
       venue: "富山",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第３１節第２日",
@@ -12538,7 +12538,7 @@ const List<Match> matches = [
       venue: "花園",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第３１節第２日",
@@ -12550,7 +12550,7 @@ const List<Match> matches = [
       venue: "ピカスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第３１節第２日",
@@ -12562,7 +12562,7 @@ const List<Match> matches = [
       venue: "ニンスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第３１節第２日",
@@ -12574,7 +12574,7 @@ const List<Match> matches = [
       venue: "里山Ｓ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第３１節第２日",
@@ -12586,7 +12586,7 @@ const List<Match> matches = [
       venue: "ユニスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第３９節第１日",
@@ -12598,7 +12598,7 @@ const List<Match> matches = [
       venue: "ＪＩＴス",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第３０節第１日",
@@ -12611,7 +12611,7 @@ const List<Match> matches = [
       att: "",
       broadcast:
           "ＤＡＺＮ　１０／２０（金）　ｏｒ　１０／２１（土）　※５　ＡＦＣチャンピオンズリーグ２０２３／２０２４に出場しなかったチームの試合は、１０／２２（日）に開催する可能性があります"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第３０節第１日",
@@ -12623,7 +12623,7 @@ const List<Match> matches = [
       venue: "等々力",
       att: "",
       broadcast: "ＤＡＺＮ　１０／２０（金）　ｏｒ　１０／２１（土）"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第３０節第１日",
@@ -12635,7 +12635,7 @@ const List<Match> matches = [
       venue: "日産ス",
       att: "",
       broadcast: "ＤＡＺＮ　１０／２０（金）　ｏｒ　１０／２１（土）"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第３０節第１日",
@@ -12647,7 +12647,7 @@ const List<Match> matches = [
       venue: "ニッパツ",
       att: "",
       broadcast: "ＤＡＺＮ　１０／２１（土）　ｏｒ　１０／２２（日）"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第３０節第１日",
@@ -12659,7 +12659,7 @@ const List<Match> matches = [
       venue: "デンカＳ",
       att: "",
       broadcast: "ＤＡＺＮ　１０／２１（土）　ｏｒ　１０／２２（日）"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第３０節第１日",
@@ -12671,7 +12671,7 @@ const List<Match> matches = [
       venue: "サンガＳ",
       att: "",
       broadcast: "ＤＡＺＮ　１０／２１（土）　ｏｒ　１０／２２（日）"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第３０節第１日",
@@ -12683,7 +12683,7 @@ const List<Match> matches = [
       venue: "パナスタ",
       att: "",
       broadcast: "ＤＡＺＮ　１０／２１（土）　ｏｒ　１０／２２（日）"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第３０節第１日",
@@ -12695,7 +12695,7 @@ const List<Match> matches = [
       venue: "国立",
       att: "",
       broadcast: "ＤＡＺＮ　１０／２１（土）　ｏｒ　１０／２２（日）"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第３０節第１日",
@@ -12708,7 +12708,7 @@ const List<Match> matches = [
       att: "",
       broadcast:
           "ＤＡＺＮ　１０／２０（金）　ｏｒ　１０／２１（土）　※５　ＡＦＣチャンピオンズリーグ２０２３／２０２４に出場しなかったチームの試合は、１０／２２（日）に開催する可能性があります"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第３９節第２日",
@@ -12720,7 +12720,7 @@ const List<Match> matches = [
       venue: "いわきＧ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第３２節第１日",
@@ -12732,7 +12732,7 @@ const List<Match> matches = [
       venue: "ギオンス",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第３２節第１日",
@@ -12744,7 +12744,7 @@ const List<Match> matches = [
       venue: "タピスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第３９節第３日",
@@ -12756,7 +12756,7 @@ const List<Match> matches = [
       venue: "ソユスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第３９節第３日",
@@ -12768,7 +12768,7 @@ const List<Match> matches = [
       venue: "Ｋｓスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第３９節第３日",
@@ -12780,7 +12780,7 @@ const List<Match> matches = [
       venue: "カンセキ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第３９節第３日",
@@ -12792,7 +12792,7 @@ const List<Match> matches = [
       venue: "味スタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第３９節第３日",
@@ -12804,7 +12804,7 @@ const List<Match> matches = [
       venue: "石川西部",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第３９節第３日",
@@ -12816,7 +12816,7 @@ const List<Match> matches = [
       venue: "藤枝サ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第３９節第３日",
@@ -12828,7 +12828,7 @@ const List<Match> matches = [
       venue: "みらスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第３９節第３日",
@@ -12840,7 +12840,7 @@ const List<Match> matches = [
       venue: "鳴門大塚",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第３９節第３日",
@@ -12852,7 +12852,7 @@ const List<Match> matches = [
       venue: "えがおＳ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第３２節第２日",
@@ -12864,7 +12864,7 @@ const List<Match> matches = [
       venue: "とうスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第３２節第２日",
@@ -12876,7 +12876,7 @@ const List<Match> matches = [
       venue: "ニッパツ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第３２節第２日",
@@ -12888,7 +12888,7 @@ const List<Match> matches = [
       venue: "長野Ｕ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第３２節第２日",
@@ -12900,7 +12900,7 @@ const List<Match> matches = [
       venue: "愛鷹",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第３２節第２日",
@@ -12912,7 +12912,7 @@ const List<Match> matches = [
       venue: "長良川",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第３２節第２日",
@@ -12924,7 +12924,7 @@ const List<Match> matches = [
       venue: "Ａｘｉｓ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第３２節第２日",
@@ -12936,7 +12936,7 @@ const List<Match> matches = [
       venue: "ピカスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第３２節第２日",
@@ -12948,7 +12948,7 @@ const List<Match> matches = [
       venue: "白波スタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第３１節第１日",
@@ -12960,7 +12960,7 @@ const List<Match> matches = [
       venue: "札幌ド",
       att: "",
       broadcast: "ＤＡＺＮ　１０／２８（土）　ｏｒ　１０／２９（日）"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第３１節第１日",
@@ -12972,7 +12972,7 @@ const List<Match> matches = [
       venue: "カシマ",
       att: "",
       broadcast: "ＤＡＺＮ　１０／２８（土）　ｏｒ　１０／２９（日）"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第３１節第１日",
@@ -12984,7 +12984,7 @@ const List<Match> matches = [
       venue: "三協Ｆ柏",
       att: "",
       broadcast: "ＤＡＺＮ　１０／２８（土）　ｏｒ　１０／２９（日）"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第３１節第１日",
@@ -12996,7 +12996,7 @@ const List<Match> matches = [
       venue: "味スタ",
       att: "",
       broadcast: "ＤＡＺＮ　１０／２８（土）　ｏｒ　１０／２９（日）"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第３１節第１日",
@@ -13008,7 +13008,7 @@ const List<Match> matches = [
       venue: "レモンＳ",
       att: "",
       broadcast: "ＤＡＺＮ　１０／２８（土）　ｏｒ　１０／２９（日）"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第３１節第１日",
@@ -13020,7 +13020,7 @@ const List<Match> matches = [
       venue: "●未定●",
       att: "",
       broadcast: "ＤＡＺＮ　１０／２８（土）　ｏｒ　１０／２９（日）"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第３１節第１日",
@@ -13032,7 +13032,7 @@ const List<Match> matches = [
       venue: "サンガＳ",
       att: "",
       broadcast: "ＤＡＺＮ　１０／２８（土）　ｏｒ　１０／２９（日）"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第３１節第１日",
@@ -13044,7 +13044,7 @@ const List<Match> matches = [
       venue: "ヨドコウ",
       att: "",
       broadcast: "ＤＡＺＮ　１０／２８（土）　ｏｒ　１０／２９（日）"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第３１節第１日",
@@ -13056,7 +13056,7 @@ const List<Match> matches = [
       venue: "ベススタ",
       att: "",
       broadcast: "ＤＡＺＮ　１０／２８（土）　ｏｒ　１０／２９（日）"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第４０節第１日",
@@ -13068,7 +13068,7 @@ const List<Match> matches = [
       venue: "ユアスタ",
       att: "",
       broadcast: "ＤＡＺＮ　１０／２８（土）　ｏｒ　１０／２９（日）"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第４０節第１日",
@@ -13080,7 +13080,7 @@ const List<Match> matches = [
       venue: "アイスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第４０節第１日",
@@ -13092,7 +13092,7 @@ const List<Match> matches = [
       venue: "ヤマハ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第４０節第１日",
@@ -13104,7 +13104,7 @@ const List<Match> matches = [
       venue: "藤枝サ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第４０節第１日",
@@ -13116,7 +13116,7 @@ const List<Match> matches = [
       venue: "トラスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第３３節第１日",
@@ -13128,7 +13128,7 @@ const List<Match> matches = [
       venue: "ギオンス",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第３３節第１日",
@@ -13140,7 +13140,7 @@ const List<Match> matches = [
       venue: "花園",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第３３節第１日",
@@ -13152,7 +13152,7 @@ const List<Match> matches = [
       venue: "ロートＦ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第４０節第２日",
@@ -13164,7 +13164,7 @@ const List<Match> matches = [
       venue: "ＮＤスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第４０節第２日",
@@ -13176,7 +13176,7 @@ const List<Match> matches = [
       venue: "ＮＡＣＫ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第４０節第２日",
@@ -13188,7 +13188,7 @@ const List<Match> matches = [
       venue: "フクアリ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第４０節第２日",
@@ -13200,7 +13200,7 @@ const List<Match> matches = [
       venue: "Ｇスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第４０節第２日",
@@ -13212,7 +13212,7 @@ const List<Match> matches = [
       venue: "Ｃスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第４０節第２日",
@@ -13224,7 +13224,7 @@ const List<Match> matches = [
       venue: "レゾド",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第３３節第２日",
@@ -13236,7 +13236,7 @@ const List<Match> matches = [
       venue: "プラスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第３３節第２日",
@@ -13248,7 +13248,7 @@ const List<Match> matches = [
       venue: "とうスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第３３節第２日",
@@ -13260,7 +13260,7 @@ const List<Match> matches = [
       venue: "長野Ｕ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第３３節第２日",
@@ -13272,7 +13272,7 @@ const List<Match> matches = [
       venue: "富山",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第３３節第２日",
@@ -13284,7 +13284,7 @@ const List<Match> matches = [
       venue: "里山Ｓ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第３３節第２日",
@@ -13296,7 +13296,7 @@ const List<Match> matches = [
       venue: "ミクスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第３３節第２日",
@@ -13308,7 +13308,7 @@ const List<Match> matches = [
       venue: "ユニスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第４１節第１日",
@@ -13320,7 +13320,7 @@ const List<Match> matches = [
       venue: "ＪＩＴス",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第４１節第２日",
@@ -13332,7 +13332,7 @@ const List<Match> matches = [
       venue: "いわきＧ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第４１節第２日",
@@ -13344,7 +13344,7 @@ const List<Match> matches = [
       venue: "石川西部",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第４１節第２日",
@@ -13356,7 +13356,7 @@ const List<Match> matches = [
       venue: "鳴門大塚",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第４１節第２日",
@@ -13368,7 +13368,7 @@ const List<Match> matches = [
       venue: "トラスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第３４節第１日",
@@ -13380,7 +13380,7 @@ const List<Match> matches = [
       venue: "北上",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第３４節第１日",
@@ -13392,7 +13392,7 @@ const List<Match> matches = [
       venue: "長良川",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第３４節第１日",
@@ -13404,7 +13404,7 @@ const List<Match> matches = [
       venue: "タピスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第４１節第３日",
@@ -13416,7 +13416,7 @@ const List<Match> matches = [
       venue: "正田スタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第４１節第３日",
@@ -13428,7 +13428,7 @@ const List<Match> matches = [
       venue: "味スタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第４１節第３日",
@@ -13440,7 +13440,7 @@ const List<Match> matches = [
       venue: "Ｃスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第４１節第３日",
@@ -13452,7 +13452,7 @@ const List<Match> matches = [
       venue: "みらスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第３４節第２日",
@@ -13464,7 +13464,7 @@ const List<Match> matches = [
       venue: "サンアル",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第３４節第２日",
@@ -13476,7 +13476,7 @@ const List<Match> matches = [
       venue: "愛鷹",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第３４節第２日",
@@ -13488,7 +13488,7 @@ const List<Match> matches = [
       venue: "花園",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第３４節第２日",
@@ -13500,7 +13500,7 @@ const List<Match> matches = [
       venue: "ピカスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第３４節第２日",
@@ -13512,7 +13512,7 @@ const List<Match> matches = [
       venue: "ニンスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第３４節第２日",
@@ -13524,7 +13524,7 @@ const List<Match> matches = [
       venue: "里山Ｓ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第３４節第２日",
@@ -13536,7 +13536,7 @@ const List<Match> matches = [
       venue: "白波スタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第４１節第４日",
@@ -13549,7 +13549,7 @@ const List<Match> matches = [
       att: "",
       broadcast:
           "ＤＡＺＮ　※３　２０２３ＪリーグＹＢＣルヴァンカップにおいて清水がプライムステージ準決勝以前で敗退した場合、開催日が１１月５日（日）に変更となる可能性があります"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第４１節第４日",
@@ -13562,7 +13562,7 @@ const List<Match> matches = [
       att: "",
       broadcast:
           "ＤＡＺＮ　※４　２０２３ＪリーグＹＢＣルヴァンカップにおいて磐田がプライムステージ準決勝以前で敗退した場合、開催日が１１月４日（土）に変更となる可能性があります"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第３２節第１日",
@@ -13574,7 +13574,7 @@ const List<Match> matches = [
       venue: "●未定●",
       att: "",
       broadcast: "ＤＡＺＮ　※６　ＡＦＣチャンピオンズリーグ２０２３／２０２４の日程次第で、１１／１２（日）に開催する可能性があります"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第３２節第１日",
@@ -13586,7 +13586,7 @@ const List<Match> matches = [
       venue: "カシマ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第３２節第１日",
@@ -13598,7 +13598,7 @@ const List<Match> matches = [
       venue: "埼玉",
       att: "",
       broadcast: "ＤＡＺＮ　※６　ＡＦＣチャンピオンズリーグ２０２３／２０２４の日程次第で、１１／１２（日）に開催する可能性があります"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第３２節第１日",
@@ -13610,7 +13610,7 @@ const List<Match> matches = [
       venue: "等々力",
       att: "",
       broadcast: "ＤＡＺＮ　※６　ＡＦＣチャンピオンズリーグ２０２３／２０２４の日程次第で、１１／１２（日）に開催する可能性があります"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第３２節第１日",
@@ -13622,7 +13622,7 @@ const List<Match> matches = [
       venue: "日産ス",
       att: "",
       broadcast: "ＤＡＺＮ　※６　ＡＦＣチャンピオンズリーグ２０２３／２０２４の日程次第で、１１／１２（日）に開催する可能性があります"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第３２節第１日",
@@ -13634,7 +13634,7 @@ const List<Match> matches = [
       venue: "レモンＳ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第３２節第１日",
@@ -13646,7 +13646,7 @@ const List<Match> matches = [
       venue: "デンカＳ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第３２節第１日",
@@ -13658,7 +13658,7 @@ const List<Match> matches = [
       venue: "パナスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第３２節第１日",
@@ -13670,7 +13670,7 @@ const List<Match> matches = [
       venue: "駅スタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第３５節第１日",
@@ -13682,7 +13682,7 @@ const List<Match> matches = [
       venue: "ニッパツ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第３５節第１日",
@@ -13694,7 +13694,7 @@ const List<Match> matches = [
       venue: "ニンスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第３５節第１日",
@@ -13706,7 +13706,7 @@ const List<Match> matches = [
       venue: "ミクスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第３５節第１日",
@@ -13718,7 +13718,7 @@ const List<Match> matches = [
       venue: "タピスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第４２節第１日",
@@ -13730,7 +13730,7 @@ const List<Match> matches = [
       venue: "ユアスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第４２節第１日",
@@ -13742,7 +13742,7 @@ const List<Match> matches = [
       venue: "ソユスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第４２節第１日",
@@ -13754,7 +13754,7 @@ const List<Match> matches = [
       venue: "ＮＤスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第４２節第１日",
@@ -13766,7 +13766,7 @@ const List<Match> matches = [
       venue: "Ｋｓスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第４２節第１日",
@@ -13778,7 +13778,7 @@ const List<Match> matches = [
       venue: "カンセキ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第４２節第１日",
@@ -13790,7 +13790,7 @@ const List<Match> matches = [
       venue: "ＮＡＣＫ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第４２節第１日",
@@ -13802,7 +13802,7 @@ const List<Match> matches = [
       venue: "フクアリ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第４２節第１日",
@@ -13814,7 +13814,7 @@ const List<Match> matches = [
       venue: "石川西部",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第４２節第１日",
@@ -13826,7 +13826,7 @@ const List<Match> matches = [
       venue: "藤枝サ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第４２節第１日",
@@ -13838,7 +13838,7 @@ const List<Match> matches = [
       venue: "えがおＳ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第４２節第１日",
@@ -13850,7 +13850,7 @@ const List<Match> matches = [
       venue: "レゾド",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第３５節第２日",
@@ -13862,7 +13862,7 @@ const List<Match> matches = [
       venue: "とうスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第３５節第２日",
@@ -13874,7 +13874,7 @@ const List<Match> matches = [
       venue: "ギオンス",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第３５節第２日",
@@ -13886,7 +13886,7 @@ const List<Match> matches = [
       venue: "富山",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第３５節第２日",
@@ -13898,7 +13898,7 @@ const List<Match> matches = [
       venue: "長良川",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第３５節第２日",
@@ -13910,7 +13910,7 @@ const List<Match> matches = [
       venue: "Ａｘｉｓ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第３５節第２日",
@@ -13922,7 +13922,7 @@ const List<Match> matches = [
       venue: "ユニスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第３６節第１日",
@@ -13934,7 +13934,7 @@ const List<Match> matches = [
       venue: "サンアル",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第３６節第１日",
@@ -13946,7 +13946,7 @@ const List<Match> matches = [
       venue: "花園",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第３６節第１日",
@@ -13958,7 +13958,7 @@ const List<Match> matches = [
       venue: "ロートＦ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第３６節第２日",
@@ -13970,7 +13970,7 @@ const List<Match> matches = [
       venue: "プラスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第３６節第２日",
@@ -13982,7 +13982,7 @@ const List<Match> matches = [
       venue: "いわスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第３６節第２日",
@@ -13994,7 +13994,7 @@ const List<Match> matches = [
       venue: "とうスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第３６節第２日",
@@ -14006,7 +14006,7 @@ const List<Match> matches = [
       venue: "長野Ｕ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第３６節第２日",
@@ -14018,7 +14018,7 @@ const List<Match> matches = [
       venue: "愛鷹",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第３６節第２日",
@@ -14030,7 +14030,7 @@ const List<Match> matches = [
       venue: "Ａｘｉｓ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第３６節第２日",
@@ -14042,7 +14042,7 @@ const List<Match> matches = [
       venue: "里山Ｓ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第３３節第１日",
@@ -14054,7 +14054,7 @@ const List<Match> matches = [
       venue: "埼玉",
       att: "",
       broadcast: "ＤＡＺＮ　※７　ＡＦＣチャンピオンズリーグ２０２３／２０２４の日程次第で、１１／２４（金）に開催する可能性があります"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第３３節第１日",
@@ -14066,7 +14066,7 @@ const List<Match> matches = [
       venue: "三協Ｆ柏",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第３３節第１日",
@@ -14078,7 +14078,7 @@ const List<Match> matches = [
       venue: "味スタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第３３節第１日",
@@ -14090,7 +14090,7 @@ const List<Match> matches = [
       venue: "等々力",
       att: "",
       broadcast: "ＤＡＺＮ　※７　ＡＦＣチャンピオンズリーグ２０２３／２０２４の日程次第で、１１／２４（金）に開催する可能性があります"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第３３節第１日",
@@ -14102,7 +14102,7 @@ const List<Match> matches = [
       venue: "日産ス",
       att: "",
       broadcast: "ＤＡＺＮ　※７　ＡＦＣチャンピオンズリーグ２０２３／２０２４の日程次第で、１１／２４（金）に開催する可能性があります"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第３３節第１日",
@@ -14114,7 +14114,7 @@ const List<Match> matches = [
       venue: "ニッパツ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第３３節第１日",
@@ -14126,7 +14126,7 @@ const List<Match> matches = [
       venue: "ヨドコウ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第３３節第１日",
@@ -14138,7 +14138,7 @@ const List<Match> matches = [
       venue: "ノエスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第３３節第１日",
@@ -14150,7 +14150,7 @@ const List<Match> matches = [
       venue: "Ｅスタ",
       att: "",
       broadcast: "ＤＡＺＮ　※７　ＡＦＣチャンピオンズリーグ２０２３／２０２４の日程次第で、１１／２４（金）に開催する可能性があります"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第３７節第１日",
@@ -14162,7 +14162,7 @@ const List<Match> matches = [
       venue: "里山Ｓ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第３７節第１日",
@@ -14174,7 +14174,7 @@ const List<Match> matches = [
       venue: "タピスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第３７節第２日",
@@ -14186,7 +14186,7 @@ const List<Match> matches = [
       venue: "ニッパツ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第３７節第２日",
@@ -14198,7 +14198,7 @@ const List<Match> matches = [
       venue: "ギオンス",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第３７節第２日",
@@ -14210,7 +14210,7 @@ const List<Match> matches = [
       venue: "ロートＦ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第３７節第２日",
@@ -14222,7 +14222,7 @@ const List<Match> matches = [
       venue: "ピカスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第３７節第２日",
@@ -14234,7 +14234,7 @@ const List<Match> matches = [
       venue: "ニンスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第３７節第２日",
@@ -14246,7 +14246,7 @@ const List<Match> matches = [
       venue: "ミクスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第３７節第２日",
@@ -14258,7 +14258,7 @@ const List<Match> matches = [
       venue: "ユニスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第３７節第２日",
@@ -14270,7 +14270,7 @@ const List<Match> matches = [
       venue: "白波スタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第３８節第１日",
@@ -14282,7 +14282,7 @@ const List<Match> matches = [
       venue: "プラスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第３８節第１日",
@@ -14294,7 +14294,7 @@ const List<Match> matches = [
       venue: "いわスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第３８節第１日",
@@ -14306,7 +14306,7 @@ const List<Match> matches = [
       venue: "とうスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第３８節第１日",
@@ -14318,7 +14318,7 @@ const List<Match> matches = [
       venue: "サンアル",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第３８節第１日",
@@ -14330,7 +14330,7 @@ const List<Match> matches = [
       venue: "長野Ｕ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第３８節第１日",
@@ -14342,7 +14342,7 @@ const List<Match> matches = [
       venue: "富山",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第３８節第１日",
@@ -14354,7 +14354,7 @@ const List<Match> matches = [
       venue: "愛鷹",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第３８節第１日",
@@ -14366,7 +14366,7 @@ const List<Match> matches = [
       venue: "長良川",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第３８節第１日",
@@ -14378,7 +14378,7 @@ const List<Match> matches = [
       venue: "●未定●",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第３８節第１日",
@@ -14390,7 +14390,7 @@ const List<Match> matches = [
       venue: "Ａｘｉｓ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第３４節第１日",
@@ -14402,7 +14402,7 @@ const List<Match> matches = [
       venue: "札幌ド",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第３４節第１日",
@@ -14414,7 +14414,7 @@ const List<Match> matches = [
       venue: "カシマ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第３４節第１日",
@@ -14426,7 +14426,7 @@ const List<Match> matches = [
       venue: "レモンＳ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第３４節第１日",
@@ -14438,7 +14438,7 @@ const List<Match> matches = [
       venue: "デンカＳ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第３４節第１日",
@@ -14450,7 +14450,7 @@ const List<Match> matches = [
       venue: "●未定●",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第３４節第１日",
@@ -14462,7 +14462,7 @@ const List<Match> matches = [
       venue: "サンガＳ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第３４節第１日",
@@ -14474,7 +14474,7 @@ const List<Match> matches = [
       venue: "パナスタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第３４節第１日",
@@ -14486,7 +14486,7 @@ const List<Match> matches = [
       venue: "ベススタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ１",
       sec: "第３４節第１日",
@@ -14498,7 +14498,7 @@ const List<Match> matches = [
       venue: "駅スタ",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ２",
       sec: "第２６節第３日",
@@ -14510,7 +14510,7 @@ const List<Match> matches = [
       venue: "●未定●",
       att: "",
       broadcast: "ＤＡＺＮ"),
-  Match(
+  FootballMatch(
       year: "2023",
       tournaments: "Ｊ３",
       sec: "第３０節第３日",

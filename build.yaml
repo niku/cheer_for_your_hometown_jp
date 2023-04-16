@@ -1,7 +1,7 @@
 builders:
   matches_builder:
    import: 'package:cheer_your_hometown_jp/matches_builder.dart'
-   builder_factories: ['myMatchesBuilderFactory']
+   builder_factories: ['myFootballMatchesBuilderFactory']
    build_extensions: {'.csv': ['.g.dart']}
    auto_apply: root_package
    build_to: source
