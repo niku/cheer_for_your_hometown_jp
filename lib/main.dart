@@ -38,20 +38,20 @@ class MyPage extends StatelessWidget {
       appBar: AppBar(title: Text(title)),
       body: const Padding(
         padding: EdgeInsets.all(8),
-        child: MapWithPopups(),
+        child: MyMap(),
       ),
     );
   }
 }
 
-class MapWithPopups extends StatefulWidget {
-  const MapWithPopups({Key? key}) : super(key: key);
+class MyMap extends StatefulWidget {
+  const MyMap({Key? key}) : super(key: key);
 
   @override
-  State<MapWithPopups> createState() => _MapWithPopupsState();
+  State<MyMap> createState() => _MyMapState();
 }
 
-class _MapWithPopupsState extends State<MapWithPopups> {
+class _MyMapState extends State<MyMap> {
   static final defaultCenter = LatLng(35.588, 134.380);
   static const double defaultZoom = 6;
   static final defaultMaxBounds =
