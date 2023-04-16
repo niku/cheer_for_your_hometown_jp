@@ -15,7 +15,7 @@ void main() {
 }
 
 class MyApp extends StatelessWidget {
-  final title = 'Cheer your hometown';
+  final title = 'Cheer your hometown JP';
 
   const MyApp({super.key});
 
