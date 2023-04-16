@@ -1,3 +1,4 @@
+import 'package:cheer_your_hometown_jp/football_match.dart';
 import 'package:cheer_your_hometown_jp/stadiums.g.dart';
 import 'package:cheer_your_hometown_jp/matches_2023.g.dart';
 import 'package:flutter/material.dart';
@@ -44,6 +45,23 @@ class MyPage extends StatelessWidget {
   }
 }
 
+class StadiumMarker extends Marker {
+  StadiumMarker({
+    required this.name,
+    required super.point,
+    required super.builder,
+    super.key,
+    super.width,
+    super.height,
+    super.rotate,
+    super.rotateOrigin,
+    super.rotateAlignment,
+    super.anchorPos,
+  }) : super();
+
+  final String name;
+}
+
 class MyMap extends StatefulWidget {
   const MyMap({Key? key}) : super(key: key);
 
@@ -52,20 +70,27 @@ class MyMap extends StatefulWidget {
 }
 
 class _MyMapState extends State<MyMap> {
-  static final defaultCenter = LatLng(35.588, 134.380);
+  static final defaultCenter = LatLng(35.676, 139.650);
   static const double defaultZoom = 6;
   static final defaultMaxBounds =
-      LatLngBounds(LatLng(20.0, 122.0), LatLng(46.0, 154.0));
+      LatLngBounds(LatLng(20.0, 122.0), LatLng(50.0, 154.0));
 
-  final List<Marker> _markers = stadiums.entries.map((e) {
+  final List<StadiumMarker> _stadiums = stadiums.entries.map((e) {
     final stadiumLatlng = e.value;
-    return Marker(
+    return StadiumMarker(
+        name: e.key,
         point: stadiumLatlng,
         builder: (context) => Icon(
               Icons.location_pin,
               color: Theme.of(context).colorScheme.secondary,
             ));
   }).toList();
+
+  final Map<String, List<FootballMatch>> _footballMatchesAtVenue =
+      footballMatches.fold(
+          {},
+          (previousValue, element) =>
+              previousValue..putIfAbsent(element.venue, () => []).add(element));
 
   /// Used to trigger showing/hiding of popups.
   final PopupController _popupLayerController = PopupController();
@@ -87,11 +112,11 @@ class _MyMapState extends State<MyMap> {
         PopupMarkerLayerWidget(
           options: PopupMarkerLayerOptions(
             popupController: _popupLayerController,
-            markers: _markers,
+            markers: _stadiums,
             markerRotateAlignment:
                 PopupMarkerLayerOptions.rotationAlignmentFor(AnchorAlign.top),
-            popupBuilder: (BuildContext context, Marker marker) =>
-                Popup(marker),
+            popupBuilder: (BuildContext context, Marker marker) => Popup(
+                marker as StadiumMarker, _footballMatchesAtVenue[marker.name]!),
           ),
         ),
       ],
@@ -99,74 +124,43 @@ class _MyMapState extends State<MyMap> {
   }
 }
 
-class Popup extends StatefulWidget {
-  final Marker marker;
+class Popup extends StatelessWidget {
+  final StadiumMarker marker;
+  final List<FootballMatch> matches;
 
-  const Popup(this.marker, {Key? key}) : super(key: key);
-
-  @override
-  State<StatefulWidget> createState() => _PopupState();
-}
-
-class _PopupState extends State<Popup> {
-  final List<IconData> _icons = [
-    Icons.star_border,
-    Icons.star_half,
-    Icons.star
-  ];
-  int _currentIcon = 0;
+  const Popup(this.marker, this.matches, {Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return Card(
-      child: InkWell(
-        onTap: () => setState(() {
-          _currentIcon = (_currentIcon + 1) % _icons.length;
-        }),
-        child: Row(
-          mainAxisSize: MainAxisSize.min,
-          children: <Widget>[
-            Padding(
-              padding: const EdgeInsets.only(left: 20, right: 10),
-              child: Icon(_icons[_currentIcon]),
-            ),
-            _cardDescription(context),
-          ],
-        ),
-      ),
-    );
-  }
-
-  Widget _cardDescription(BuildContext context) {
-    return Padding(
-      padding: const EdgeInsets.all(10),
-      child: Container(
-        constraints: const BoxConstraints(minWidth: 100, maxWidth: 200),
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          mainAxisAlignment: MainAxisAlignment.start,
-          mainAxisSize: MainAxisSize.min,
-          children: <Widget>[
-            const Text(
-              'Popup for a marker!',
-              overflow: TextOverflow.fade,
-              softWrap: false,
-              style: TextStyle(
-                fontWeight: FontWeight.w500,
-                fontSize: 14.0,
-              ),
-            ),
-            const Padding(padding: EdgeInsets.symmetric(vertical: 4.0)),
-            Text(
-              'Position: ${widget.marker.point.latitude}, ${widget.marker.point.longitude}',
-              style: const TextStyle(fontSize: 12.0),
-            ),
-            Text(
-              'Marker size: ${widget.marker.width}, ${widget.marker.height}',
-              style: const TextStyle(fontSize: 12.0),
-            ),
-          ],
-        ),
+      child: Column(
+        mainAxisSize: MainAxisSize.min,
+        children: <Widget>[
+          Text(marker.name),
+          Table(
+            border: TableBorder.all(),
+            defaultColumnWidth: const IntrinsicColumnWidth(),
+            children: matches.map((e) {
+              return TableRow(children: <Widget>[
+                TableCell(
+                    child: Padding(
+                  padding: const EdgeInsets.all(1),
+                  child: Text(e.date),
+                )),
+                TableCell(
+                    child: Padding(
+                  padding: const EdgeInsets.all(1),
+                  child: Text(e.home),
+                )),
+                TableCell(
+                    child: Padding(
+                  padding: const EdgeInsets.all(1),
+                  child: Text(e.away),
+                )),
+              ]);
+            }).toList(),
+          ),
+        ],
       ),
     );
   }
