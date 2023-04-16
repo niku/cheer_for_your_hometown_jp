@@ -1,10 +1,12 @@
 import 'package:cheer_your_hometown_jp/football_match.dart';
 import 'package:cheer_your_hometown_jp/stadiums.g.dart';
 import 'package:cheer_your_hometown_jp/matches_2023.g.dart';
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_map/flutter_map.dart';
 import 'package:flutter_map_marker_popup/flutter_map_marker_popup.dart';
 import 'package:latlong2/latlong.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 void main() {
   runApp(const MyApp());
@@ -105,6 +107,19 @@ class _MyMapState extends State<MyMap> {
         onTap: (_, __) => _popupLayerController
             .hideAllPopups(), // Hide popup when the map is tapped.
       ),
+      nonRotatedChildren: [
+        AttributionWidget.defaultWidget(
+          source: 'OpenStreetMap contributors',
+          onSourceTapped: () async {
+            if (!await launchUrl(
+                Uri.parse("https://www.openstreetmap.org/copyright"))) {
+              if (kDebugMode) {
+                print('Could not launch url');
+              }
+            }
+          },
+        ),
+      ],
       children: [
         TileLayer(
           urlTemplate: 'https://tile.openstreetmap.jp/{z}/{x}/{y}.png',
