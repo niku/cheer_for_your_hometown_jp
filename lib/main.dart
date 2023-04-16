@@ -117,6 +117,7 @@ class _MyMapState extends State<MyMap> {
         maxBounds: defaultMaxBounds,
         onTap: (_, __) => _popupLayerController
             .hideAllPopups(), // Hide popup when the map is tapped.
+        interactiveFlags: InteractiveFlag.all & ~InteractiveFlag.rotate,
       ),
       nonRotatedChildren: [
         AttributionWidget.defaultWidget(
