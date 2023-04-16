@@ -57,24 +57,18 @@ class _MyMapState extends State<MyMap> {
   static final defaultMaxBounds =
       LatLngBounds(LatLng(20.0, 122.0), LatLng(46.0, 154.0));
 
-  late final List<Marker> _markers;
+  final List<Marker> _markers = stadiums.entries.map((e) {
+    final stadiumLatlng = e.value;
+    return Marker(
+        point: stadiumLatlng,
+        builder: (context) => Icon(
+              Icons.location_pin,
+              color: Theme.of(context).colorScheme.secondary,
+            ));
+  }).toList();
 
   /// Used to trigger showing/hiding of popups.
   final PopupController _popupLayerController = PopupController();
-
-  @override
-  void initState() {
-    super.initState();
-    _markers = stadiums.entries.map((e) {
-      final stadiumLatlng = e.value;
-      return Marker(
-          point: stadiumLatlng,
-          builder: (context) => Icon(
-                Icons.location_pin,
-                color: Theme.of(context).colorScheme.secondary,
-              ));
-    }).toList();
-  }
 
   @override
   Widget build(BuildContext context) {
