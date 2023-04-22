@@ -12,13 +12,18 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:cheer_for_your_hometown_jp/firebase_options.dart';
 import 'package:firebase_analytics/firebase_analytics.dart';
 
+const enableAnalytics = bool.fromEnvironment('enableAnalytics');
+late FirebaseAnalytics analytics;
+
 void main() async {
   usePathUrlStrategy();
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,
   );
-  FirebaseAnalytics analytics = FirebaseAnalytics.instance;
-  await analytics.logAppOpen();
+  analytics = FirebaseAnalytics.instance;
+  if (enableAnalytics) {
+    await analytics.logAppOpen();
+  }
   runApp(const MyApp());
 }
 
@@ -142,8 +147,18 @@ class _MyMapState extends State<MyMap> {
             markers: _stadiums,
             markerRotateAlignment:
                 PopupMarkerLayerOptions.rotationAlignmentFor(AnchorAlign.top),
-            popupBuilder: (BuildContext context, Marker marker) => Popup(
-                marker as StadiumMarker, _footballMatchesAtVenue[marker.name]!),
+            popupBuilder: (BuildContext context, Marker marker) {
+              marker as StadiumMarker;
+              final itemId = marker.name;
+              if (enableAnalytics) {
+                analytics.logSelectContent(
+                    contentType: 'marker', itemId: itemId);
+              } else {
+                debugPrint(
+                    'selectContent(contentType: \'marker\', itemId: \'$itemId\')');
+              }
+              return Popup(marker, _footballMatchesAtVenue[marker.name]!);
+            },
           ),
         ),
       ],
