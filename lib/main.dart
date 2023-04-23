@@ -16,6 +16,74 @@ import 'package:go_router/go_router.dart';
 const enableAnalytics = bool.fromEnvironment('enableAnalytics');
 late FirebaseAnalytics analytics;
 
+const List<String> clubs = <String>[
+  '全て',
+  // 並び順は https://www.jleague.jp/club/ より
+  // J1
+  '札幌',
+  '鹿島',
+  '浦和',
+  '柏',
+  'ＦＣ東京',
+  '川崎Ｆ',
+  '横浜FM',
+  '横浜FC',
+  '湘南',
+  '新潟',
+  '名古屋',
+  '京都',
+  'Ｇ大阪',
+  'Ｃ大阪',
+  '神戸',
+  '広島',
+  '福岡',
+  '鳥栖',
+  // J2
+  '仙台',
+  '秋田',
+  '山形',
+  'いわき',
+  '水戸',
+  '栃木',
+  '群馬',
+  '大宮',
+  '千葉',
+  '東京Ｖ',
+  '金沢',
+  '清水',
+  '磐田',
+  '藤枝',
+  '岡山',
+  '山口',
+  '徳島',
+  '長崎',
+  '熊本',
+  '大分',
+  // J3
+  '八戸',
+  '岩手',
+  '福島',
+  'YS横浜',
+  '相模原',
+  '松本',
+  '長野',
+  '富山',
+  '沼津',
+  '岐阜',
+  'FC大阪',
+  '奈良',
+  '鳥取',
+  '讃岐',
+  '愛媛',
+  '今治',
+  '北九州',
+  '宮崎',
+  '鹿児島',
+  '琉球',
+];
+
+final PopupController _popupLayerController = PopupController();
+
 void main() async {
   usePathUrlStrategy();
   await Firebase.initializeApp(
@@ -46,7 +114,7 @@ class MyApp extends StatelessWidget {
           GoRoute(
             path: '/',
             builder: (BuildContext context, GoRouterState state) {
-              final selectedTeams = state.queryParametersAll['team'] ?? [];
+              final selectedTeams = state.queryParametersAll['club'] ?? [];
               return MyPage(
                 title: title,
                 selectedTeams: selectedTeams.toSet(),
@@ -68,20 +136,22 @@ class MyPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final Set<String> teams =
-        footballMatches.expand((e) => [e.home, e.away]).toSet();
-
     return Scaffold(
       appBar: AppBar(
         actions: [
           PopupMenuButton(
             itemBuilder: (BuildContext context) {
-              return teams.map((team) {
+              return clubs.map((club) {
                 return PopupMenuItem(
-                  child: Text(team),
+                  child: Text(club),
                   onTap: () {
-                    context.go(Uri(path: '/', queryParameters: {'team': team})
-                        .toString());
+                    _popupLayerController.hideAllPopups(disableAnimation: true);
+                    if (club == '全て') {
+                      context.go(Uri(path: '/').toString());
+                    } else {
+                      context.go(Uri(path: '/', queryParameters: {'club': club})
+                          .toString());
+                    }
                   },
                 );
               }).toList();
@@ -117,32 +187,43 @@ class StadiumMarker extends Marker {
 }
 
 class MyMap extends StatefulWidget {
-  MyMap({Key? key, required this.selectedTeams})
-      : _stadiums = stadiums.entries.map((e) {
-          final stadiumLatlng = e.value;
-          return StadiumMarker(
-              name: e.key,
-              point: stadiumLatlng,
-              builder: (context) => Icon(
-                    Icons.location_pin,
-                    color: Theme.of(context).colorScheme.secondary,
-                  ),
-              anchorPos: AnchorPos.align(AnchorAlign.top));
-        }).toList(),
-        _footballMatchesAtVenue = footballMatches.fold(
-            {},
-            (previousValue, element) => previousValue
-              ..putIfAbsent(element.venue, () => []).add(element)),
-        super(key: key);
+  MyMap({Key? key, required this.selectedTeams}) : super(key: key);
 
   final Set<String> selectedTeams;
-  final List<StadiumMarker> _stadiums;
-  final Map<String, List<FootballMatch>> _footballMatchesAtVenue;
 
   final defaultCenter = LatLng(35.676, 139.650);
   final double defaultZoom = 6;
   final defaultMaxBounds =
       LatLngBounds(LatLng(20.0, 122.0), LatLng(50.0, 154.0));
+
+  Map<String, List<FootballMatch>> get footballMatchesAtVenue =>
+      footballMatches.where((footballMatch) {
+        if (selectedTeams.isEmpty) {
+          return true;
+        } else {
+          return selectedTeams.contains(footballMatch.home) ||
+              selectedTeams.contains(footballMatch.away);
+        }
+      }).fold(
+          {},
+          (previousValue, element) =>
+              previousValue..putIfAbsent(element.venue, () => []).add(element));
+
+  List<StadiumMarker> get selectedStadiums {
+    final venues =
+        footballMatchesAtVenue.keys; // where で stadium 数だけ呼び出すのを防ぐため変数へ代入している
+    return stadiums.entries.where((e) => venues.contains(e.key)).map((e) {
+      final stadiumLatlng = e.value;
+      return StadiumMarker(
+          name: e.key,
+          point: stadiumLatlng,
+          builder: (context) => Icon(
+                Icons.location_pin,
+                color: Theme.of(context).colorScheme.secondary,
+              ),
+          anchorPos: AnchorPos.align(AnchorAlign.top));
+    }).toList();
+  }
 
   @override
   State<MyMap> createState() => _MyMapState();
@@ -150,8 +231,6 @@ class MyMap extends StatefulWidget {
 
 class _MyMapState extends State<MyMap> {
   /// Used to trigger showing/hiding of popups.
-  final PopupController _popupLayerController = PopupController();
-
   @override
   Widget build(BuildContext context) {
     return FlutterMap(
@@ -183,7 +262,7 @@ class _MyMapState extends State<MyMap> {
         PopupMarkerLayerWidget(
           options: PopupMarkerLayerOptions(
             popupController: _popupLayerController,
-            markers: widget._stadiums,
+            markers: widget.selectedStadiums,
             markerRotateAlignment:
                 PopupMarkerLayerOptions.rotationAlignmentFor(AnchorAlign.top),
             popupBuilder: (BuildContext context, Marker marker) {
@@ -196,8 +275,7 @@ class _MyMapState extends State<MyMap> {
                 debugPrint(
                     'selectContent(contentType: \'marker\', itemId: \'$itemId\')');
               }
-              return Popup(
-                  marker, widget._footballMatchesAtVenue[marker.name]!);
+              return Popup(marker, widget.footballMatchesAtVenue[marker.name]!);
             },
           ),
         ),
