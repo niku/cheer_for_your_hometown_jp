@@ -92,18 +92,13 @@ class StadiumMarker extends Marker {
 }
 
 class MyMap extends StatefulWidget {
-  const MyMap({Key? key}) : super(key: key);
+  MyMap({Key? key}) : super(key: key);
 
-  @override
-  State<MyMap> createState() => _MyMapState();
-}
+  final defaultCenter = LatLng(35.676, 139.650);
+  final double defaultZoom = 6;
 
-class _MyMapState extends State<MyMap> {
-  static final defaultCenter = LatLng(35.676, 139.650);
-  static const double defaultZoom = 6;
-  static final defaultMaxBounds =
+  final defaultMaxBounds =
       LatLngBounds(LatLng(20.0, 122.0), LatLng(50.0, 154.0));
-
   final List<StadiumMarker> _stadiums = stadiums.entries.map((e) {
     final stadiumLatlng = e.value;
     return StadiumMarker(
@@ -122,6 +117,11 @@ class _MyMapState extends State<MyMap> {
           (previousValue, element) =>
               previousValue..putIfAbsent(element.venue, () => []).add(element));
 
+  @override
+  State<MyMap> createState() => _MyMapState();
+}
+
+class _MyMapState extends State<MyMap> {
   /// Used to trigger showing/hiding of popups.
   final PopupController _popupLayerController = PopupController();
 
@@ -129,9 +129,9 @@ class _MyMapState extends State<MyMap> {
   Widget build(BuildContext context) {
     return FlutterMap(
       options: MapOptions(
-        center: defaultCenter,
-        zoom: defaultZoom,
-        maxBounds: defaultMaxBounds,
+        center: widget.defaultCenter,
+        zoom: widget.defaultZoom,
+        maxBounds: widget.defaultMaxBounds,
         onTap: (_, __) => _popupLayerController
             .hideAllPopups(), // Hide popup when the map is tapped.
         interactiveFlags: InteractiveFlag.all & ~InteractiveFlag.rotate,
@@ -156,7 +156,7 @@ class _MyMapState extends State<MyMap> {
         PopupMarkerLayerWidget(
           options: PopupMarkerLayerOptions(
             popupController: _popupLayerController,
-            markers: _stadiums,
+            markers: widget._stadiums,
             markerRotateAlignment:
                 PopupMarkerLayerOptions.rotationAlignmentFor(AnchorAlign.top),
             popupBuilder: (BuildContext context, Marker marker) {
@@ -169,7 +169,8 @@ class _MyMapState extends State<MyMap> {
                 debugPrint(
                     'selectContent(contentType: \'marker\', itemId: \'$itemId\')');
               }
-              return Popup(marker, _footballMatchesAtVenue[marker.name]!);
+              return Popup(
+                  marker, widget._footballMatchesAtVenue[marker.name]!);
             },
           ),
         ),
