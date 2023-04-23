@@ -11,6 +11,7 @@ import 'package:flutter_web_plugins/url_strategy.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:cheer_for_your_hometown_jp/firebase_options.dart';
 import 'package:firebase_analytics/firebase_analytics.dart';
+import 'package:go_router/go_router.dart';
 
 const enableAnalytics = bool.fromEnvironment('enableAnalytics');
 late FirebaseAnalytics analytics;
@@ -34,13 +35,24 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return MaterialApp.router(
       title: title,
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: MyPage(title: title),
+      routerConfig: GoRouter(
+        routes: <RouteBase>[
+          GoRoute(
+            path: '/',
+            builder: (BuildContext context, GoRouterState state) {
+              return MyPage(
+                title: title,
+              );
+            },
+          ),
+        ],
+      ),
     );
   }
 }
