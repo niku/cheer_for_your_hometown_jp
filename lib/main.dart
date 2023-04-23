@@ -46,8 +46,10 @@ class MyApp extends StatelessWidget {
           GoRoute(
             path: '/',
             builder: (BuildContext context, GoRouterState state) {
+              final selectedTeams = state.queryParametersAll['team'] ?? [];
               return MyPage(
                 title: title,
+                selectedTeams: selectedTeams.toSet(),
               );
             },
           ),
@@ -58,17 +60,40 @@ class MyApp extends StatelessWidget {
 }
 
 class MyPage extends StatelessWidget {
-  const MyPage({Key? key, required this.title}) : super(key: key);
+  const MyPage({Key? key, required this.title, required this.selectedTeams})
+      : super(key: key);
 
   final String title;
+  final Set<String> selectedTeams;
 
   @override
   Widget build(BuildContext context) {
+    final Set<String> teams =
+        footballMatches.expand((e) => [e.home, e.away]).toSet();
+
     return Scaffold(
-      appBar: AppBar(title: Text(title)),
-      body: const Padding(
-        padding: EdgeInsets.all(8),
-        child: MyMap(),
+      appBar: AppBar(
+        actions: [
+          PopupMenuButton(
+            itemBuilder: (BuildContext context) {
+              return teams.map((team) {
+                return PopupMenuItem(
+                  child: Text(team),
+                  onTap: () {
+                    context.go(Uri(path: '/', queryParameters: {'team': team})
+                        .toString());
+                  },
+                );
+              }).toList();
+            },
+          ),
+        ],
+      ),
+      body: Padding(
+        padding: const EdgeInsets.all(8),
+        child: MyMap(
+          selectedTeams: selectedTeams,
+        ),
       ),
     );
   }
@@ -92,30 +117,32 @@ class StadiumMarker extends Marker {
 }
 
 class MyMap extends StatefulWidget {
-  MyMap({Key? key}) : super(key: key);
+  MyMap({Key? key, required this.selectedTeams})
+      : _stadiums = stadiums.entries.map((e) {
+          final stadiumLatlng = e.value;
+          return StadiumMarker(
+              name: e.key,
+              point: stadiumLatlng,
+              builder: (context) => Icon(
+                    Icons.location_pin,
+                    color: Theme.of(context).colorScheme.secondary,
+                  ),
+              anchorPos: AnchorPos.align(AnchorAlign.top));
+        }).toList(),
+        _footballMatchesAtVenue = footballMatches.fold(
+            {},
+            (previousValue, element) => previousValue
+              ..putIfAbsent(element.venue, () => []).add(element)),
+        super(key: key);
+
+  final Set<String> selectedTeams;
+  final List<StadiumMarker> _stadiums;
+  final Map<String, List<FootballMatch>> _footballMatchesAtVenue;
 
   final defaultCenter = LatLng(35.676, 139.650);
   final double defaultZoom = 6;
-
   final defaultMaxBounds =
       LatLngBounds(LatLng(20.0, 122.0), LatLng(50.0, 154.0));
-  final List<StadiumMarker> _stadiums = stadiums.entries.map((e) {
-    final stadiumLatlng = e.value;
-    return StadiumMarker(
-        name: e.key,
-        point: stadiumLatlng,
-        builder: (context) => Icon(
-              Icons.location_pin,
-              color: Theme.of(context).colorScheme.secondary,
-            ),
-        anchorPos: AnchorPos.align(AnchorAlign.top));
-  }).toList();
-
-  final Map<String, List<FootballMatch>> _footballMatchesAtVenue =
-      footballMatches.fold(
-          {},
-          (previousValue, element) =>
-              previousValue..putIfAbsent(element.venue, () => []).add(element));
 
   @override
   State<MyMap> createState() => _MyMapState();
