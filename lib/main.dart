@@ -244,9 +244,9 @@ class _MyMapState extends State<MyMap> {
         interactiveFlags: InteractiveFlag.all & ~InteractiveFlag.rotate,
       ),
       nonRotatedChildren: [
-        AttributionWidget.defaultWidget(
-          source: 'OpenStreetMap contributors',
-          onSourceTapped: () async {
+        SimpleAttributionWidget(
+          source: const Text('OpenStreetMap contributors'),
+          onTap: () async {
             if (!await launchUrl(
                 Uri.parse("https://www.openstreetmap.org/copyright"))) {
               if (kDebugMode) {
