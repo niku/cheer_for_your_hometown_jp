@@ -24,7 +24,7 @@ const List<String> clubs = <String>[
   '鹿島',
   '浦和',
   '柏',
-  'ＦＣ東京',
+  'FC東京',
   '川崎Ｆ',
   '横浜FM',
   '横浜FC',
