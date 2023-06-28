@@ -260,24 +260,25 @@ class _MyMapState extends State<MyMap> {
         TileLayer(
           urlTemplate: 'https://tile.openstreetmap.jp/{z}/{x}/{y}.png',
         ),
-        PopupMarkerLayerWidget(
+        PopupMarkerLayer(
           options: PopupMarkerLayerOptions(
             popupController: _popupLayerController,
             markers: widget.selectedStadiums,
-            markerRotateAlignment:
-                PopupMarkerLayerOptions.rotationAlignmentFor(AnchorAlign.top),
-            popupBuilder: (BuildContext context, Marker marker) {
-              marker as StadiumMarker;
-              final itemId = marker.name;
-              if (enableAnalytics) {
-                analytics.logSelectContent(
-                    contentType: 'marker', itemId: itemId);
-              } else {
-                debugPrint(
-                    'selectContent(contentType: \'marker\', itemId: \'$itemId\')');
-              }
-              return Popup(marker, widget.footballMatchesAtVenue[marker.name]!);
-            },
+            popupDisplayOptions: PopupDisplayOptions(
+              builder: (BuildContext context, Marker marker) {
+                marker as StadiumMarker;
+                final itemId = marker.name;
+                if (enableAnalytics) {
+                  analytics.logSelectContent(
+                      contentType: 'marker', itemId: itemId);
+                } else {
+                  debugPrint(
+                      'selectContent(contentType: \'marker\', itemId: \'$itemId\')');
+                }
+                return Popup(
+                    marker, widget.footballMatchesAtVenue[marker.name]!);
+              },
+            ),
           ),
         ),
       ],
