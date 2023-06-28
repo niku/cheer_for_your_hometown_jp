@@ -192,10 +192,10 @@ class MyMap extends StatefulWidget {
 
   final Set<String> selectedTeams;
 
-  final defaultCenter = LatLng(35.676, 139.650);
+  final defaultCenter = const LatLng(35.676, 139.650);
   final double defaultZoom = 6;
   final defaultMaxBounds =
-      LatLngBounds(LatLng(20.0, 122.0), LatLng(50.0, 154.0));
+      LatLngBounds(const LatLng(20.0, 122.0), const LatLng(50.0, 154.0));
 
   Map<String, List<FootballMatch>> get footballMatchesAtVenue =>
       footballMatches.where((footballMatch) {

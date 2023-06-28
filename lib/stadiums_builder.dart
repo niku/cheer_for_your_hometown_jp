@@ -30,7 +30,7 @@ class StadiumsBuilder implements Builder {
             .convert<String>(csvString)
             .sublist(1)
             .map((row) => row.map((column) => column.trim()).toList())
-            .map((row) => '"${row[0]}": LatLng(${row[1]}, ${row[2]})')
+            .map((row) => '"${row[0]}": const LatLng(${row[1]}, ${row[2]})')
             .join(',');
 
     return '''// This code is generated from $source. Do not edit.
