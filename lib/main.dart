@@ -236,13 +236,15 @@ class _MyMapState extends State<MyMap> {
   Widget build(BuildContext context) {
     return FlutterMap(
       options: MapOptions(
-        center: widget.defaultCenter,
-        zoom: widget.defaultZoom,
-        maxBounds: widget.defaultMaxBounds,
+          initialCenter: widget.defaultCenter,
+          initialZoom: widget.defaultZoom,
+          cameraConstraint:
+              CameraConstraint.contain(bounds: widget.defaultMaxBounds),
         onTap: (_, __) => _popupLayerController
             .hideAllPopups(), // Hide popup when the map is tapped.
-        interactiveFlags: InteractiveFlag.all & ~InteractiveFlag.rotate,
-      ),
+          interactionOptions: const InteractionOptions(
+            flags: InteractiveFlag.all & ~InteractiveFlag.rotate,
+          )),
       nonRotatedChildren: [
         SimpleAttributionWidget(
           source: const Text('OpenStreetMap contributors'),
