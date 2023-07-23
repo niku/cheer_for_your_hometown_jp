@@ -240,8 +240,8 @@ class _MyMapState extends State<MyMap> {
           initialZoom: widget.defaultZoom,
           cameraConstraint:
               CameraConstraint.contain(bounds: widget.defaultMaxBounds),
-        onTap: (_, __) => _popupLayerController
-            .hideAllPopups(), // Hide popup when the map is tapped.
+          onTap: (_, __) => _popupLayerController
+              .hideAllPopups(), // Hide popup when the map is tapped.
           interactionOptions: const InteractionOptions(
             flags: InteractiveFlag.all & ~InteractiveFlag.rotate,
           )),
@@ -261,6 +261,7 @@ class _MyMapState extends State<MyMap> {
       children: [
         TileLayer(
           urlTemplate: 'https://tile.openstreetmap.jp/{z}/{x}/{y}.png',
+          userAgentPackageName: 'https://niku.name/cheer_for_your_hometown_jp/',
         ),
         PopupMarkerLayer(
           options: PopupMarkerLayerOptions(
