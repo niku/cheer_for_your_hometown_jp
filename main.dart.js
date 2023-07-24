@@ -40617,7 +40617,7 @@ s=$.avQ()
 r=$.akV()
 q=this.a.gTl()
 p=A.aAK()
-return new A.wh(A.c([new A.A8("https://tile.openstreetmap.org/{z}/{x}/{y}.png",256,0,18,0,k,B.cr,s,o),new A.y8(new A.a50(q,new A.a5_(new A.afJ(this)),r,p),o)],m),l,new A.qU(B.WM,6,0,new A.afK(),new A.FB(n),B.VK),o)}}
+return new A.wh(A.c([new A.A8("https://tile.openstreetmap.jp/{z}/{x}/{y}.png",256,0,18,0,k,B.cr,s,o),new A.y8(new A.a50(q,new A.a5_(new A.afJ(this)),r,p),o)],m),l,new A.qU(B.WM,6,0,new A.afK(),new A.FB(n),B.VK),o)}}
 A.afK.prototype={
 $2(a,b){$.akV().a.F(0,new A.nL(!1))
 return null},
