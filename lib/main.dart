@@ -114,7 +114,7 @@ class MyApp extends StatelessWidget {
           GoRoute(
             path: '/',
             builder: (BuildContext context, GoRouterState state) {
-              final selectedTeams = state.queryParametersAll['club'] ?? [];
+              final selectedTeams = state.uri.queryParametersAll['club'] ?? [];
               return MyPage(
                 title: title,
                 selectedTeams: selectedTeams.toSet(),
@@ -222,7 +222,7 @@ class MyMap extends StatefulWidget {
                 Icons.location_pin,
                 color: Theme.of(context).colorScheme.secondary,
               ),
-          anchorPos: AnchorPos.align(AnchorAlign.top));
+          anchorPos: const AnchorPos.align(AnchorAlign.top));
     }).toList();
   }
 
