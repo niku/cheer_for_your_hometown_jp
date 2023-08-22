@@ -260,7 +260,7 @@ class _MyMapState extends State<MyMap> {
       ],
       children: [
         TileLayer(
-          urlTemplate: 'https://tile.openstreetmap.jp/{z}/{x}/{y}.png',
+          urlTemplate: 'https://tile.openstreetmap.org/{z}/{x}/{y}.png',
           userAgentPackageName: 'https://niku.name/cheer_for_your_hometown_jp/',
         ),
         PopupMarkerLayer(
